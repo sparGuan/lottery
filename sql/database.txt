@@ -1,0 +1,5 @@
+IP:     120.78.141.142
+端口：  3307
+数据库：guess_sport
+用户名：guess_sport
+密码：  Rs8AanMxrWLhP6Cj

@@ -8,7 +8,7 @@ exports.view = {
 // mount middleware
 exports.middleware = ["robot", "errorHandler", "apiWrapper"];
 (exports.errorHandler = {
-  match: "/api"
+  games: "/api"
 }),
   // middleware config
   (exports.robot = {
@@ -18,9 +18,11 @@ exports.middleware = ["robot", "errorHandler", "apiWrapper"];
 exports.security = {
   ignore: "/api/",
   domainWhiteList: [
-    "http://127.0.0.1:8080",
-    "http://10.180.144.212:8080",
-    "http://localhost:8080"
+    'http://120.78.141.142:7001',
+    'http://192.168.0.139:7001',
+    'http://127.0.0.1:7001',
+    'http://localhost:7001',
+    'http://localhost:8099'
   ],
   methodnoallow: { enable: false },
   csrf: {

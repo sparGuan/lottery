@@ -5,6 +5,7 @@ const path = require("path");
 const sendToWormhole = require("stream-wormhole");
 
 module.exports = function*() {
+  console.log(231412342134213434)
   const stream = yield this.getFileStream();
   const saveFileName = new Date().getTime() + stream.filename;
   let filepath = path.join(

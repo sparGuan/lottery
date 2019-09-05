@@ -86,7 +86,7 @@ const fetch = async options => {
   }
 };
 
-function refleshToken(pdata) {
+export async function refleshToken(pdata) {
   return new Promise((resolve, reject) => {
     //如果没有或者过期，重新获取token
     axios

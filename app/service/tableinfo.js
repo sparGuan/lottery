@@ -1,3 +1,4 @@
+const moment  = require('moment');
 module.exports = app => {
   class TableinfoService extends app.Service {
     *index() {
@@ -70,9 +71,21 @@ module.exports = app => {
         queryStr = `DROP TABLE IF EXISTS ${tableName[i]};`;
         record = yield this.app.mysql.query(queryStr, "");
       }
-
       return record;
     }
+    toTimestamp(req) {
+      if (req && !req.create_time) {
+        req.create_time = moment().unix()
+        req.update_time = moment().unix()
+      }
+      return req
+    }  
+    toUpdateTimestamp() {
+      if (req && !req.update_time) {
+        req.update_time = moment().unix()
+      }
+      return req
+    }  
   }
   return TableinfoService;
 };

@@ -19,6 +19,7 @@ module.exports = (options, app) => {
     try {
       yield next;
     } catch (err) {
+      console.log(err)
       this.body = { message: err.message };
       this.status = 500;
     }

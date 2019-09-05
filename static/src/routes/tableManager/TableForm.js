@@ -20,7 +20,7 @@ class TableForm extends Component {
 	}
 
 	componentDidMount() {
-		const id = this.props.params && this.props.params.id;
+    const id = this.props.params && this.props.params.id;
 		const { dispatch } = this.props;
 
 		if (id) {
