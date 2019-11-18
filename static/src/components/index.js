@@ -6,6 +6,7 @@ import Editor from './Editor'
 import * as Layout from './Layout/index.js'
 import UploadFile from './Upload'
 import layer from './layer'
+import PlayBox from './PlayBox'
 
 export {
   Layout,
@@ -15,5 +16,6 @@ export {
   Search,
   Editor,
   layer,
-  UploadFile
+  UploadFile,
+  PlayBox
  }

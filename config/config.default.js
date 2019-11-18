@@ -18,11 +18,17 @@ exports.middleware = ["robot", "errorHandler", "apiWrapper"];
 exports.security = {
   ignore: "/api/",
   domainWhiteList: [
+    '*',
     'http://120.78.141.142:7001',
     'http://192.168.0.139:7001',
     'http://127.0.0.1:7001',
     'http://localhost:7001',
-    'http://localhost:8099'
+    'http://192.168.0.101:8080',
+    'http://localhost:8080',
+    'http://192.168.1.21:8080',
+    'http://localhost:8099',
+    'http://192.168.1.21:8099',
+    'http://192.168.0.101:8099'
   ],
   methodnoallow: { enable: false },
   csrf: {

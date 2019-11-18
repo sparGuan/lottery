@@ -1,17 +1,12 @@
-const moment = require('moment');
-
 module.exports = app => {
   class RestqlService extends app.Service {
     *index(modal, query, condition = {}) {
-      const skip = parseInt((query.page) - 1);
-      const pageSize = parseInt(query.pageSize);
-      const record = yield this.app.mysql.query(`
-          SELECT a.*,b.name as type_name, c.name as level_name FROM games as a
-          LEFT JOIN games_types as b ON a.games_types_id = b.id
-          LEFT JOIN games_level as c ON a.games_level_id = c.id
-          WHERE a.status = 0
-          ORDER BY a.${query.sortField || 'id'} ${query.sortOrder || 'DESC'} LIMIT ${skip}, ${pageSize};
-      `)
+      const offset = (parseInt(query.page) - 1) * parseInt(query.pageSize);
+      const record = yield this.app.mysql.select(modal, {
+        where: condition,
+        limit: parseInt(query.pageSize),
+        offset: offset
+      });
       let conditionstr = "";
       if (JSON.stringify(condition) != "{}") {
         conditionstr = " where ";
@@ -27,58 +22,6 @@ module.exports = app => {
       const totalRecord = yield this.app.mysql.query(totalsql);
       return { record, totalRecord: totalRecord[0].total };
     }
-    // 获取赛场和比赛数据
-    /**
-     * 
-     * @param {*} query 
-     * @param {*} query.create_time
-     * @param {*} query.games_level
-     */
-    *loadGamesAndPoints( query ) {
-      // 大于开始时间， 少于结束时间
-      let start_time
-      let end_time
-      if (!query.create_time) {
-        start_time = moment().startOf('day').unix();
-        end_time = moment().endOf('day').unix();
-      } else {
-        start_time = query.create_time
-        end_time = moment.unix(start_time).endOf('day').unix()       
-      }
-      // 暂时先写死篮球
-      let type_cond = ''
-      if (query.type_id) {
-        type_cond = `AND c.id = ${type_id}`
-      } else {
-        type_cond = `AND c.name = '每日赛事'`
-      }
-      const record = yield this.app.mysql.query(`
-      SELECT a.name as games_name,a.img_url as games_img_url, a.id as games_id ,d.create_time as point_create_time, b.name as type_name, c.name as level_name, d.* FROM games as a
-          LEFT JOIN games_types as b ON a.games_types_id = b.id
-          LEFT JOIN games_level as c ON a.games_level_id = c.id
-					LEFT JOIN games_point as d ON d.games_id = a.id
-					WHERE b.name = '篮球' ${type_cond} AND unix_timestamp(d.master_start_time) <= ${end_time} AND  unix_timestamp(d.master_start_time) >= ${start_time}
-          ORDER BY d.create_time DESC;
-      `)
-  
-      return { record }
-    }
-    /**
-     * app获取一条赛点
-     * @param {*} query 
-     * @param {*} query.id
-     */
-    *loadGamesPoint( query ) {
-      const record = yield this.app.mysql.query(`select 
-          a1.*, a2.name as gameName, a2.img_url as logo 
-          FROM games_point 
-          as a1 LEFT JOIN games as a2 
-          ON a1.games_id = a2.id where a1.id = ${query.id}
-      `)
-     
-      return { record }
-    }
-    
     *show(modal, params) {
       const modalId = yield this.service.tableinfo.primaryKey(modal);
       let condition = {};

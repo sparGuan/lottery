@@ -15,10 +15,18 @@ exports.index = function*() {
 exports.get_games_points_all = function*() {
   const res = this.params.res;
   delete this.params.res;
-  const result = yield this.service.games.loadGamesAndPoints(this.params);
+  const result = yield this.service.games.loadGamesAndPoints(this.query);
   this.returnJson({ data: result})
   this.status = 200;
 };
+exports.get_games_points_id = function*() {
+  const res = this.params.res;
+  delete this.params.res;
+  const result = yield this.service.games.loadGamesPoint(this.query);
+  this.returnJson({ data: result})
+  this.status = 200;
+};
+
 // 2 根据ID获取内容信息
 exports.show = function*() {
   const response = { success: false, message: "操作失败" };

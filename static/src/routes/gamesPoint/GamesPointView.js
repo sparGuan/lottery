@@ -4,11 +4,13 @@ import {
   Form,
   Button,
   Switch,
-  Select
+  Select,
+  DatePicker
 } from "antd";
 import moment from "moment";
 import { routerRedux } from "dva/router";
 import { connect } from "dva";
+import { UploadFile, PlayBox } from '../../components'
 
 import config from "../../utils/config";
 
@@ -29,24 +31,38 @@ class GamesPointView extends Component {
       } else {
         values.status = 1
       }
+      values.master_start_time = moment(values.master_start_time).format("YYYY-MM-DD HH:mm");
       // 提交所有数据
-      console.log(values)
       this.props.onSubmit(values);
     });
   }
-
+  
   goBack () {
     this.props.dispatch(routerRedux.push({ pathname: "/gamesPoint" }));
   }
 
-  returnRespone = ({ img_url }) => {
-    this.props.dispatch({ type: "gamesPointForm/setUrl", payload: { img_url } })
+  returnResponeMaster = ({ img_url }) => {
+    this.props.dispatch({ type: "gamesPointForm/setMasterUrl", payload: { master_img_url: img_url } })
+  }
+  returnResponeSlave = ({ img_url }) => {
+    this.props.dispatch({ type: "gamesPointForm/setSlaveUrl", payload: { slave_img_url: img_url } })
+  }
+  returnToParentData = (data) => {
+    let gamesPlay = encodeURI(JSON.stringify(data))  
+    this.props.dispatch({ type: "gamesPointForm/setGamesPlay", payload: { gamesPlay } })
+  }
+  componentDidMount() {
+    
   }
 
   render () {
     const { getFieldDecorator } = this.props.form;
     const { Option } = Select;
-    const { list, status, master_count, slave_count, master_consult, slave_consult, commission, games_id } = this.props
+    let { list, status, master_count, slave_count, master_consult, slave_consult, commission, games_id, master_info, slave_info, master_start_time,master_img_url, slave_img_url, flat_consult } = this.props
+    if (master_start_time) {
+      master_start_time = moment(master_start_time, 'YYYY-MM-DD HH:mm')
+    }
+
     const formItemLayout = {
       labelCol: { span: 3 },
       wrapperCol: { span: 12 }
@@ -83,6 +99,11 @@ class GamesPointView extends Component {
             </Select>)}
           </FormItem>
 
+          {/** 主场logo */}
+          <FormItem {...formItemLayout} label="主场logo">
+              <UploadFile  returnRespone={this.returnResponeMaster} img_url={master_img_url}/>
+					</FormItem>
+          
           <FormItem {...formItemLayout} label="主场名称">
             {getFieldDecorator("master_count", {
               initialValue: master_count,
@@ -94,8 +115,53 @@ class GamesPointView extends Component {
               ]
             })(<Input placeholder="请输入主场名称" />)}
           </FormItem>
+          
+          {/** 主场描述 */}
+          <FormItem {...formItemLayout} label="主场描述(例如：主+ 1，主-2)">
+            {getFieldDecorator("master_info", {
+              initialValue: master_info,
+              rules: [
+                {
+                  required: true,
+                  message: "请输入主场描述"
+                  
+                }
+              ]
+            })(<Input placeholder="请输入主场描述" />)}
+          </FormItem>
 
-          <FormItem {...formItemLayout} label="客场名称">
+          {/** 主场开始时间 */}
+          <FormItem {...formItemLayout} label="赛点开始时间">
+            {getFieldDecorator("master_start_time", {
+              initialValue: master_start_time,
+              rules: [
+                {
+                  required: true,
+                  message: "请输入赛点开始时间"
+                }
+              ]
+            })(<DatePicker format="YYYY-MM-DD HH:mm" />)}
+          </FormItem>
+          
+          <FormItem {...formItemLayout} label="主场赔率参考值">
+            {getFieldDecorator("master_consult", {
+              initialValue: master_consult,
+              rules: [
+                {
+                  required: true,
+                  message: "请输入主场赔率参考值"
+                }
+              ]
+            })(<Input placeholder="请输入主场赔率参考值" type="number"/>)}
+          </FormItem>
+          
+          {/** 客场logo */}
+          <FormItem {...formItemLayout} label="客场logo">
+              <UploadFile  returnRespone={this.returnResponeSlave} img_url={slave_img_url}/>
+					</FormItem>
+
+          {/** 客场描述 */}
+           <FormItem {...formItemLayout} label="客场名称">
             {getFieldDecorator("slave_count", {
               initialValue: slave_count,
               rules: [
@@ -105,6 +171,43 @@ class GamesPointView extends Component {
                 }
               ]
             })(<Input placeholder="请输入客场名称" />)}
+          </FormItem> 
+
+          <FormItem {...formItemLayout} label="客场描述(例如：客+ 1，客-2)">
+            {getFieldDecorator("slave_info", {
+              initialValue: slave_info,
+              rules: [
+                {
+                  required: true,
+                  message: "请输入客场描述(例如：客+ 1，客-2)"
+                }
+              ]
+            })(<Input placeholder="请输入客场描述(例如：客+ 1，客-2)" />)}
+          </FormItem>
+
+           {/** 客场开始时间 */}
+          {/* <FormItem {...formItemLayout} label="客场开始时间">
+            {getFieldDecorator("slave_start_time", {
+              initialValue: slave_start_time,
+              rules: [
+                {
+                  required: true,
+                  message: "请输入客场开始时间"
+                }
+              ]
+            })(<DatePicker format="MM-DD" />)}
+          </FormItem>  */}
+
+          <FormItem {...formItemLayout} label="客场赔率参考值">
+            {getFieldDecorator("slave_consult", {
+              initialValue: slave_consult,
+              rules: [
+                {
+                  required: true,
+                  message: "请输入客场赔率参考值"
+                }
+              ]
+            })(<Input placeholder="请输入客场赔率参考值" type="number"/>)}
           </FormItem>
 
           <FormItem {...formItemLayout} label="主场赔率参考值">
@@ -119,17 +222,11 @@ class GamesPointView extends Component {
             })(<Input placeholder="请输入主场赔率参考值" type="number"/>)}
           </FormItem>
 
-          <FormItem {...formItemLayout} label="客场赔率参考值">
-            {getFieldDecorator("slave_consult", {
-              initialValue: slave_consult,
-              rules: [
-                {
-                  required: true,
-                  message: "请输入客场赔率参考值"
-                }
-              ]
-            })(<Input placeholder="请输入客场赔率参考值" type="number"/>)}
-          </FormItem>
+          <FormItem {...formItemLayout} label="平场赔率参考值">
+              {getFieldDecorator('flat_consult', {
+                initialValue: flat_consult,
+              })(<Input type="number" />)}
+					</FormItem>
 
           <FormItem {...formItemLayout} label="收取佣金(%)">
             {getFieldDecorator("commission", {
@@ -141,6 +238,10 @@ class GamesPointView extends Component {
                 }
               ]
             })(<Input placeholder="请输入佣金比率" type="number"/>)}
+          </FormItem>
+            {/*玩法  */}
+          <FormItem {...formItemLayout} label="庄盘玩法：">
+              <PlayBox returnToParentData={(data) => {this.returnToParentData(data)}}></PlayBox>
           </FormItem>
 
           <FormItem {...formItemLayout} label="状态">

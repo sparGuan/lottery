@@ -21,7 +21,7 @@ class GamesPointForm extends Component {
 
 	componentDidMount() {
 		const id = this.props.match.params && this.props.match.params.id;
-		const { dispatch } = this.props;
+    const { dispatch } = this.props;
     dispatch({ type: "gamesPointForm/loadGames", payload: {} });
 		if (id) {
 			dispatch({ type: "gamesPointForm/loadGamesPoint", payload: { id, ...Const } });
@@ -40,7 +40,6 @@ class GamesPointForm extends Component {
 
 	onSubmit(values) {
 		const hide = message.loading("正在保存...", 0);
-
 		this.props.dispatch({
 			type: "gamesPointForm/saveGamesPoint",
 			payload: {
@@ -61,7 +60,7 @@ class GamesPointForm extends Component {
 	}
 
 	render() {
-    const props = this.props;
+    const props = this.props;        
 		return (
 			<GamesPointView
         master_count={props.master_count}
@@ -71,7 +70,15 @@ class GamesPointForm extends Component {
         master_consult={props.master_consult}
         slave_consult={props.slave_consult}
         commission={props.commission}
+        slave_img_url={props.slave_img_url}
+        master_img_url={props.master_img_url}
+        master_start_time={props.master_start_time}
+        flat_consult={props.flat_consult}
+        // slave_start_time={props.slave_start_time}
         games_id={props.games_id}
+        master_info={props.master_info}
+        slave_info={props.slave_info}
+        path={props.match.path}
         list={props.list}
 				onSubmit={this.onSubmit.bind(this)}
 			/>

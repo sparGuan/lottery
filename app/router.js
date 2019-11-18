@@ -27,6 +27,8 @@ module.exports = app => {
   app.del('/api/games/:res/:id',app.oAuth2Server.authenticate(), 'games.destroy');
   // 前端APP
   app.get('/api/v1/get_games_points_all', controller.games.get_games_points_all);
+  app.get('/api/v1/get_games_points_id', controller.games.get_games_points_id);
+  
   // 赛点管理
   app.get('/api/gamesPoint/:res','gamesPoint.index');
   app.get('/api/gamesPoint/:res/:id','gamesPoint.show');
