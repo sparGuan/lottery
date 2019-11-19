@@ -1,0 +1,42 @@
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+2019-08-22 18:20:26,259 ERROR 39037 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+2019-08-22 18:20:26,259 ERROR 39036 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+2019-08-22 18:20:26,261 ERROR 39035 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+2019-08-22 18:20:26,261 ERROR 39034 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+2019-08-22 18:20:26,261 ERROR 39022 [agent_worker] receive disconnect event on child_process fork mode, exiting with code:110
+2019-08-22 18:20:26,267 ERROR 39022 [agent_worker] exit with code:110

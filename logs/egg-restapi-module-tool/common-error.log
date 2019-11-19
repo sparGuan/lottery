@@ -286,3 +286,43 @@ name: "ClusterClientNoResponseError"
 pid: 92576
 hostname: macdeMacBook-Pro.local
 
+2019-11-18 20:41:01,845 ERROR 92576 nodejs.ClusterClientNoResponseError: client no response in 185682ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/egg-restapi-module-tool/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 92576
+hostname: macdeMacBook-Pro.local
+
+2019-11-18 22:08:59,807 ERROR 92576 nodejs.ClusterClientNoResponseError: client no response in 3215196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/egg-restapi-module-tool/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 92576
+hostname: macdeMacBook-Pro.local
+
+2019-11-19 05:47:42,812 ERROR 92576 nodejs.ClusterClientNoResponseError: client no response in 27480479ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/egg-restapi-module-tool/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 92576
+hostname: macdeMacBook-Pro.local
+
+2019-11-19 08:54:31,785 ERROR 92576 nodejs.ClusterClientNoResponseError: client no response in 10568651ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/egg-restapi-module-tool/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 92576
+hostname: macdeMacBook-Pro.local
+
+2019-11-19 10:40:46,717 ERROR 92576 nodejs.ClusterClientNoResponseError: client no response in 3833444ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/egg-restapi-module-tool/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 92576
+hostname: macdeMacBook-Pro.local
+

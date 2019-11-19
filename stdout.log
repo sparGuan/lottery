@@ -1,0 +1,144 @@
+2019-08-22 18:18:01,742 INFO 39013 [master] =================== egg start =====================
+2019-08-22 18:18:01,744 INFO 39013 [master] node version v11.12.0
+2019-08-22 18:18:01,745 INFO 39013 [master] egg version 2.23.0
+2019-08-22 18:18:01,745 INFO 39013 [master] start with options:
+{
+  "framework": "/Users/mac/egg-restapi-module-tool/node_modules/egg",
+  "baseDir": "/Users/mac/egg-restapi-module-tool",
+  "workers": 4,
+  "plugins": null,
+  "https": false
+}
+2019-08-22 18:18:01,745 INFO 39013 [master] start with env: isProduction: true, EGG_SERVER_ENV: prod, NODE_ENV: undefined
+2019-08-22 18:18:01,765 INFO 39013 [master] agent_worker#1:39022 start with clusterPort:52388
+2019-08-22 18:18:02,716 INFO 39022 [egg:logger] init all loggers with options: {"dir":"/Users/mac/logs/egg-restapi-module-tool","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2019-08-22 18:18:02,743 INFO 39022 [egg:core] dump config after load, 10ms
+2019-08-22 18:18:02,818 INFO 39022 [egg-watcher:agent] watcher start success
+2019-08-22 18:18:02,819 WARN 39022 [egg-watcher] defaultEventSource watcher will NOT take effect
+2019-08-22 18:18:02,823 INFO 39013 [master] agent_worker#1:39022 started (1072ms)
+2019-08-22 18:18:02,824 INFO 39013 [master] start appWorker with args ["{\"framework\":\"/Users/mac/egg-restapi-module-tool/node_modules/egg\",\"baseDir\":\"/Users/mac/egg-restapi-module-tool\",\"workers\":4,\"plugins\":null,\"https\":false,\"clusterPort\":52388}"]
+2019-08-22 18:18:02,854 INFO 39013 [master] app_worker#1:39034 start, state: none, current workers: ["1","2","3","4"]
+2019-08-22 18:18:02,855 INFO 39013 [master] app_worker#2:39035 start, state: none, current workers: ["1","2","3","4"]
+2019-08-22 18:18:02,855 INFO 39013 [master] app_worker#3:39036 start, state: none, current workers: ["1","2","3","4"]
+2019-08-22 18:18:02,855 INFO 39013 [master] app_worker#4:39037 start, state: none, current workers: ["1","2","3","4"]
+2019-08-22 18:18:05,321 INFO 39034 [egg:logger] init all loggers with options: {"dir":"/Users/mac/logs/egg-restapi-module-tool","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-08-22 18:18:05,325 INFO 39036 [egg:logger] init all loggers with options: {"dir":"/Users/mac/logs/egg-restapi-module-tool","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-08-22 18:18:05,328 INFO 39037 [egg:logger] init all loggers with options: {"dir":"/Users/mac/logs/egg-restapi-module-tool","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-08-22 18:18:05,337 INFO 39035 [egg:logger] init all loggers with options: {"dir":"/Users/mac/logs/egg-restapi-module-tool","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-08-22 18:18:05,390 INFO 39034 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-08-22 18:18:05,392 INFO 39037 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-08-22 18:18:05,393 INFO 39036 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-08-22 18:18:05,401 INFO 39035 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-08-22 18:18:05,483 INFO 39036 [egg-oauth2-server] egg-oauth2-server begin start
+2019-08-22 18:18:05,486 INFO 39036 [egg-oauth2-server] egg-oauth2-server started use 3 ms
+2019-08-22 18:18:05,494 INFO 39034 [egg-oauth2-server] egg-oauth2-server begin start
+2019-08-22 18:18:05,498 INFO 39034 [egg-oauth2-server] egg-oauth2-server started use 4 ms
+2019-08-22 18:18:05,508 INFO 39035 [egg-oauth2-server] egg-oauth2-server begin start
+2019-08-22 18:18:05,514 INFO 39035 [egg-oauth2-server] egg-oauth2-server started use 5 ms
+2019-08-22 18:18:05,531 INFO 39037 [egg-oauth2-server] egg-oauth2-server begin start
+2019-08-22 18:18:05,534 INFO 39037 [egg-oauth2-server] egg-oauth2-server started use 3 ms
+2019-08-22 18:18:05,584 INFO 39036 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
+2019-08-22 18:18:05,587 WARN 39036 [egg-security] Please set `match` or `ignore` on sub config
+2019-08-22 18:18:05,589 INFO 39036 [egg-security] use noopen middleware
+2019-08-22 18:18:05,592 INFO 39036 [egg-security] use nosniff middleware
+2019-08-22 18:18:05,593 INFO 39036 [egg-security] use xssProtection middleware
+2019-08-22 18:18:05,594 INFO 39036 [egg-security] use xframe middleware
+2019-08-22 18:18:05,594 INFO 39036 [egg-security] use dta middleware
+2019-08-22 18:18:05,595 INFO 39036 [egg-security] compose 5 middlewares into one security middleware
+2019-08-22 18:18:05,603 INFO 39034 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
+2019-08-22 18:18:05,607 WARN 39034 [egg-security] Please set `match` or `ignore` on sub config
+2019-08-22 18:18:05,610 INFO 39034 [egg-security] use noopen middleware
+2019-08-22 18:18:05,616 INFO 39034 [egg-security] use nosniff middleware
+2019-08-22 18:18:05,617 INFO 39034 [egg-security] use xssProtection middleware
+2019-08-22 18:18:05,620 INFO 39034 [egg-security] use xframe middleware
+2019-08-22 18:18:05,622 INFO 39034 [egg-security] use dta middleware
+2019-08-22 18:18:05,622 INFO 39034 [egg-security] compose 5 middlewares into one security middleware
+OAuth2 {
+  config: { debug: false, grants: [ 'password' ], expires: 60 },
+  model: [Function: Model] }
+2019-08-22 18:18:05,650 INFO 39036 [egg:core] dump config after load, 21ms
+OAuth2 {
+  config: { debug: false, grants: [ 'password' ], expires: 60 },
+  model: [Function: Model] }
+2019-08-22 18:18:05,676 INFO 39035 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
+2019-08-22 18:18:05,679 WARN 39035 [egg-security] Please set `match` or `ignore` on sub config
+2019-08-22 18:18:05,682 INFO 39035 [egg-security] use noopen middleware
+2019-08-22 18:18:05,684 INFO 39035 [egg-security] use nosniff middleware
+2019-08-22 18:18:05,684 INFO 39035 [egg-security] use xssProtection middleware
+2019-08-22 18:18:05,686 INFO 39035 [egg-security] use xframe middleware
+2019-08-22 18:18:05,687 INFO 39035 [egg-security] use dta middleware
+2019-08-22 18:18:05,687 INFO 39035 [egg-security] compose 5 middlewares into one security middleware
+2019-08-22 18:18:05,709 INFO 39037 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
+2019-08-22 18:18:05,712 WARN 39037 [egg-security] Please set `match` or `ignore` on sub config
+2019-08-22 18:18:05,716 INFO 39037 [egg-security] use noopen middleware
+2019-08-22 18:18:05,717 INFO 39037 [egg-security] use nosniff middleware
+2019-08-22 18:18:05,718 INFO 39037 [egg-security] use xssProtection middleware
+OAuth2 {
+  config: { debug: false, grants: [ 'password' ], expires: 60 },
+  model: [Function: Model] }
+2019-08-22 18:18:05,719 INFO 39037 [egg-security] use xframe middleware
+2019-08-22 18:18:05,720 INFO 39037 [egg-security] use dta middleware
+2019-08-22 18:18:05,720 INFO 39037 [egg-security] compose 5 middlewares into one security middleware
+OAuth2 {
+  config: { debug: false, grants: [ 'password' ], expires: 60 },
+  model: [Function: Model] }
+2019-08-22 18:18:05,738 INFO 39036 [egg-watcher:application] watcher start success
+2019-08-22 18:18:05,741 INFO 39034 [egg:core] dump config after load, 68ms
+2019-08-22 18:18:05,746 INFO 39035 [egg:core] dump config after load, 21ms
+2019-08-22 18:18:05,749 INFO 39036 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 22 2019 18:18:05 GMT+0800 (GMT+08:00)
+2019-08-22 18:18:05,759 INFO 39037 [egg:core] dump config after load, 15ms
+2019-08-22 18:18:05,817 INFO 39013 [master] app_worker#3:39036 started at 7001, remain 3 (2993ms)
+2019-08-22 18:18:05,818 INFO 39034 [egg-watcher:application] watcher start success
+2019-08-22 18:18:05,825 INFO 39034 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 22 2019 18:18:05 GMT+0800 (GMT+08:00)
+2019-08-22 18:18:05,858 INFO 39035 [egg-watcher:application] watcher start success
+2019-08-22 18:18:05,863 INFO 39035 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 22 2019 18:18:05 GMT+0800 (GMT+08:00)
+2019-08-22 18:18:05,869 INFO 39013 [master] app_worker#1:39034 started at 7001, remain 2 (3045ms)
+2019-08-22 18:18:05,879 INFO 39037 [egg-watcher:application] watcher start success
+2019-08-22 18:18:05,888 INFO 39037 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 22 2019 18:18:05 GMT+0800 (GMT+08:00)
+2019-08-22 18:18:05,901 INFO 39013 [master] app_worker#2:39035 started at 7001, remain 1 (3077ms)
+2019-08-22 18:18:05,919 INFO 39013 [master] app_worker#4:39037 started at 7001, remain 0 (3095ms)
+2019-08-22 18:18:05,919 INFO 39013 [master] egg started on http://127.0.0.1:7001 (4174ms)
+UserController authorize
+admin
+RowDataPacket {
+  uid: 1,
+  name: 'admin',
+  pass: '202cb962ac59075b964b07152d234b70',
+  status: 0,
+  time: null,
+  accessToken: '43f90000d0cdba8ba3afd29a5b2ddadc70cbaac6',
+  expires: '2019-08-22 19:18:12.250',
+  clientId: 'eggClient' }
+UserController authorize
+admin
+RowDataPacket {
+  uid: 1,
+  name: 'admin',
+  pass: '202cb962ac59075b964b07152d234b70',
+  status: 0,
+  time: null,
+  accessToken: '7b838c07c2439790c99f2ede53d5bf20629cb794',
+  expires: '2019-08-22 19:18:18.515',
+  clientId: 'eggClient' }
+UserController authorize
+admin
+RowDataPacket {
+  uid: 1,
+  name: 'admin',
+  pass: '202cb962ac59075b964b07152d234b70',
+  status: 0,
+  time: null,
+  accessToken: '515499ad1b7c89cfdc79bf1c42a30e5a838bab57',
+  expires: '2019-08-22 19:18:34.555',
+  clientId: 'eggClient' }
+UserController authorize
+admin
+RowDataPacket {
+  uid: 1,
+  name: 'admin',
+  pass: '202cb962ac59075b964b07152d234b70',
+  status: 0,
+  time: null,
+  accessToken: '1f61c982428891400e1f502d0f048f049d3c63c0',
+  expires: '2019-08-22 19:18:41.504',
+  clientId: 'eggClient' }

@@ -197,7 +197,6 @@
       "test": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     },
     "author": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
-    "license": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
     "devDependencies": {
       "autoprefixer": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
       "axios": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/config.default.js",

@@ -134,3 +134,7 @@
 2019-11-18 11:27:24,913 INFO 92839 [egg-schedule]: register schedule /Users/mac/egg-restapi-module-tool/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
 2019-11-18 11:27:46,766 INFO 92858 [egg-schedule]: register schedule /Users/mac/egg-restapi-module-tool/node_modules/egg-logrotator/app/schedule/clean_log.js
 2019-11-18 11:27:46,766 INFO 92858 [egg-schedule]: register schedule /Users/mac/egg-restapi-module-tool/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-19 11:03:34,244 INFO 1615 [egg-schedule]: register schedule /Users/mac/egg-restapi-module-tool/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-19 11:03:34,244 INFO 1615 [egg-schedule]: register schedule /Users/mac/egg-restapi-module-tool/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-19 11:03:36,384 INFO 1691 [egg-schedule]: register schedule /Users/mac/egg-restapi-module-tool/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-19 11:03:36,384 INFO 1691 [egg-schedule]: register schedule /Users/mac/egg-restapi-module-tool/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

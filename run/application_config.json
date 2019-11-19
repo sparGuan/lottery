@@ -251,8 +251,7 @@
         "debug": "egg-bin debug",
         "test": "egg-bin test"
       },
-      "author": "",
-      "license": "ISC",
+      "author": "spar",
       "devDependencies": {
         "autoprefixer": "6.4.0",
         "axios": "^0.16.1",
