@@ -20,7 +20,7 @@ export default {
       payload.sortField = "create_time";
       payload.sortOrder = "desc";
       const data = yield call(query, payload);
-      console.log(data)
+      
       yield put({
         type: "loadBetsSuccess",
         payload: {
