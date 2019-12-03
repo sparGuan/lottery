@@ -1,0 +1,91 @@
+2019-11-25 10:47:38,761 ERROR 40160 [-/192.168.1.178/-/3ms POST /oauth2/access_token] nodejs.server_error: Unexpected end of JSON input
+    at new ServerError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\server-error.js:25:14)
+    at TokenHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:102:13)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at TokenHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:100:13)
+    at OAuth2Server.token (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:75:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:104:32)
+    at Object.callFn (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+statusCode: 503
+status: 503
+code: 503
+message: "Unexpected end of JSON input"
+name: "server_error"
+inner: {}
+pid: 40160
+hostname: SC-201809281454
+
+2019-11-25 16:04:28,902 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+
+2019-11-25 16:30:31,635 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+
+2019-11-25 17:43:18,585 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+
+2019-11-25 18:41:35,002 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+
+2019-11-25 20:07:38,158 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+

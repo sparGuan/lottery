@@ -1,0 +1,270 @@
+2019-11-26 09:54:14,131 ERROR 152808 [Job#15747332537581392788556377791] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:14,276 ERROR 152808 [Job#15747332537581392788556377791] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 148ms
+2019-11-26 09:54:15,270 ERROR 152808 [Job#15747332550711392801683101882] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:15,416 ERROR 152808 [Job#15747332550711392801683101882] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 150ms
+2019-11-26 09:54:16,508 ERROR 152808 [Job#15747332562831392813806239693] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:16,657 ERROR 152808 [Job#15747332562831392813806239693] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 153ms
+2019-11-26 09:54:17,729 ERROR 152808 [Job#15747332575111392826086191864] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:17,945 ERROR 152808 [Job#15747332575111392826086191864] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 229ms
+2019-11-26 09:54:18,947 ERROR 152808 [Job#15747332587321392838293033205] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:19,101 ERROR 152808 [Job#15747332587321392838293033205] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 158ms
+2019-11-26 09:54:20,246 ERROR 152808 [Job#1574733259946139285431522506] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:20,415 ERROR 152808 [Job#1574733259946139285431522506] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 175ms
+2019-11-26 09:54:21,466 ERROR 152808 [Job#15747332612191392863160800567] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:21,682 ERROR 152808 [Job#15747332612191392863160800567] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 221ms
+2019-11-26 09:54:22,670 ERROR 152808 [Job#15747332624971392875947764008] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:22,860 ERROR 152808 [Job#15747332624971392875947764008] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 197ms
+2019-11-26 09:54:23,934 ERROR 152808 [Job#15747332636231392887208351759] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:24,199 ERROR 152808 [Job#15747332636231392887208351759] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 281ms
+2019-11-26 09:54:31,457 ERROR 146180 [Job#15747332714411392965382509831] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:31,631 ERROR 146180 [Job#15747332714411392965382509831] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 187ms
+2019-11-26 09:54:32,448 ERROR 146180 [Job#15747332724421392975390929402] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:32,594 ERROR 146180 [Job#15747332724421392975390929402] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 151ms
+2019-11-26 09:54:33,459 ERROR 146180 [Job#15747332734431392985404215813] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:33,651 ERROR 146180 [Job#15747332734431392985404215813] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 207ms
+2019-11-26 09:54:34,457 ERROR 146180 [Job#15747332744431392995406201234] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:34,663 ERROR 146180 [Job#15747332744431392995406201234] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 218ms
+2019-11-26 09:54:35,459 ERROR 146180 [Job#15747332754441393005411398045] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:35,647 ERROR 146180 [Job#15747332754441393005411398045] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 202ms
+2019-11-26 09:54:36,467 ERROR 146180 [Job#15747332764461393015429127476] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:36,745 ERROR 146180 [Job#15747332764461393015429127476] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 298ms
+2019-11-26 09:54:37,454 ERROR 146180 [Job#15747332774471393025440789707] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:37,680 ERROR 146180 [Job#15747332774471393025440789707] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 232ms
+2019-11-26 09:54:38,453 ERROR 146180 [Job#15747332784481393035447440028] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:38,588 ERROR 146180 [Job#15747332784481393035447440028] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 139ms
+2019-11-26 09:54:39,458 ERROR 146180 [Job#15747332794491393045460086439] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:39,645 ERROR 146180 [Job#15747332794491393045460086439] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 195ms
+2019-11-26 09:54:40,455 ERROR 146180 [Job#157473328045013930554679342610] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:40,595 ERROR 146180 [Job#157473328045013930554679342610] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 145ms
+2019-11-26 09:54:41,515 ERROR 146180 [Job#157473328148213930657955861011] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:41,765 ERROR 146180 [Job#157473328148213930657955861011] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 267ms
+2019-11-26 09:54:42,488 ERROR 146180 [Job#157473328248213930757922040512] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:54:42,695 ERROR 146180 [Job#157473328248213930757922040512] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 212ms
+2019-11-26 09:55:23,914 ERROR 20664 [Job#15747333238871393489849329641] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:55:24,121 ERROR 20664 [Job#15747333238871393489849329641] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 228ms
+2019-11-26 09:55:33,912 ERROR 20664 [Job#15747333338921393589891518482] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:55:34,182 ERROR 20664 [Job#15747333338921393589891518482] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 289ms
+2019-11-26 09:55:43,913 ERROR 154460 [Job#15747333438921393689898185863] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:55:44,171 ERROR 154460 [Job#15747333438921393689898185863] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 274ms
+2019-11-26 09:55:54,146 ERROR 153452 [Job#15747333538941393789915895394] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. TypeError: Cannot read property 'gamesUserOrderRecord' of undefined
+    at Object.task (D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js:20:21)
+    at Messenger.app.messenger.on.info (D:\project\egg-restapi-module-tool\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (D:\project\egg-restapi-module-tool\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-11-26 09:55:54,290 ERROR 153452 [Job#15747333538941393789915895394] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 394ms
+2019-11-26 11:33:16,279 ERROR 150136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 150136
+hostname: SC-201809281454
+
+2019-11-26 11:47:01,321 ERROR 150136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 150136
+hostname: SC-201809281454
+
+2019-11-26 20:34:38,926 ERROR 186616 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 186616
+hostname: SC-201809281454
+
+2019-11-26 20:55:11,200 ERROR 186616 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 186616
+hostname: SC-201809281454
+
+2019-11-26 21:10:15,372 ERROR 186616 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 186616
+hostname: SC-201809281454
+

@@ -1,1122 +1,497 @@
-2019-10-25 14:12:49,337 INFO 57506 [egg-logrotator] app logger reload: got log-reload message
-2019-10-25 15:31:40,146 INFO 71302 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:31:40,189 INFO 71302 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:31:40,238 INFO 71302 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:31:40,240 INFO 71302 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:31:40,306 INFO 71302 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:31:40,310 WARN 71302 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:31:40,313 INFO 71302 [egg-security] use noopen middleware
-2019-10-25 15:31:40,314 INFO 71302 [egg-security] use nosniff middleware
-2019-10-25 15:31:40,314 INFO 71302 [egg-security] use xssProtection middleware
-2019-10-25 15:31:40,315 INFO 71302 [egg-security] use xframe middleware
-2019-10-25 15:31:40,315 INFO 71302 [egg-security] use dta middleware
-2019-10-25 15:31:40,315 INFO 71302 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:31:40,348 INFO 71302 [egg:core] dump config after load, 12ms
-2019-10-25 15:31:40,393 INFO 71302 [egg-watcher:application] watcher start success
-2019-10-25 15:31:40,396 INFO 71302 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:31:40 GMT+0800 (GMT+08:00)
-2019-10-25 15:31:40,412 INFO 71302 [egg:core] dump config after ready, 12ms
-2019-10-25 15:31:43,260 INFO 71303 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:31:43,324 INFO 71303 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:31:43,414 INFO 71303 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:31:43,417 INFO 71303 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 15:31:43,481 INFO 71303 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:31:43,484 WARN 71303 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:31:43,488 INFO 71303 [egg-security] use noopen middleware
-2019-10-25 15:31:43,489 INFO 71303 [egg-security] use nosniff middleware
-2019-10-25 15:31:43,489 INFO 71303 [egg-security] use xssProtection middleware
-2019-10-25 15:31:43,489 INFO 71303 [egg-security] use xframe middleware
-2019-10-25 15:31:43,490 INFO 71303 [egg-security] use dta middleware
-2019-10-25 15:31:43,490 INFO 71303 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:31:43,513 INFO 71303 [egg:core] dump config after load, 8ms
-2019-10-25 15:31:43,546 INFO 71303 [egg-watcher:application] watcher start success
-2019-10-25 15:31:43,551 INFO 71303 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:31:43 GMT+0800 (GMT+08:00)
-2019-10-25 15:31:43,564 INFO 71303 [egg:core] dump config after ready, 10ms
-2019-10-25 15:32:28,301 INFO 71339 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:32:28,352 INFO 71339 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:32:28,483 INFO 71339 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:32:28,485 INFO 71339 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:32:28,566 INFO 71339 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:32:28,568 WARN 71339 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:32:28,570 INFO 71339 [egg-security] use noopen middleware
-2019-10-25 15:32:28,571 INFO 71339 [egg-security] use nosniff middleware
-2019-10-25 15:32:28,571 INFO 71339 [egg-security] use xssProtection middleware
-2019-10-25 15:32:28,571 INFO 71339 [egg-security] use xframe middleware
-2019-10-25 15:32:28,572 INFO 71339 [egg-security] use dta middleware
-2019-10-25 15:32:28,572 INFO 71339 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:32:28,601 INFO 71339 [egg:core] dump config after load, 12ms
-2019-10-25 15:32:28,655 INFO 71339 [egg-watcher:application] watcher start success
-2019-10-25 15:32:28,663 INFO 71339 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:32:28 GMT+0800 (GMT+08:00)
-2019-10-25 15:32:28,679 INFO 71339 [egg:core] dump config after ready, 12ms
-2019-10-25 15:32:29,917 INFO 71354 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:32:29,971 INFO 71354 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:32:30,021 INFO 71354 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:32:30,022 INFO 71354 [egg-oauth2-server] egg-oauth2-server started use 1 ms
-2019-10-25 15:32:30,084 INFO 71354 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:32:30,087 WARN 71354 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:32:30,089 INFO 71354 [egg-security] use noopen middleware
-2019-10-25 15:32:30,090 INFO 71354 [egg-security] use nosniff middleware
-2019-10-25 15:32:30,091 INFO 71354 [egg-security] use xssProtection middleware
-2019-10-25 15:32:30,091 INFO 71354 [egg-security] use xframe middleware
-2019-10-25 15:32:30,091 INFO 71354 [egg-security] use dta middleware
-2019-10-25 15:32:30,091 INFO 71354 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:32:30,122 INFO 71354 [egg:core] dump config after load, 14ms
-2019-10-25 15:32:30,164 INFO 71354 [egg-watcher:application] watcher start success
-2019-10-25 15:32:30,178 INFO 71354 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:32:30 GMT+0800 (GMT+08:00)
-2019-10-25 15:32:30,192 INFO 71354 [egg:core] dump config after ready, 12ms
-2019-10-25 15:33:06,953 INFO 71385 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:33:06,992 INFO 71385 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:33:07,050 INFO 71385 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:33:07,054 INFO 71385 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-10-25 15:33:07,122 INFO 71385 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:33:07,124 WARN 71385 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:33:07,127 INFO 71385 [egg-security] use noopen middleware
-2019-10-25 15:33:07,128 INFO 71385 [egg-security] use nosniff middleware
-2019-10-25 15:33:07,128 INFO 71385 [egg-security] use xssProtection middleware
-2019-10-25 15:33:07,129 INFO 71385 [egg-security] use xframe middleware
-2019-10-25 15:33:07,129 INFO 71385 [egg-security] use dta middleware
-2019-10-25 15:33:07,129 INFO 71385 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:33:07,156 INFO 71385 [egg:core] dump config after load, 10ms
-2019-10-25 15:33:07,193 INFO 71385 [egg-watcher:application] watcher start success
-2019-10-25 15:33:07,202 INFO 71385 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:33:07 GMT+0800 (GMT+08:00)
-2019-10-25 15:33:07,225 INFO 71385 [egg:core] dump config after ready, 12ms
-2019-10-25 15:35:20,229 INFO 71425 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:35:20,271 INFO 71425 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:35:20,329 INFO 71425 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:35:20,333 INFO 71425 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-10-25 15:35:20,409 INFO 71425 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:35:20,418 WARN 71425 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:35:20,423 INFO 71425 [egg-security] use noopen middleware
-2019-10-25 15:35:20,424 INFO 71425 [egg-security] use nosniff middleware
-2019-10-25 15:35:20,425 INFO 71425 [egg-security] use xssProtection middleware
-2019-10-25 15:35:20,425 INFO 71425 [egg-security] use xframe middleware
-2019-10-25 15:35:20,426 INFO 71425 [egg-security] use dta middleware
-2019-10-25 15:35:20,426 INFO 71425 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:35:20,494 INFO 71425 [egg:core] dump config after load, 15ms
-2019-10-25 15:35:20,540 INFO 71425 [egg-watcher:application] watcher start success
-2019-10-25 15:35:20,547 INFO 71425 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:35:20 GMT+0800 (GMT+08:00)
-2019-10-25 15:35:20,568 INFO 71425 [egg:core] dump config after ready, 18ms
-2019-10-25 15:36:09,448 INFO 71453 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:36:09,486 INFO 71453 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:36:09,530 INFO 71453 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:36:09,533 INFO 71453 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 15:36:09,598 INFO 71453 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:36:09,600 WARN 71453 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:36:09,604 INFO 71453 [egg-security] use noopen middleware
-2019-10-25 15:36:09,605 INFO 71453 [egg-security] use nosniff middleware
-2019-10-25 15:36:09,606 INFO 71453 [egg-security] use xssProtection middleware
-2019-10-25 15:36:09,607 INFO 71453 [egg-security] use xframe middleware
-2019-10-25 15:36:09,607 INFO 71453 [egg-security] use dta middleware
-2019-10-25 15:36:09,607 INFO 71453 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:36:09,643 INFO 71453 [egg:core] dump config after load, 13ms
-2019-10-25 15:36:09,701 INFO 71453 [egg-watcher:application] watcher start success
-2019-10-25 15:36:09,707 INFO 71453 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:36:09 GMT+0800 (GMT+08:00)
-2019-10-25 15:36:09,736 INFO 71453 [egg:core] dump config after ready, 23ms
-2019-10-25 15:36:45,984 INFO 71487 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:36:46,041 INFO 71487 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:36:46,093 INFO 71487 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:36:46,095 INFO 71487 [egg-oauth2-server] egg-oauth2-server started use 1 ms
-2019-10-25 15:36:46,162 INFO 71487 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:36:46,164 WARN 71487 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:36:46,166 INFO 71487 [egg-security] use noopen middleware
-2019-10-25 15:36:46,167 INFO 71487 [egg-security] use nosniff middleware
-2019-10-25 15:36:46,167 INFO 71487 [egg-security] use xssProtection middleware
-2019-10-25 15:36:46,168 INFO 71487 [egg-security] use xframe middleware
-2019-10-25 15:36:46,168 INFO 71487 [egg-security] use dta middleware
-2019-10-25 15:36:46,168 INFO 71487 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:36:46,206 INFO 71487 [egg:core] dump config after load, 21ms
-2019-10-25 15:36:46,249 INFO 71487 [egg-watcher:application] watcher start success
-2019-10-25 15:36:46,255 INFO 71487 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:36:46 GMT+0800 (GMT+08:00)
-2019-10-25 15:36:46,265 INFO 71487 [egg:core] dump config after ready, 6ms
-2019-10-25 15:37:16,040 INFO 71512 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:37:16,096 INFO 71512 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:37:16,159 INFO 71512 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:37:16,161 INFO 71512 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:37:16,240 INFO 71512 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:37:16,242 WARN 71512 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:37:16,245 INFO 71512 [egg-security] use noopen middleware
-2019-10-25 15:37:16,245 INFO 71512 [egg-security] use nosniff middleware
-2019-10-25 15:37:16,246 INFO 71512 [egg-security] use xssProtection middleware
-2019-10-25 15:37:16,247 INFO 71512 [egg-security] use xframe middleware
-2019-10-25 15:37:16,247 INFO 71512 [egg-security] use dta middleware
-2019-10-25 15:37:16,248 INFO 71512 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:37:16,282 INFO 71512 [egg:core] dump config after load, 14ms
-2019-10-25 15:37:16,427 INFO 71512 [egg-watcher:application] watcher start success
-2019-10-25 15:37:16,431 INFO 71512 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:37:16 GMT+0800 (GMT+08:00)
-2019-10-25 15:37:16,447 INFO 71512 [egg:core] dump config after ready, 11ms
-2019-10-25 15:37:17,801 INFO 71526 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:37:17,845 INFO 71526 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:37:17,898 INFO 71526 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:37:17,900 INFO 71526 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:37:17,968 INFO 71526 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:37:17,970 WARN 71526 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:37:17,972 INFO 71526 [egg-security] use noopen middleware
-2019-10-25 15:37:17,973 INFO 71526 [egg-security] use nosniff middleware
-2019-10-25 15:37:17,974 INFO 71526 [egg-security] use xssProtection middleware
-2019-10-25 15:37:17,974 INFO 71526 [egg-security] use xframe middleware
-2019-10-25 15:37:17,975 INFO 71526 [egg-security] use dta middleware
-2019-10-25 15:37:17,975 INFO 71526 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:37:18,006 INFO 71526 [egg:core] dump config after load, 13ms
-2019-10-25 15:37:18,054 INFO 71526 [egg-watcher:application] watcher start success
-2019-10-25 15:37:18,058 INFO 71526 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:37:18 GMT+0800 (GMT+08:00)
-2019-10-25 15:37:18,070 INFO 71526 [egg:core] dump config after ready, 6ms
-2019-10-25 15:37:40,937 INFO 71544 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:37:40,990 INFO 71544 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:37:41,042 INFO 71544 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:37:41,045 INFO 71544 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 15:37:41,121 INFO 71544 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:37:41,124 WARN 71544 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:37:41,128 INFO 71544 [egg-security] use noopen middleware
-2019-10-25 15:37:41,129 INFO 71544 [egg-security] use nosniff middleware
-2019-10-25 15:37:41,130 INFO 71544 [egg-security] use xssProtection middleware
-2019-10-25 15:37:41,131 INFO 71544 [egg-security] use xframe middleware
-2019-10-25 15:37:41,131 INFO 71544 [egg-security] use dta middleware
-2019-10-25 15:37:41,131 INFO 71544 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:37:41,167 INFO 71544 [egg:core] dump config after load, 16ms
-2019-10-25 15:37:41,296 INFO 71544 [egg-watcher:application] watcher start success
-2019-10-25 15:37:41,307 INFO 71544 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:37:41 GMT+0800 (GMT+08:00)
-2019-10-25 15:37:41,324 INFO 71544 [egg:core] dump config after ready, 11ms
-2019-10-25 15:37:42,979 INFO 71559 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:37:43,028 INFO 71559 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:37:43,120 INFO 71559 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:37:43,122 INFO 71559 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:37:43,213 INFO 71559 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:37:43,215 WARN 71559 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:37:43,218 INFO 71559 [egg-security] use noopen middleware
-2019-10-25 15:37:43,219 INFO 71559 [egg-security] use nosniff middleware
-2019-10-25 15:37:43,220 INFO 71559 [egg-security] use xssProtection middleware
-2019-10-25 15:37:43,220 INFO 71559 [egg-security] use xframe middleware
-2019-10-25 15:37:43,221 INFO 71559 [egg-security] use dta middleware
-2019-10-25 15:37:43,221 INFO 71559 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:37:43,263 INFO 71559 [egg:core] dump config after load, 18ms
-2019-10-25 15:37:43,305 INFO 71559 [egg-watcher:application] watcher start success
-2019-10-25 15:37:43,315 INFO 71559 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:37:43 GMT+0800 (GMT+08:00)
-2019-10-25 15:37:43,328 INFO 71559 [egg:core] dump config after ready, 9ms
-2019-10-25 15:37:45,405 INFO 71567 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:37:45,456 INFO 71567 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:37:45,531 INFO 71567 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:37:45,534 INFO 71567 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 15:37:45,607 INFO 71567 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:37:45,610 WARN 71567 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:37:45,612 INFO 71567 [egg-security] use noopen middleware
-2019-10-25 15:37:45,613 INFO 71567 [egg-security] use nosniff middleware
-2019-10-25 15:37:45,613 INFO 71567 [egg-security] use xssProtection middleware
-2019-10-25 15:37:45,614 INFO 71567 [egg-security] use xframe middleware
-2019-10-25 15:37:45,614 INFO 71567 [egg-security] use dta middleware
-2019-10-25 15:37:45,614 INFO 71567 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:37:45,641 INFO 71567 [egg:core] dump config after load, 10ms
-2019-10-25 15:37:45,700 INFO 71567 [egg-watcher:application] watcher start success
-2019-10-25 15:37:45,703 INFO 71567 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:37:45 GMT+0800 (GMT+08:00)
-2019-10-25 15:37:45,724 INFO 71567 [egg:core] dump config after ready, 11ms
-2019-10-25 15:37:57,851 INFO 71598 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:37:57,890 INFO 71598 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:37:57,935 INFO 71598 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:37:57,937 INFO 71598 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:37:58,006 INFO 71598 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:37:58,009 WARN 71598 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:37:58,011 INFO 71598 [egg-security] use noopen middleware
-2019-10-25 15:37:58,012 INFO 71598 [egg-security] use nosniff middleware
-2019-10-25 15:37:58,012 INFO 71598 [egg-security] use xssProtection middleware
-2019-10-25 15:37:58,013 INFO 71598 [egg-security] use xframe middleware
-2019-10-25 15:37:58,014 INFO 71598 [egg-security] use dta middleware
-2019-10-25 15:37:58,014 INFO 71598 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:37:58,048 INFO 71598 [egg:core] dump config after load, 12ms
-2019-10-25 15:37:58,089 INFO 71598 [egg-watcher:application] watcher start success
-2019-10-25 15:37:58,095 INFO 71598 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:37:58 GMT+0800 (GMT+08:00)
-2019-10-25 15:37:58,116 INFO 71598 [egg:core] dump config after ready, 18ms
-2019-10-25 15:38:06,558 INFO 71621 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:38:06,601 INFO 71621 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:38:06,685 INFO 71621 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:38:06,689 INFO 71621 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-10-25 15:38:06,892 INFO 71621 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:38:06,896 WARN 71621 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:38:06,906 INFO 71621 [egg-security] use noopen middleware
-2019-10-25 15:38:06,907 INFO 71621 [egg-security] use nosniff middleware
-2019-10-25 15:38:06,908 INFO 71621 [egg-security] use xssProtection middleware
-2019-10-25 15:38:06,908 INFO 71621 [egg-security] use xframe middleware
-2019-10-25 15:38:06,909 INFO 71621 [egg-security] use dta middleware
-2019-10-25 15:38:06,909 INFO 71621 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:38:06,955 INFO 71621 [egg:core] dump config after load, 13ms
-2019-10-25 15:38:07,010 INFO 71621 [egg-watcher:application] watcher start success
-2019-10-25 15:38:07,022 INFO 71621 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:38:07 GMT+0800 (GMT+08:00)
-2019-10-25 15:38:07,043 INFO 71621 [egg:core] dump config after ready, 14ms
-2019-10-25 15:38:08,197 INFO 71636 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:38:08,241 INFO 71636 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:38:08,300 INFO 71636 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:38:08,302 INFO 71636 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:38:08,373 INFO 71636 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:38:08,376 WARN 71636 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:38:08,379 INFO 71636 [egg-security] use noopen middleware
-2019-10-25 15:38:08,379 INFO 71636 [egg-security] use nosniff middleware
-2019-10-25 15:38:08,380 INFO 71636 [egg-security] use xssProtection middleware
-2019-10-25 15:38:08,380 INFO 71636 [egg-security] use xframe middleware
-2019-10-25 15:38:08,380 INFO 71636 [egg-security] use dta middleware
-2019-10-25 15:38:08,381 INFO 71636 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:38:08,409 INFO 71636 [egg:core] dump config after load, 12ms
-2019-10-25 15:38:08,448 INFO 71636 [egg-watcher:application] watcher start success
-2019-10-25 15:38:08,451 INFO 71636 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:38:08 GMT+0800 (GMT+08:00)
-2019-10-25 15:38:08,468 INFO 71636 [egg:core] dump config after ready, 13ms
-2019-10-25 15:38:31,812 INFO 71661 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:38:31,856 INFO 71661 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:38:31,928 INFO 71661 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:38:31,930 INFO 71661 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:38:31,996 INFO 71661 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:38:31,999 WARN 71661 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:38:32,002 INFO 71661 [egg-security] use noopen middleware
-2019-10-25 15:38:32,003 INFO 71661 [egg-security] use nosniff middleware
-2019-10-25 15:38:32,003 INFO 71661 [egg-security] use xssProtection middleware
-2019-10-25 15:38:32,004 INFO 71661 [egg-security] use xframe middleware
-2019-10-25 15:38:32,004 INFO 71661 [egg-security] use dta middleware
-2019-10-25 15:38:32,004 INFO 71661 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:38:32,039 INFO 71661 [egg:core] dump config after load, 13ms
-2019-10-25 15:38:32,081 INFO 71661 [egg-watcher:application] watcher start success
-2019-10-25 15:38:32,089 INFO 71661 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:38:32 GMT+0800 (GMT+08:00)
-2019-10-25 15:38:32,111 INFO 71661 [egg:core] dump config after ready, 12ms
-2019-10-25 15:40:42,961 INFO 71701 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:40:43,006 INFO 71701 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:40:43,055 INFO 71701 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:40:43,057 INFO 71701 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:40:43,122 INFO 71701 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:40:43,125 WARN 71701 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:40:43,128 INFO 71701 [egg-security] use noopen middleware
-2019-10-25 15:40:43,129 INFO 71701 [egg-security] use nosniff middleware
-2019-10-25 15:40:43,130 INFO 71701 [egg-security] use xssProtection middleware
-2019-10-25 15:40:43,130 INFO 71701 [egg-security] use xframe middleware
-2019-10-25 15:40:43,130 INFO 71701 [egg-security] use dta middleware
-2019-10-25 15:40:43,130 INFO 71701 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:40:43,156 INFO 71701 [egg:core] dump config after load, 11ms
-2019-10-25 15:40:43,200 INFO 71701 [egg-watcher:application] watcher start success
-2019-10-25 15:40:43,207 INFO 71701 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:40:43 GMT+0800 (GMT+08:00)
-2019-10-25 15:40:43,220 INFO 71701 [egg:core] dump config after ready, 9ms
-2019-10-25 15:41:01,299 INFO 71734 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:41:01,346 INFO 71734 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:41:01,408 INFO 71734 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:41:01,411 INFO 71734 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:41:01,479 INFO 71734 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:41:01,480 WARN 71734 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:41:01,483 INFO 71734 [egg-security] use noopen middleware
-2019-10-25 15:41:01,483 INFO 71734 [egg-security] use nosniff middleware
-2019-10-25 15:41:01,484 INFO 71734 [egg-security] use xssProtection middleware
-2019-10-25 15:41:01,484 INFO 71734 [egg-security] use xframe middleware
-2019-10-25 15:41:01,485 INFO 71734 [egg-security] use dta middleware
-2019-10-25 15:41:01,485 INFO 71734 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:41:01,508 INFO 71734 [egg:core] dump config after load, 8ms
-2019-10-25 15:41:01,547 INFO 71734 [egg-watcher:application] watcher start success
-2019-10-25 15:41:01,554 INFO 71734 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:41:01 GMT+0800 (GMT+08:00)
-2019-10-25 15:41:01,575 INFO 71734 [egg:core] dump config after ready, 11ms
-2019-10-25 15:44:44,973 INFO 71781 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:44:45,016 INFO 71781 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:44:45,066 INFO 71781 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:44:45,068 INFO 71781 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:44:45,139 INFO 71781 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:44:45,141 WARN 71781 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:44:45,144 INFO 71781 [egg-security] use noopen middleware
-2019-10-25 15:44:45,145 INFO 71781 [egg-security] use nosniff middleware
-2019-10-25 15:44:45,146 INFO 71781 [egg-security] use xssProtection middleware
-2019-10-25 15:44:45,146 INFO 71781 [egg-security] use xframe middleware
-2019-10-25 15:44:45,147 INFO 71781 [egg-security] use dta middleware
-2019-10-25 15:44:45,147 INFO 71781 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:44:45,178 INFO 71781 [egg:core] dump config after load, 13ms
-2019-10-25 15:44:45,218 INFO 71781 [egg-watcher:application] watcher start success
-2019-10-25 15:44:45,228 INFO 71781 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:44:45 GMT+0800 (GMT+08:00)
-2019-10-25 15:44:45,247 INFO 71781 [egg:core] dump config after ready, 13ms
-2019-10-25 15:44:52,252 INFO 71805 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:44:52,300 INFO 71805 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:44:52,352 INFO 71805 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:44:52,354 INFO 71805 [egg-oauth2-server] egg-oauth2-server started use 1 ms
-2019-10-25 15:44:52,448 INFO 71805 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:44:52,450 WARN 71805 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:44:52,453 INFO 71805 [egg-security] use noopen middleware
-2019-10-25 15:44:52,454 INFO 71805 [egg-security] use nosniff middleware
-2019-10-25 15:44:52,455 INFO 71805 [egg-security] use xssProtection middleware
-2019-10-25 15:44:52,456 INFO 71805 [egg-security] use xframe middleware
-2019-10-25 15:44:52,456 INFO 71805 [egg-security] use dta middleware
-2019-10-25 15:44:52,457 INFO 71805 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:44:52,499 INFO 71805 [egg:core] dump config after load, 15ms
-2019-10-25 15:44:52,559 INFO 71805 [egg-watcher:application] watcher start success
-2019-10-25 15:44:52,573 INFO 71805 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:44:52 GMT+0800 (GMT+08:00)
-2019-10-25 15:44:52,614 INFO 71805 [egg:core] dump config after ready, 16ms
-2019-10-25 15:45:07,001 INFO 71821 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:07,080 INFO 71821 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:07,171 INFO 71821 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:07,174 INFO 71821 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 15:45:07,292 INFO 71821 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:07,296 WARN 71821 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:07,301 INFO 71821 [egg-security] use noopen middleware
-2019-10-25 15:45:07,302 INFO 71821 [egg-security] use nosniff middleware
-2019-10-25 15:45:07,303 INFO 71821 [egg-security] use xssProtection middleware
-2019-10-25 15:45:07,304 INFO 71821 [egg-security] use xframe middleware
-2019-10-25 15:45:07,304 INFO 71821 [egg-security] use dta middleware
-2019-10-25 15:45:07,304 INFO 71821 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:07,350 INFO 71821 [egg:core] dump config after load, 18ms
-2019-10-25 15:45:07,407 INFO 71821 [egg-watcher:application] watcher start success
-2019-10-25 15:45:07,420 INFO 71821 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:07 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:07,440 INFO 71821 [egg:core] dump config after ready, 14ms
-2019-10-25 15:45:13,961 INFO 71843 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:14,004 INFO 71843 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:14,059 INFO 71843 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:14,061 INFO 71843 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:45:14,157 INFO 71843 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:14,160 WARN 71843 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:14,162 INFO 71843 [egg-security] use noopen middleware
-2019-10-25 15:45:14,163 INFO 71843 [egg-security] use nosniff middleware
-2019-10-25 15:45:14,163 INFO 71843 [egg-security] use xssProtection middleware
-2019-10-25 15:45:14,164 INFO 71843 [egg-security] use xframe middleware
-2019-10-25 15:45:14,164 INFO 71843 [egg-security] use dta middleware
-2019-10-25 15:45:14,164 INFO 71843 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:14,194 INFO 71843 [egg:core] dump config after load, 12ms
-2019-10-25 15:45:14,243 INFO 71843 [egg-watcher:application] watcher start success
-2019-10-25 15:45:14,248 INFO 71843 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:14 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:14,261 INFO 71843 [egg:core] dump config after ready, 9ms
-2019-10-25 15:45:17,464 INFO 71851 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:17,505 INFO 71851 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:17,559 INFO 71851 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:17,561 INFO 71851 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:45:17,625 INFO 71851 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:17,627 WARN 71851 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:17,630 INFO 71851 [egg-security] use noopen middleware
-2019-10-25 15:45:17,630 INFO 71851 [egg-security] use nosniff middleware
-2019-10-25 15:45:17,631 INFO 71851 [egg-security] use xssProtection middleware
-2019-10-25 15:45:17,631 INFO 71851 [egg-security] use xframe middleware
-2019-10-25 15:45:17,631 INFO 71851 [egg-security] use dta middleware
-2019-10-25 15:45:17,631 INFO 71851 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:17,659 INFO 71851 [egg:core] dump config after load, 11ms
-2019-10-25 15:45:17,699 INFO 71851 [egg-watcher:application] watcher start success
-2019-10-25 15:45:17,707 INFO 71851 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:17 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:17,731 INFO 71851 [egg:core] dump config after ready, 13ms
-2019-10-25 15:45:26,080 INFO 71875 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:26,122 INFO 71875 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:26,168 INFO 71875 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:26,170 INFO 71875 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:45:26,237 INFO 71875 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:26,239 WARN 71875 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:26,241 INFO 71875 [egg-security] use noopen middleware
-2019-10-25 15:45:26,242 INFO 71875 [egg-security] use nosniff middleware
-2019-10-25 15:45:26,243 INFO 71875 [egg-security] use xssProtection middleware
-2019-10-25 15:45:26,243 INFO 71875 [egg-security] use xframe middleware
-2019-10-25 15:45:26,243 INFO 71875 [egg-security] use dta middleware
-2019-10-25 15:45:26,244 INFO 71875 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:26,283 INFO 71875 [egg:core] dump config after load, 13ms
-2019-10-25 15:45:26,339 INFO 71875 [egg-watcher:application] watcher start success
-2019-10-25 15:45:26,347 INFO 71875 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:26 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:26,383 INFO 71875 [egg:core] dump config after ready, 18ms
-2019-10-25 15:45:28,675 INFO 71882 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:28,737 INFO 71882 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:28,811 INFO 71882 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:28,813 INFO 71882 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:45:28,905 INFO 71882 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:28,908 WARN 71882 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:28,913 INFO 71882 [egg-security] use noopen middleware
-2019-10-25 15:45:28,914 INFO 71882 [egg-security] use nosniff middleware
-2019-10-25 15:45:28,914 INFO 71882 [egg-security] use xssProtection middleware
-2019-10-25 15:45:28,915 INFO 71882 [egg-security] use xframe middleware
-2019-10-25 15:45:28,916 INFO 71882 [egg-security] use dta middleware
-2019-10-25 15:45:28,916 INFO 71882 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:28,958 INFO 71882 [egg:core] dump config after load, 13ms
-2019-10-25 15:45:29,007 INFO 71882 [egg-watcher:application] watcher start success
-2019-10-25 15:45:29,019 INFO 71882 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:29 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:29,048 INFO 71882 [egg:core] dump config after ready, 22ms
-2019-10-25 15:45:33,995 INFO 71905 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:34,070 INFO 71905 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:34,155 INFO 71905 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:34,158 INFO 71905 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 15:45:34,236 INFO 71905 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:34,239 WARN 71905 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:34,242 INFO 71905 [egg-security] use noopen middleware
-2019-10-25 15:45:34,243 INFO 71905 [egg-security] use nosniff middleware
-2019-10-25 15:45:34,243 INFO 71905 [egg-security] use xssProtection middleware
-2019-10-25 15:45:34,244 INFO 71905 [egg-security] use xframe middleware
-2019-10-25 15:45:34,245 INFO 71905 [egg-security] use dta middleware
-2019-10-25 15:45:34,245 INFO 71905 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:34,279 INFO 71905 [egg:core] dump config after load, 16ms
-2019-10-25 15:45:34,334 INFO 71905 [egg-watcher:application] watcher start success
-2019-10-25 15:45:34,342 INFO 71905 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:34 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:34,365 INFO 71905 [egg:core] dump config after ready, 17ms
-2019-10-25 15:45:38,429 INFO 71919 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:38,471 INFO 71919 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:38,515 INFO 71919 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:38,516 INFO 71919 [egg-oauth2-server] egg-oauth2-server started use 1 ms
-2019-10-25 15:45:38,578 INFO 71919 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:38,580 WARN 71919 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:38,582 INFO 71919 [egg-security] use noopen middleware
-2019-10-25 15:45:38,583 INFO 71919 [egg-security] use nosniff middleware
-2019-10-25 15:45:38,583 INFO 71919 [egg-security] use xssProtection middleware
-2019-10-25 15:45:38,584 INFO 71919 [egg-security] use xframe middleware
-2019-10-25 15:45:38,584 INFO 71919 [egg-security] use dta middleware
-2019-10-25 15:45:38,584 INFO 71919 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:38,611 INFO 71919 [egg:core] dump config after load, 10ms
-2019-10-25 15:45:38,650 INFO 71919 [egg-watcher:application] watcher start success
-2019-10-25 15:45:38,655 INFO 71919 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:38 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:38,673 INFO 71919 [egg:core] dump config after ready, 13ms
-2019-10-25 15:45:49,694 INFO 71947 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:49,744 INFO 71947 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:49,801 INFO 71947 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:49,803 INFO 71947 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:45:49,872 INFO 71947 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:49,874 WARN 71947 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:49,877 INFO 71947 [egg-security] use noopen middleware
-2019-10-25 15:45:49,877 INFO 71947 [egg-security] use nosniff middleware
-2019-10-25 15:45:49,878 INFO 71947 [egg-security] use xssProtection middleware
-2019-10-25 15:45:49,878 INFO 71947 [egg-security] use xframe middleware
-2019-10-25 15:45:49,879 INFO 71947 [egg-security] use dta middleware
-2019-10-25 15:45:49,879 INFO 71947 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:49,905 INFO 71947 [egg:core] dump config after load, 11ms
-2019-10-25 15:45:49,945 INFO 71947 [egg-watcher:application] watcher start success
-2019-10-25 15:45:49,953 INFO 71947 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:49 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:49,983 INFO 71947 [egg:core] dump config after ready, 27ms
-2019-10-25 15:45:53,920 INFO 71962 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 15:45:53,959 INFO 71962 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 15:45:54,017 INFO 71962 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 15:45:54,019 INFO 71962 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 15:45:54,099 INFO 71962 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 15:45:54,101 WARN 71962 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 15:45:54,104 INFO 71962 [egg-security] use noopen middleware
-2019-10-25 15:45:54,105 INFO 71962 [egg-security] use nosniff middleware
-2019-10-25 15:45:54,105 INFO 71962 [egg-security] use xssProtection middleware
-2019-10-25 15:45:54,106 INFO 71962 [egg-security] use xframe middleware
-2019-10-25 15:45:54,106 INFO 71962 [egg-security] use dta middleware
-2019-10-25 15:45:54,106 INFO 71962 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 15:45:54,142 INFO 71962 [egg:core] dump config after load, 14ms
-2019-10-25 15:45:54,221 INFO 71962 [egg-watcher:application] watcher start success
-2019-10-25 15:45:54,227 INFO 71962 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 15:45:54 GMT+0800 (GMT+08:00)
-2019-10-25 15:45:54,265 INFO 71962 [egg:core] dump config after ready, 18ms
-2019-10-25 16:16:26,754 INFO 75582 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:16:26,807 INFO 75582 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:16:26,890 INFO 75582 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:16:26,892 INFO 75582 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 16:16:26,978 INFO 75582 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:16:26,980 WARN 75582 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:16:26,983 INFO 75582 [egg-security] use noopen middleware
-2019-10-25 16:16:26,983 INFO 75582 [egg-security] use nosniff middleware
-2019-10-25 16:16:26,984 INFO 75582 [egg-security] use xssProtection middleware
-2019-10-25 16:16:26,984 INFO 75582 [egg-security] use xframe middleware
-2019-10-25 16:16:26,984 INFO 75582 [egg-security] use dta middleware
-2019-10-25 16:16:26,984 INFO 75582 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:16:27,012 INFO 75582 [egg:core] dump config after load, 9ms
-2019-10-25 16:16:27,046 INFO 75582 [egg-watcher:application] watcher start success
-2019-10-25 16:16:27,049 INFO 75582 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:16:27 GMT+0800 (GMT+08:00)
-2019-10-25 16:16:27,065 INFO 75582 [egg:core] dump config after ready, 11ms
-2019-10-25 16:16:37,272 INFO 75611 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:16:37,326 INFO 75611 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:16:37,391 INFO 75611 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:16:37,394 INFO 75611 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 16:16:37,470 INFO 75611 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:16:37,472 WARN 75611 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:16:37,476 INFO 75611 [egg-security] use noopen middleware
-2019-10-25 16:16:37,477 INFO 75611 [egg-security] use nosniff middleware
-2019-10-25 16:16:37,478 INFO 75611 [egg-security] use xssProtection middleware
-2019-10-25 16:16:37,479 INFO 75611 [egg-security] use xframe middleware
-2019-10-25 16:16:37,479 INFO 75611 [egg-security] use dta middleware
-2019-10-25 16:16:37,479 INFO 75611 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:16:37,501 INFO 75611 [egg:core] dump config after load, 9ms
-2019-10-25 16:16:37,533 INFO 75611 [egg-watcher:application] watcher start success
-2019-10-25 16:16:37,536 INFO 75611 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:16:37 GMT+0800 (GMT+08:00)
-2019-10-25 16:16:37,548 INFO 75611 [egg:core] dump config after ready, 8ms
-2019-10-25 16:25:22,268 INFO 75720 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:25:22,331 INFO 75720 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:25:22,393 INFO 75720 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:25:22,396 INFO 75720 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 16:25:22,511 INFO 75720 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:25:22,514 WARN 75720 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:25:22,517 INFO 75720 [egg-security] use noopen middleware
-2019-10-25 16:25:22,518 INFO 75720 [egg-security] use nosniff middleware
-2019-10-25 16:25:22,518 INFO 75720 [egg-security] use xssProtection middleware
-2019-10-25 16:25:22,519 INFO 75720 [egg-security] use xframe middleware
-2019-10-25 16:25:22,520 INFO 75720 [egg-security] use dta middleware
-2019-10-25 16:25:22,520 INFO 75720 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:25:22,642 INFO 75720 [egg:core] dump config after load, 100ms
-2019-10-25 16:25:22,675 INFO 75720 [egg-watcher:application] watcher start success
-2019-10-25 16:25:22,714 INFO 75720 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:25:22 GMT+0800 (GMT+08:00)
-2019-10-25 16:25:22,817 INFO 75720 [egg:core] dump config after ready, 100ms
-2019-10-25 16:25:24,992 INFO 75741 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:25:25,029 INFO 75741 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:25:25,079 INFO 75741 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:25:25,081 INFO 75741 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 16:25:25,153 INFO 75741 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:25:25,154 WARN 75741 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:25:25,157 INFO 75741 [egg-security] use noopen middleware
-2019-10-25 16:25:25,158 INFO 75741 [egg-security] use nosniff middleware
-2019-10-25 16:25:25,159 INFO 75741 [egg-security] use xssProtection middleware
-2019-10-25 16:25:25,160 INFO 75741 [egg-security] use xframe middleware
-2019-10-25 16:25:25,160 INFO 75741 [egg-security] use dta middleware
-2019-10-25 16:25:25,160 INFO 75741 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:25:25,198 INFO 75741 [egg:core] dump config after load, 14ms
-2019-10-25 16:25:25,243 INFO 75741 [egg-watcher:application] watcher start success
-2019-10-25 16:25:25,030 INFO 75742 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:25:25,073 INFO 75742 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:25:25,127 INFO 75742 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:25:25,129 INFO 75742 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 16:25:25,231 INFO 75742 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:25:25,233 WARN 75742 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:25:25,237 INFO 75742 [egg-security] use noopen middleware
-2019-10-25 16:25:25,237 INFO 75742 [egg-security] use nosniff middleware
-2019-10-25 16:25:25,238 INFO 75742 [egg-security] use xssProtection middleware
-2019-10-25 16:25:25,238 INFO 75742 [egg-security] use xframe middleware
-2019-10-25 16:25:25,239 INFO 75742 [egg-security] use dta middleware
-2019-10-25 16:25:25,239 INFO 75742 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:25:25,286 INFO 75742 [egg:core] dump config after load, 29ms
-2019-10-25 16:25:25,347 INFO 75742 [egg-watcher:application] watcher start success
-2019-10-25 16:25:25,352 INFO 75742 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:25:25 GMT+0800 (GMT+08:00)
-2019-10-25 16:25:25,371 INFO 75742 [egg:core] dump config after ready, 15ms
-2019-10-25 16:25:26,397 INFO 75756 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:25:26,443 INFO 75756 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:25:26,507 INFO 75756 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:25:26,511 INFO 75756 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-10-25 16:25:26,573 INFO 75756 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:25:26,574 WARN 75756 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:25:26,577 INFO 75756 [egg-security] use noopen middleware
-2019-10-25 16:25:26,578 INFO 75756 [egg-security] use nosniff middleware
-2019-10-25 16:25:26,579 INFO 75756 [egg-security] use xssProtection middleware
-2019-10-25 16:25:26,580 INFO 75756 [egg-security] use xframe middleware
-2019-10-25 16:25:26,581 INFO 75756 [egg-security] use dta middleware
-2019-10-25 16:25:26,581 INFO 75756 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:25:26,614 INFO 75756 [egg:core] dump config after load, 11ms
-2019-10-25 16:25:26,657 INFO 75756 [egg-watcher:application] watcher start success
-2019-10-25 16:25:26,662 INFO 75756 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:25:26 GMT+0800 (GMT+08:00)
-2019-10-25 16:25:26,676 INFO 75756 [egg:core] dump config after ready, 10ms
-2019-10-25 16:25:34,583 INFO 75778 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:25:34,628 INFO 75778 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:25:34,674 INFO 75778 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:25:34,676 INFO 75778 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 16:25:34,741 INFO 75778 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:25:34,744 WARN 75778 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:25:34,747 INFO 75778 [egg-security] use noopen middleware
-2019-10-25 16:25:34,748 INFO 75778 [egg-security] use nosniff middleware
-2019-10-25 16:25:34,748 INFO 75778 [egg-security] use xssProtection middleware
-2019-10-25 16:25:34,749 INFO 75778 [egg-security] use xframe middleware
-2019-10-25 16:25:34,749 INFO 75778 [egg-security] use dta middleware
-2019-10-25 16:25:34,749 INFO 75778 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:25:34,790 INFO 75778 [egg:core] dump config after load, 16ms
-2019-10-25 16:25:34,849 INFO 75778 [egg-watcher:application] watcher start success
-2019-10-25 16:25:34,855 INFO 75778 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:25:34 GMT+0800 (GMT+08:00)
-2019-10-25 16:25:34,878 INFO 75778 [egg:core] dump config after ready, 11ms
-2019-10-25 16:26:12,216 INFO 75805 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:26:12,283 INFO 75805 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:26:12,394 INFO 75805 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:26:12,397 INFO 75805 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-10-25 16:26:12,506 INFO 75805 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:26:12,508 WARN 75805 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:26:12,512 INFO 75805 [egg-security] use noopen middleware
-2019-10-25 16:26:12,513 INFO 75805 [egg-security] use nosniff middleware
-2019-10-25 16:26:12,513 INFO 75805 [egg-security] use xssProtection middleware
-2019-10-25 16:26:12,514 INFO 75805 [egg-security] use xframe middleware
-2019-10-25 16:26:12,514 INFO 75805 [egg-security] use dta middleware
-2019-10-25 16:26:12,514 INFO 75805 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:26:12,550 INFO 75805 [egg:core] dump config after load, 14ms
-2019-10-25 16:26:12,596 INFO 75805 [egg-watcher:application] watcher start success
-2019-10-25 16:26:12,605 INFO 75805 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:26:12 GMT+0800 (GMT+08:00)
-2019-10-25 16:26:12,627 INFO 75805 [egg:core] dump config after ready, 18ms
-2019-10-25 16:26:13,965 INFO 75820 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:26:14,011 INFO 75820 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:26:14,058 INFO 75820 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:26:14,060 INFO 75820 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 16:26:14,129 INFO 75820 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:26:14,131 WARN 75820 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:26:14,134 INFO 75820 [egg-security] use noopen middleware
-2019-10-25 16:26:14,135 INFO 75820 [egg-security] use nosniff middleware
-2019-10-25 16:26:14,136 INFO 75820 [egg-security] use xssProtection middleware
-2019-10-25 16:26:14,136 INFO 75820 [egg-security] use xframe middleware
-2019-10-25 16:26:14,136 INFO 75820 [egg-security] use dta middleware
-2019-10-25 16:26:14,136 INFO 75820 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:26:14,164 INFO 75820 [egg:core] dump config after load, 8ms
-2019-10-25 16:26:14,204 INFO 75820 [egg-watcher:application] watcher start success
-2019-10-25 16:26:14,208 INFO 75820 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:26:14 GMT+0800 (GMT+08:00)
-2019-10-25 16:26:14,227 INFO 75820 [egg:core] dump config after ready, 11ms
-2019-10-25 16:26:28,066 INFO 75838 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:26:28,108 INFO 75838 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:26:28,163 INFO 75838 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:26:28,165 INFO 75838 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 16:26:28,238 INFO 75838 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:26:28,241 WARN 75838 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:26:28,243 INFO 75838 [egg-security] use noopen middleware
-2019-10-25 16:26:28,244 INFO 75838 [egg-security] use nosniff middleware
-2019-10-25 16:26:28,244 INFO 75838 [egg-security] use xssProtection middleware
-2019-10-25 16:26:28,245 INFO 75838 [egg-security] use xframe middleware
-2019-10-25 16:26:28,245 INFO 75838 [egg-security] use dta middleware
-2019-10-25 16:26:28,245 INFO 75838 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:26:28,271 INFO 75838 [egg:core] dump config after load, 10ms
-2019-10-25 16:26:28,309 INFO 75838 [egg-watcher:application] watcher start success
-2019-10-25 16:26:28,312 INFO 75838 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:26:28 GMT+0800 (GMT+08:00)
-2019-10-25 16:26:28,328 INFO 75838 [egg:core] dump config after ready, 12ms
-2019-10-25 16:26:44,361 INFO 75861 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-10-25 16:26:44,403 INFO 75861 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-10-25 16:26:44,453 INFO 75861 [egg-oauth2-server] egg-oauth2-server begin start
-2019-10-25 16:26:44,455 INFO 75861 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-10-25 16:26:44,520 INFO 75861 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-10-25 16:26:44,522 WARN 75861 [egg-security] Please set `match` or `ignore` on sub config
-2019-10-25 16:26:44,525 INFO 75861 [egg-security] use noopen middleware
-2019-10-25 16:26:44,526 INFO 75861 [egg-security] use nosniff middleware
-2019-10-25 16:26:44,527 INFO 75861 [egg-security] use xssProtection middleware
-2019-10-25 16:26:44,528 INFO 75861 [egg-security] use xframe middleware
-2019-10-25 16:26:44,529 INFO 75861 [egg-security] use dta middleware
-2019-10-25 16:26:44,529 INFO 75861 [egg-security] compose 5 middlewares into one security middleware
-2019-10-25 16:26:44,563 INFO 75861 [egg:core] dump config after load, 15ms
-2019-10-25 16:26:44,609 INFO 75861 [egg-watcher:application] watcher start success
-2019-10-25 16:26:44,615 INFO 75861 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 25 2019 16:26:44 GMT+0800 (GMT+08:00)
-2019-10-25 16:26:44,628 INFO 75861 [egg:core] dump config after ready, 9ms
-2019-10-25 20:12:35,589 WARN 75861 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-10-25 20:12:35,591 WARN 75861 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-10-25 22:13:27,587 WARN 75861 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-10-26 00:14:20,585 WARN 75861 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-10-26 00:14:20,586 WARN 75861 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-10-26 02:15:12,581 WARN 75861 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-10-26 02:15:12,582 WARN 75861 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-10-26 04:16:04,579 WARN 75861 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-10-26 04:16:04,579 WARN 75861 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-10-26 06:16:57,585 WARN 75861 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-10-26 08:17:50,584 WARN 75861 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-10-26 08:17:50,584 WARN 75861 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-10-26 09:39:32,588 WARN 75861 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-11 19:46:09,175 INFO 11700 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-11 19:46:09,221 INFO 11700 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-11 19:46:10,055 INFO 11700 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-11 19:46:10,095 INFO 11700 [egg-oauth2-server] egg-oauth2-server started use 40 ms
-2019-11-11 19:46:12,837 INFO 11700 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-11 19:46:12,840 WARN 11700 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-11 19:46:12,901 INFO 11700 [egg-security] use noopen middleware
-2019-11-11 19:46:12,921 INFO 11700 [egg-security] use nosniff middleware
-2019-11-11 19:46:12,966 INFO 11700 [egg-security] use xssProtection middleware
-2019-11-11 19:46:12,971 INFO 11700 [egg-security] use xframe middleware
-2019-11-11 19:46:12,989 INFO 11700 [egg-security] use dta middleware
-2019-11-11 19:46:12,989 INFO 11700 [egg-security] compose 5 middlewares into one security middleware
-2019-11-11 19:46:13,185 INFO 11700 [egg:core] dump config after load, 7ms
-2019-11-11 19:46:13,221 INFO 11700 [egg-watcher:application] watcher start success
-2019-11-11 19:46:15,561 INFO 11700 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 11 2019 19:46:14 GMT+0800 (GMT+08:00)
-2019-11-11 19:46:15,640 INFO 11700 [egg:core] dump config after ready, 74ms
-2019-11-12 09:08:07,462 INFO 974 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-12 09:08:07,661 INFO 974 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-12 09:08:11,288 INFO 974 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-12 09:08:11,399 INFO 974 [egg-oauth2-server] egg-oauth2-server started use 111 ms
-2019-11-12 09:08:16,591 INFO 974 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-12 09:08:16,594 WARN 974 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-12 09:08:16,668 INFO 974 [egg-security] use noopen middleware
-2019-11-12 09:08:16,710 INFO 974 [egg-security] use nosniff middleware
-2019-11-12 09:08:16,711 INFO 974 [egg-security] use xssProtection middleware
-2019-11-12 09:08:16,712 INFO 974 [egg-security] use xframe middleware
-2019-11-12 09:08:16,768 INFO 974 [egg-security] use dta middleware
-2019-11-12 09:08:16,768 INFO 974 [egg-security] compose 5 middlewares into one security middleware
-2019-11-12 09:08:17,544 INFO 974 [egg:core] dump config after load, 11ms
-2019-11-12 09:08:17,573 INFO 974 [egg-watcher:application] watcher start success
-2019-11-12 09:08:17,825 INFO 974 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 12 2019 09:08:17 GMT+0800 (GMT+08:00)
-2019-11-12 09:08:17,849 INFO 974 [egg:core] dump config after ready, 20ms
-2019-11-12 12:57:58,927 WARN 974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-12 12:57:58,928 WARN 974 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-12 13:59:49,871 WARN 974 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-12 17:26:06,526 INFO 72835 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-12 17:26:06,781 INFO 72835 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-12 17:26:07,350 INFO 72835 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-12 17:26:07,354 INFO 72835 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-11-12 17:26:08,080 INFO 72835 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-12 17:26:08,082 WARN 72835 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-12 17:26:08,120 INFO 72835 [egg-security] use noopen middleware
-2019-11-12 17:26:08,121 INFO 72835 [egg-security] use nosniff middleware
-2019-11-12 17:26:08,122 INFO 72835 [egg-security] use xssProtection middleware
-2019-11-12 17:26:08,123 INFO 72835 [egg-security] use xframe middleware
-2019-11-12 17:26:08,131 INFO 72835 [egg-security] use dta middleware
-2019-11-12 17:26:08,131 INFO 72835 [egg-security] compose 5 middlewares into one security middleware
-2019-11-12 17:26:08,163 INFO 72835 [egg:core] dump config after load, 9ms
-2019-11-12 17:26:08,197 INFO 72835 [egg-watcher:application] watcher start success
-2019-11-12 17:26:08,200 INFO 72835 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 12 2019 17:26:08 GMT+0800 (GMT+08:00)
-2019-11-12 17:26:08,213 INFO 72835 [egg:core] dump config after ready, 9ms
-2019-11-12 17:26:09,293 INFO 72863 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-12 17:26:09,341 INFO 72863 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-12 17:26:09,391 INFO 72863 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-12 17:26:09,392 INFO 72863 [egg-oauth2-server] egg-oauth2-server started use 1 ms
-2019-11-12 17:26:09,457 INFO 72863 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-12 17:26:09,459 WARN 72863 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-12 17:26:09,461 INFO 72863 [egg-security] use noopen middleware
-2019-11-12 17:26:09,462 INFO 72863 [egg-security] use nosniff middleware
-2019-11-12 17:26:09,462 INFO 72863 [egg-security] use xssProtection middleware
-2019-11-12 17:26:09,462 INFO 72863 [egg-security] use xframe middleware
-2019-11-12 17:26:09,463 INFO 72863 [egg-security] use dta middleware
-2019-11-12 17:26:09,463 INFO 72863 [egg-security] compose 5 middlewares into one security middleware
-2019-11-12 17:26:09,489 INFO 72863 [egg:core] dump config after load, 13ms
-2019-11-12 17:26:09,525 INFO 72863 [egg-watcher:application] watcher start success
-2019-11-12 17:26:09,529 INFO 72863 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 12 2019 17:26:09 GMT+0800 (GMT+08:00)
-2019-11-12 17:26:09,547 INFO 72863 [egg:core] dump config after ready, 9ms
-2019-11-12 17:26:16,854 INFO 72880 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-12 17:26:16,893 INFO 72880 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-12 17:26:16,941 INFO 72880 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-12 17:26:16,943 INFO 72880 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-12 17:26:17,005 INFO 72880 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-12 17:26:17,007 WARN 72880 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-12 17:26:17,010 INFO 72880 [egg-security] use noopen middleware
-2019-11-12 17:26:17,012 INFO 72880 [egg-security] use nosniff middleware
-2019-11-12 17:26:17,012 INFO 72880 [egg-security] use xssProtection middleware
-2019-11-12 17:26:17,013 INFO 72880 [egg-security] use xframe middleware
-2019-11-12 17:26:17,013 INFO 72880 [egg-security] use dta middleware
-2019-11-12 17:26:17,014 INFO 72880 [egg-security] compose 5 middlewares into one security middleware
-2019-11-12 17:26:17,039 INFO 72880 [egg:core] dump config after load, 11ms
-2019-11-12 17:26:17,077 INFO 72880 [egg-watcher:application] watcher start success
-2019-11-12 17:26:17,080 INFO 72880 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 12 2019 17:26:17 GMT+0800 (GMT+08:00)
-2019-11-12 17:26:17,093 INFO 72880 [egg:core] dump config after ready, 9ms
-2019-11-12 19:06:05,510 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-12 21:08:48,502 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-12 23:09:34,484 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-12 23:09:34,484 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 01:10:20,495 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-13 01:10:20,496 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 03:11:06,479 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 05:11:52,480 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 07:12:38,477 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 09:13:24,478 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-13 09:13:24,478 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 11:14:11,473 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 13:14:57,470 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 14:52:32,469 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-13 14:52:32,470 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 14:53:59,478 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-13 14:53:59,479 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 15:04:46,486 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-13 15:04:46,486 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-13 16:20:58,451 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-14 12:28:19,444 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-14 14:43:44,446 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-14 18:09:40,218 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-14 18:09:40,227 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-14 19:08:03,127 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-14 19:08:03,128 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-14 21:08:49,102 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-14 21:08:49,102 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-14 23:09:35,090 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-17 10:20:38,106 WARN 72880 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-17 10:20:38,106 WARN 72880 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-18 09:45:57,432 INFO 90388 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 09:45:57,481 INFO 90388 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 09:45:58,232 INFO 90388 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 09:45:58,234 INFO 90388 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 09:45:59,560 INFO 90388 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 09:45:59,562 WARN 90388 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 09:45:59,582 INFO 90388 [egg-security] use noopen middleware
-2019-11-18 09:45:59,584 INFO 90388 [egg-security] use nosniff middleware
-2019-11-18 09:45:59,585 INFO 90388 [egg-security] use xssProtection middleware
-2019-11-18 09:45:59,586 INFO 90388 [egg-security] use xframe middleware
-2019-11-18 09:45:59,587 INFO 90388 [egg-security] use dta middleware
-2019-11-18 09:45:59,587 INFO 90388 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 09:45:59,611 INFO 90388 [egg:core] dump config after load, 8ms
-2019-11-18 09:45:59,652 INFO 90388 [egg-watcher:application] watcher start success
-2019-11-18 09:45:59,656 INFO 90388 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 09:45:59 GMT+0800 (GMT+08:00)
-2019-11-18 09:45:59,669 INFO 90388 [egg:core] dump config after ready, 10ms
-2019-11-18 09:50:57,001 INFO 90388 [egg-view-nunjucks] loading templates from ["/Users/mac/egg-restapi-module-tool/app/view"]
-2019-11-18 09:51:23,410 INFO 90653 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 09:51:23,466 INFO 90653 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 09:51:23,530 INFO 90653 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 09:51:23,531 INFO 90653 [egg-oauth2-server] egg-oauth2-server started use 1 ms
-2019-11-18 09:51:23,608 INFO 90653 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 09:51:23,611 WARN 90653 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 09:51:23,613 INFO 90653 [egg-security] use noopen middleware
-2019-11-18 09:51:23,613 INFO 90653 [egg-security] use nosniff middleware
-2019-11-18 09:51:23,614 INFO 90653 [egg-security] use xssProtection middleware
-2019-11-18 09:51:23,614 INFO 90653 [egg-security] use xframe middleware
-2019-11-18 09:51:23,615 INFO 90653 [egg-security] use dta middleware
-2019-11-18 09:51:23,615 INFO 90653 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 09:51:23,643 INFO 90653 [egg:core] dump config after load, 11ms
-2019-11-18 09:51:23,687 INFO 90653 [egg-watcher:application] watcher start success
-2019-11-18 09:51:23,693 INFO 90653 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 09:51:23 GMT+0800 (GMT+08:00)
-2019-11-18 09:51:23,712 INFO 90653 [egg:core] dump config after ready, 13ms
-2019-11-18 09:51:27,233 INFO 90671 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 09:51:27,283 INFO 90671 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 09:51:27,338 INFO 90671 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 09:51:27,340 INFO 90671 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 09:51:27,413 INFO 90671 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 09:51:27,416 WARN 90671 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 09:51:27,418 INFO 90671 [egg-security] use noopen middleware
-2019-11-18 09:51:27,419 INFO 90671 [egg-security] use nosniff middleware
-2019-11-18 09:51:27,419 INFO 90671 [egg-security] use xssProtection middleware
-2019-11-18 09:51:27,420 INFO 90671 [egg-security] use xframe middleware
-2019-11-18 09:51:27,420 INFO 90671 [egg-security] use dta middleware
-2019-11-18 09:51:27,420 INFO 90671 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 09:51:27,448 INFO 90671 [egg:core] dump config after load, 10ms
-2019-11-18 09:51:27,488 INFO 90671 [egg-watcher:application] watcher start success
-2019-11-18 09:51:27,491 INFO 90671 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 09:51:27 GMT+0800 (GMT+08:00)
-2019-11-18 09:51:27,518 INFO 90671 [egg:core] dump config after ready, 18ms
-2019-11-18 09:51:37,445 INFO 90697 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 09:51:37,490 INFO 90697 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 09:51:37,535 INFO 90697 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 09:51:37,537 INFO 90697 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 09:51:37,592 INFO 90697 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 09:51:37,593 WARN 90697 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 09:51:37,598 INFO 90697 [egg-security] use noopen middleware
-2019-11-18 09:51:37,598 INFO 90697 [egg-security] use nosniff middleware
-2019-11-18 09:51:37,599 INFO 90697 [egg-security] use xssProtection middleware
-2019-11-18 09:51:37,599 INFO 90697 [egg-security] use xframe middleware
-2019-11-18 09:51:37,600 INFO 90697 [egg-security] use dta middleware
-2019-11-18 09:51:37,600 INFO 90697 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 09:51:37,627 INFO 90697 [egg:core] dump config after load, 10ms
-2019-11-18 09:51:37,666 INFO 90697 [egg-watcher:application] watcher start success
-2019-11-18 09:51:37,674 INFO 90697 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 09:51:37 GMT+0800 (GMT+08:00)
-2019-11-18 09:51:37,697 INFO 90697 [egg:core] dump config after ready, 10ms
-2019-11-18 09:51:39,645 INFO 90697 [egg-view-nunjucks] loading templates from ["/Users/mac/egg-restapi-module-tool/app/view"]
-2019-11-18 09:57:55,444 INFO 91018 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 09:57:55,487 INFO 91018 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 09:57:55,589 INFO 91018 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 09:57:55,591 INFO 91018 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 09:57:55,699 INFO 91018 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 09:57:55,702 WARN 91018 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 09:57:55,714 INFO 91018 [egg-security] use noopen middleware
-2019-11-18 09:57:55,714 INFO 91018 [egg-security] use nosniff middleware
-2019-11-18 09:57:55,715 INFO 91018 [egg-security] use xssProtection middleware
-2019-11-18 09:57:55,715 INFO 91018 [egg-security] use xframe middleware
-2019-11-18 09:57:55,716 INFO 91018 [egg-security] use dta middleware
-2019-11-18 09:57:55,716 INFO 91018 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 09:57:55,751 INFO 91018 [egg:core] dump config after load, 12ms
-2019-11-18 09:57:55,818 INFO 91018 [egg-watcher:application] watcher start success
-2019-11-18 09:57:55,827 INFO 91018 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 09:57:55 GMT+0800 (GMT+08:00)
-2019-11-18 09:57:55,858 INFO 91018 [egg:core] dump config after ready, 20ms
-2019-11-18 09:58:00,392 INFO 91037 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 09:58:00,498 INFO 91037 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 09:58:00,587 INFO 91037 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 09:58:00,591 INFO 91037 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-11-18 09:58:00,747 INFO 91037 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 09:58:00,750 WARN 91037 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 09:58:00,754 INFO 91037 [egg-security] use noopen middleware
-2019-11-18 09:58:00,755 INFO 91037 [egg-security] use nosniff middleware
-2019-11-18 09:58:00,755 INFO 91037 [egg-security] use xssProtection middleware
-2019-11-18 09:58:00,756 INFO 91037 [egg-security] use xframe middleware
-2019-11-18 09:58:00,756 INFO 91037 [egg-security] use dta middleware
-2019-11-18 09:58:00,757 INFO 91037 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 09:58:00,793 INFO 91037 [egg:core] dump config after load, 13ms
-2019-11-18 09:58:00,927 INFO 91037 [egg-watcher:application] watcher start success
-2019-11-18 09:58:01,032 INFO 91037 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 09:58:00 GMT+0800 (GMT+08:00)
-2019-11-18 09:58:01,163 INFO 91037 [egg:core] dump config after ready, 96ms
-2019-11-18 09:58:04,090 INFO 91067 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 09:58:04,206 INFO 91067 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 09:58:04,354 INFO 91067 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 09:58:04,357 INFO 91067 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-11-18 09:58:04,448 INFO 91067 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 09:58:04,450 WARN 91067 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 09:58:04,453 INFO 91067 [egg-security] use noopen middleware
-2019-11-18 09:58:04,454 INFO 91067 [egg-security] use nosniff middleware
-2019-11-18 09:58:04,454 INFO 91067 [egg-security] use xssProtection middleware
-2019-11-18 09:58:04,455 INFO 91067 [egg-security] use xframe middleware
-2019-11-18 09:58:04,455 INFO 91067 [egg-security] use dta middleware
-2019-11-18 09:58:04,455 INFO 91067 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 09:58:04,483 INFO 91067 [egg:core] dump config after load, 11ms
-2019-11-18 09:58:04,524 INFO 91067 [egg-watcher:application] watcher start success
-2019-11-18 09:58:04,531 INFO 91067 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 09:58:04 GMT+0800 (GMT+08:00)
-2019-11-18 09:58:04,553 INFO 91067 [egg:core] dump config after ready, 16ms
-2019-11-18 09:58:12,753 INFO 91085 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 09:58:12,797 INFO 91085 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 09:58:12,844 INFO 91085 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 09:58:12,846 INFO 91085 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 09:58:12,908 INFO 91085 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 09:58:12,910 WARN 91085 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 09:58:12,912 INFO 91085 [egg-security] use noopen middleware
-2019-11-18 09:58:12,913 INFO 91085 [egg-security] use nosniff middleware
-2019-11-18 09:58:12,913 INFO 91085 [egg-security] use xssProtection middleware
-2019-11-18 09:58:12,914 INFO 91085 [egg-security] use xframe middleware
-2019-11-18 09:58:12,914 INFO 91085 [egg-security] use dta middleware
-2019-11-18 09:58:12,914 INFO 91085 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 09:58:12,937 INFO 91085 [egg:core] dump config after load, 9ms
-2019-11-18 09:58:12,971 INFO 91085 [egg-watcher:application] watcher start success
-2019-11-18 09:58:12,975 INFO 91085 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 09:58:12 GMT+0800 (GMT+08:00)
-2019-11-18 09:58:12,991 INFO 91085 [egg:core] dump config after ready, 11ms
-2019-11-18 11:16:28,032 WARN 91085 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-18 11:20:00,279 INFO 92094 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:20:00,372 INFO 92094 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:20:00,485 INFO 92094 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:20:00,488 INFO 92094 [egg-oauth2-server] egg-oauth2-server started use 3 ms
-2019-11-18 11:20:00,639 INFO 92094 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:20:00,642 WARN 92094 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:20:00,647 INFO 92094 [egg-security] use noopen middleware
-2019-11-18 11:20:00,649 INFO 92094 [egg-security] use nosniff middleware
-2019-11-18 11:20:00,650 INFO 92094 [egg-security] use xssProtection middleware
-2019-11-18 11:20:00,651 INFO 92094 [egg-security] use xframe middleware
-2019-11-18 11:20:00,652 INFO 92094 [egg-security] use dta middleware
-2019-11-18 11:20:00,652 INFO 92094 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:20:00,719 INFO 92094 [egg:core] dump config after load, 17ms
-2019-11-18 11:20:00,790 INFO 92094 [egg-watcher:application] watcher start success
-2019-11-18 11:20:00,814 INFO 92094 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:20:00 GMT+0800 (GMT+08:00)
-2019-11-18 11:20:00,858 INFO 92094 [egg:core] dump config after ready, 31ms
-2019-11-18 11:20:02,612 INFO 92110 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:20:02,657 INFO 92110 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:20:02,710 INFO 92110 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:20:02,712 INFO 92110 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 11:20:02,801 INFO 92110 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:20:02,804 WARN 92110 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:20:02,807 INFO 92110 [egg-security] use noopen middleware
-2019-11-18 11:20:02,808 INFO 92110 [egg-security] use nosniff middleware
-2019-11-18 11:20:02,808 INFO 92110 [egg-security] use xssProtection middleware
-2019-11-18 11:20:02,808 INFO 92110 [egg-security] use xframe middleware
-2019-11-18 11:20:02,809 INFO 92110 [egg-security] use dta middleware
-2019-11-18 11:20:02,809 INFO 92110 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:20:02,839 INFO 92110 [egg:core] dump config after load, 12ms
-2019-11-18 11:20:02,876 INFO 92110 [egg-watcher:application] watcher start success
-2019-11-18 11:20:02,882 INFO 92110 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:20:02 GMT+0800 (GMT+08:00)
-2019-11-18 11:20:02,997 INFO 92110 [egg:core] dump config after ready, 109ms
-2019-11-18 11:20:04,130 INFO 92125 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:20:04,168 INFO 92125 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:20:04,228 INFO 92125 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:20:04,232 INFO 92125 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-11-18 11:20:04,302 INFO 92125 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:20:04,304 WARN 92125 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:20:04,306 INFO 92125 [egg-security] use noopen middleware
-2019-11-18 11:20:04,307 INFO 92125 [egg-security] use nosniff middleware
-2019-11-18 11:20:04,307 INFO 92125 [egg-security] use xssProtection middleware
-2019-11-18 11:20:04,308 INFO 92125 [egg-security] use xframe middleware
-2019-11-18 11:20:04,308 INFO 92125 [egg-security] use dta middleware
-2019-11-18 11:20:04,308 INFO 92125 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:20:04,337 INFO 92125 [egg:core] dump config after load, 11ms
-2019-11-18 11:20:04,380 INFO 92125 [egg-watcher:application] watcher start success
-2019-11-18 11:20:04,386 INFO 92125 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:20:04 GMT+0800 (GMT+08:00)
-2019-11-18 11:20:04,414 INFO 92125 [egg:core] dump config after ready, 23ms
-2019-11-18 11:20:07,332 INFO 92135 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:20:07,471 INFO 92135 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:20:07,570 INFO 92135 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:20:07,581 INFO 92135 [egg-oauth2-server] egg-oauth2-server started use 11 ms
-2019-11-18 11:20:07,732 INFO 92135 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:20:07,736 WARN 92135 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:20:07,748 INFO 92135 [egg-security] use noopen middleware
-2019-11-18 11:20:07,750 INFO 92135 [egg-security] use nosniff middleware
-2019-11-18 11:20:07,750 INFO 92135 [egg-security] use xssProtection middleware
-2019-11-18 11:20:07,751 INFO 92135 [egg-security] use xframe middleware
-2019-11-18 11:20:07,751 INFO 92135 [egg-security] use dta middleware
-2019-11-18 11:20:07,751 INFO 92135 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:20:07,831 INFO 92135 [egg:core] dump config after load, 29ms
-2019-11-18 11:20:07,951 INFO 92135 [egg-watcher:application] watcher start success
-2019-11-18 11:20:07,961 INFO 92135 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:20:07 GMT+0800 (GMT+08:00)
-2019-11-18 11:20:08,161 INFO 92135 [egg:core] dump config after ready, 172ms
-2019-11-18 11:20:09,773 INFO 92163 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:20:09,814 INFO 92163 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:20:09,864 INFO 92163 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:20:09,866 INFO 92163 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 11:20:09,961 INFO 92163 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:20:09,965 WARN 92163 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:20:09,968 INFO 92163 [egg-security] use noopen middleware
-2019-11-18 11:20:09,969 INFO 92163 [egg-security] use nosniff middleware
-2019-11-18 11:20:09,969 INFO 92163 [egg-security] use xssProtection middleware
-2019-11-18 11:20:09,969 INFO 92163 [egg-security] use xframe middleware
-2019-11-18 11:20:09,970 INFO 92163 [egg-security] use dta middleware
-2019-11-18 11:20:09,970 INFO 92163 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:20:09,997 INFO 92163 [egg:core] dump config after load, 11ms
-2019-11-18 11:20:10,040 INFO 92163 [egg-watcher:application] watcher start success
-2019-11-18 11:20:10,043 INFO 92163 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:20:10 GMT+0800 (GMT+08:00)
-2019-11-18 11:20:10,058 INFO 92163 [egg:core] dump config after ready, 10ms
-2019-11-18 11:25:09,664 INFO 92577 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:25:09,716 INFO 92577 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:25:09,773 INFO 92577 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:25:09,775 INFO 92577 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 11:25:09,853 INFO 92577 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:25:09,856 WARN 92577 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:25:09,861 INFO 92577 [egg-security] use noopen middleware
-2019-11-18 11:25:09,862 INFO 92577 [egg-security] use nosniff middleware
-2019-11-18 11:25:09,862 INFO 92577 [egg-security] use xssProtection middleware
-2019-11-18 11:25:09,863 INFO 92577 [egg-security] use xframe middleware
-2019-11-18 11:25:09,864 INFO 92577 [egg-security] use dta middleware
-2019-11-18 11:25:09,864 INFO 92577 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:25:09,914 INFO 92577 [egg:core] dump config after load, 21ms
-2019-11-18 11:25:09,990 INFO 92577 [egg-watcher:application] watcher start success
-2019-11-18 11:25:09,993 INFO 92577 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:25:09 GMT+0800 (GMT+08:00)
-2019-11-18 11:25:10,024 INFO 92577 [egg:core] dump config after ready, 16ms
-2019-11-18 11:27:15,243 INFO 92790 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:27:15,285 INFO 92790 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:27:15,329 INFO 92790 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:27:15,333 INFO 92790 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-11-18 11:27:15,396 INFO 92790 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:27:15,398 WARN 92790 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:27:15,403 INFO 92790 [egg-security] use noopen middleware
-2019-11-18 11:27:15,404 INFO 92790 [egg-security] use nosniff middleware
-2019-11-18 11:27:15,405 INFO 92790 [egg-security] use xssProtection middleware
-2019-11-18 11:27:15,405 INFO 92790 [egg-security] use xframe middleware
-2019-11-18 11:27:15,406 INFO 92790 [egg-security] use dta middleware
-2019-11-18 11:27:15,406 INFO 92790 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:27:15,430 INFO 92790 [egg:core] dump config after load, 9ms
-2019-11-18 11:27:15,470 INFO 92790 [egg-watcher:application] watcher start success
-2019-11-18 11:27:15,474 INFO 92790 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:27:15 GMT+0800 (GMT+08:00)
-2019-11-18 11:27:15,492 INFO 92790 [egg:core] dump config after ready, 15ms
-2019-11-18 11:27:23,522 INFO 92810 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:27:23,564 INFO 92810 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:27:23,616 INFO 92810 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:27:23,620 INFO 92810 [egg-oauth2-server] egg-oauth2-server started use 4 ms
-2019-11-18 11:27:23,691 INFO 92810 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:27:23,693 WARN 92810 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:27:23,695 INFO 92810 [egg-security] use noopen middleware
-2019-11-18 11:27:23,696 INFO 92810 [egg-security] use nosniff middleware
-2019-11-18 11:27:23,696 INFO 92810 [egg-security] use xssProtection middleware
-2019-11-18 11:27:23,697 INFO 92810 [egg-security] use xframe middleware
-2019-11-18 11:27:23,697 INFO 92810 [egg-security] use dta middleware
-2019-11-18 11:27:23,697 INFO 92810 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:27:23,725 INFO 92810 [egg:core] dump config after load, 11ms
-2019-11-18 11:27:23,764 INFO 92810 [egg-watcher:application] watcher start success
-2019-11-18 11:27:23,775 INFO 92810 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:27:23 GMT+0800 (GMT+08:00)
-2019-11-18 11:27:23,795 INFO 92810 [egg:core] dump config after ready, 11ms
-2019-11-18 11:27:24,874 INFO 92839 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:27:24,914 INFO 92839 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:27:24,961 INFO 92839 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:27:24,962 INFO 92839 [egg-oauth2-server] egg-oauth2-server started use 1 ms
-2019-11-18 11:27:25,025 INFO 92839 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:27:25,028 WARN 92839 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:27:25,031 INFO 92839 [egg-security] use noopen middleware
-2019-11-18 11:27:25,032 INFO 92839 [egg-security] use nosniff middleware
-2019-11-18 11:27:25,033 INFO 92839 [egg-security] use xssProtection middleware
-2019-11-18 11:27:25,033 INFO 92839 [egg-security] use xframe middleware
-2019-11-18 11:27:25,034 INFO 92839 [egg-security] use dta middleware
-2019-11-18 11:27:25,034 INFO 92839 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:27:25,064 INFO 92839 [egg:core] dump config after load, 9ms
-2019-11-18 11:27:25,108 INFO 92839 [egg-watcher:application] watcher start success
-2019-11-18 11:27:25,112 INFO 92839 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:27:25 GMT+0800 (GMT+08:00)
-2019-11-18 11:27:25,124 INFO 92839 [egg:core] dump config after ready, 9ms
-2019-11-18 11:27:46,721 INFO 92858 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-18 11:27:46,768 INFO 92858 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-18 11:27:46,844 INFO 92858 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-18 11:27:46,846 INFO 92858 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-18 11:27:46,922 INFO 92858 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-18 11:27:46,924 WARN 92858 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-18 11:27:46,927 INFO 92858 [egg-security] use noopen middleware
-2019-11-18 11:27:46,927 INFO 92858 [egg-security] use nosniff middleware
-2019-11-18 11:27:46,928 INFO 92858 [egg-security] use xssProtection middleware
-2019-11-18 11:27:46,928 INFO 92858 [egg-security] use xframe middleware
-2019-11-18 11:27:46,928 INFO 92858 [egg-security] use dta middleware
-2019-11-18 11:27:46,928 INFO 92858 [egg-security] compose 5 middlewares into one security middleware
-2019-11-18 11:27:46,958 INFO 92858 [egg:core] dump config after load, 12ms
-2019-11-18 11:27:46,998 INFO 92858 [egg-watcher:application] watcher start success
-2019-11-18 11:27:47,009 INFO 92858 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 18 2019 11:27:47 GMT+0800 (GMT+08:00)
-2019-11-18 11:27:47,029 INFO 92858 [egg:core] dump config after ready, 16ms
-2019-11-18 13:58:16,000 WARN 92858 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-18 13:58:16,003 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-18 16:28:33,937 WARN 92858 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-18 16:28:33,938 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-18 17:18:14,947 WARN 92858 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-18 17:18:14,948 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-18 19:48:32,891 WARN 92858 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-18 19:48:32,891 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-18 20:41:01,845 WARN 92858 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-18 20:41:01,845 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-18 22:08:59,808 WARN 92858 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-18 22:08:59,808 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-19 05:47:42,812 WARN 92858 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-19 05:47:42,813 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-19 08:54:31,788 WARN 92858 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2019-11-19 08:54:31,788 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-19 10:40:46,717 WARN 92858 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-11-19 11:03:34,118 INFO 1615 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-19 11:03:34,247 INFO 1615 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-19 11:03:34,459 INFO 1615 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-19 11:03:34,462 INFO 1615 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-19 11:03:34,749 INFO 1615 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-19 11:03:34,751 WARN 1615 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-19 11:03:34,753 INFO 1615 [egg-security] use noopen middleware
-2019-11-19 11:03:34,754 INFO 1615 [egg-security] use nosniff middleware
-2019-11-19 11:03:34,755 INFO 1615 [egg-security] use xssProtection middleware
-2019-11-19 11:03:34,755 INFO 1615 [egg-security] use xframe middleware
-2019-11-19 11:03:34,756 INFO 1615 [egg-security] use dta middleware
-2019-11-19 11:03:34,756 INFO 1615 [egg-security] compose 5 middlewares into one security middleware
-2019-11-19 11:03:34,785 INFO 1615 [egg:core] dump config after load, 10ms
-2019-11-19 11:03:34,817 INFO 1615 [egg-watcher:application] watcher start success
-2019-11-19 11:03:34,819 INFO 1615 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 19 2019 11:03:34 GMT+0800 (GMT+08:00)
-2019-11-19 11:03:34,845 INFO 1615 [egg:core] dump config after ready, 22ms
-2019-11-19 11:03:36,347 INFO 1691 [egg:logger] init all loggers with options: {"dir":"/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-11-19 11:03:36,385 INFO 1691 [egg-mysql] connecting root@localhost:3306/guess_sport
-2019-11-19 11:03:36,443 INFO 1691 [egg-oauth2-server] egg-oauth2-server begin start
-2019-11-19 11:03:36,445 INFO 1691 [egg-oauth2-server] egg-oauth2-server started use 2 ms
-2019-11-19 11:03:36,521 INFO 1691 [egg-static] starting static serve /public/ -> /Users/mac/egg-restapi-module-tool/app/public
-2019-11-19 11:03:36,523 WARN 1691 [egg-security] Please set `match` or `ignore` on sub config
-2019-11-19 11:03:36,526 INFO 1691 [egg-security] use noopen middleware
-2019-11-19 11:03:36,526 INFO 1691 [egg-security] use nosniff middleware
-2019-11-19 11:03:36,527 INFO 1691 [egg-security] use xssProtection middleware
-2019-11-19 11:03:36,527 INFO 1691 [egg-security] use xframe middleware
-2019-11-19 11:03:36,528 INFO 1691 [egg-security] use dta middleware
-2019-11-19 11:03:36,528 INFO 1691 [egg-security] compose 5 middlewares into one security middleware
-2019-11-19 11:03:36,557 INFO 1691 [egg:core] dump config after load, 11ms
-2019-11-19 11:03:36,601 INFO 1691 [egg-watcher:application] watcher start success
-2019-11-19 11:03:36,606 INFO 1691 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 19 2019 11:03:36 GMT+0800 (GMT+08:00)
-2019-11-19 11:03:36,621 INFO 1691 [egg:core] dump config after ready, 10ms
+2019-12-03 00:00:01,008 INFO 628892 [egg-logrotator] app logger reload: got log-reload message
+2019-12-03 09:13:26,936 INFO 635700 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:13:26,965 INFO 635700 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:13:27,019 INFO 635700 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:13:27,021 INFO 635700 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:13:27,321 INFO 635700 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:13:27,323 WARN 635700 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:13:27,348 INFO 635700 [egg-security] use noopen middleware
+2019-12-03 09:13:27,349 INFO 635700 [egg-security] use nosniff middleware
+2019-12-03 09:13:27,349 INFO 635700 [egg-security] use xssProtection middleware
+2019-12-03 09:13:27,350 INFO 635700 [egg-security] use xframe middleware
+2019-12-03 09:13:27,350 INFO 635700 [egg-security] use dta middleware
+2019-12-03 09:13:27,350 INFO 635700 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:13:27,384 INFO 635700 [egg:core] dump config after load, 11ms
+2019-12-03 09:13:27,783 INFO 635700 [egg-watcher:application] watcher start success
+2019-12-03 09:13:27,789 INFO 635700 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:13:27 GMT+0800 (GMT+08:00)
+2019-12-03 09:13:27,800 INFO 635700 [egg:core] dump config after ready, 5ms
+2019-12-03 09:13:29,621 INFO 634676 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:13:29,647 INFO 634676 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:13:29,693 INFO 634676 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:13:29,695 INFO 634676 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:13:30,277 INFO 634676 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:13:30,278 WARN 634676 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:13:30,298 INFO 634676 [egg-security] use noopen middleware
+2019-12-03 09:13:30,299 INFO 634676 [egg-security] use nosniff middleware
+2019-12-03 09:13:30,299 INFO 634676 [egg-security] use xssProtection middleware
+2019-12-03 09:13:30,299 INFO 634676 [egg-security] use xframe middleware
+2019-12-03 09:13:30,300 INFO 634676 [egg-security] use dta middleware
+2019-12-03 09:13:30,300 INFO 634676 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:13:30,322 INFO 634676 [egg:core] dump config after load, 5ms
+2019-12-03 09:13:30,731 INFO 634676 [egg-watcher:application] watcher start success
+2019-12-03 09:13:30,739 INFO 634676 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:13:30 GMT+0800 (GMT+08:00)
+2019-12-03 09:13:30,752 INFO 634676 [egg:core] dump config after ready, 6ms
+2019-12-03 09:18:43,115 INFO 635908 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:18:43,139 INFO 635908 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:18:43,186 INFO 635908 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:18:43,188 INFO 635908 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:18:43,354 INFO 635908 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:18:43,356 WARN 635908 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:18:43,377 INFO 635908 [egg-security] use noopen middleware
+2019-12-03 09:18:43,377 INFO 635908 [egg-security] use nosniff middleware
+2019-12-03 09:18:43,378 INFO 635908 [egg-security] use xssProtection middleware
+2019-12-03 09:18:43,378 INFO 635908 [egg-security] use xframe middleware
+2019-12-03 09:18:43,378 INFO 635908 [egg-security] use dta middleware
+2019-12-03 09:18:43,378 INFO 635908 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:18:43,405 INFO 635908 [egg:core] dump config after load, 7ms
+2019-12-03 09:18:43,965 INFO 635908 [egg-watcher:application] watcher start success
+2019-12-03 09:18:43,972 INFO 635908 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:18:43 GMT+0800 (GMT+08:00)
+2019-12-03 09:18:43,981 INFO 635908 [egg:core] dump config after ready, 7ms
+2019-12-03 09:18:45,240 INFO 636360 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:18:45,266 INFO 636360 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:18:45,316 INFO 636360 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:18:45,318 INFO 636360 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:18:45,586 INFO 636360 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:18:45,587 WARN 636360 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:18:45,614 INFO 636360 [egg-security] use noopen middleware
+2019-12-03 09:18:45,614 INFO 636360 [egg-security] use nosniff middleware
+2019-12-03 09:18:45,615 INFO 636360 [egg-security] use xssProtection middleware
+2019-12-03 09:18:45,615 INFO 636360 [egg-security] use xframe middleware
+2019-12-03 09:18:45,615 INFO 636360 [egg-security] use dta middleware
+2019-12-03 09:18:45,615 INFO 636360 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:18:45,640 INFO 636360 [egg:core] dump config after load, 6ms
+2019-12-03 09:18:45,975 INFO 636360 [egg-watcher:application] watcher start success
+2019-12-03 09:18:45,978 INFO 636360 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:18:45 GMT+0800 (GMT+08:00)
+2019-12-03 09:18:45,993 INFO 636360 [egg:core] dump config after ready, 6ms
+2019-12-03 09:20:05,174 INFO 636160 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:20:05,200 INFO 636160 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:20:05,238 INFO 636160 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:20:05,239 INFO 636160 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:20:05,479 INFO 636160 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:20:05,480 WARN 636160 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:20:05,521 INFO 636160 [egg-security] use noopen middleware
+2019-12-03 09:20:05,522 INFO 636160 [egg-security] use nosniff middleware
+2019-12-03 09:20:05,522 INFO 636160 [egg-security] use xssProtection middleware
+2019-12-03 09:20:05,522 INFO 636160 [egg-security] use xframe middleware
+2019-12-03 09:20:05,523 INFO 636160 [egg-security] use dta middleware
+2019-12-03 09:20:05,523 INFO 636160 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:20:05,558 INFO 636160 [egg:core] dump config after load, 7ms
+2019-12-03 09:20:05,892 INFO 636160 [egg-watcher:application] watcher start success
+2019-12-03 09:20:05,901 INFO 636160 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:20:05 GMT+0800 (GMT+08:00)
+2019-12-03 09:20:05,909 INFO 636160 [egg:core] dump config after ready, 5ms
+2019-12-03 09:20:07,334 INFO 636300 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:20:07,359 INFO 636300 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:20:07,401 INFO 636300 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:20:07,403 INFO 636300 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:20:08,346 INFO 636300 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:20:08,347 WARN 636300 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:20:08,368 INFO 636300 [egg-security] use noopen middleware
+2019-12-03 09:20:08,369 INFO 636300 [egg-security] use nosniff middleware
+2019-12-03 09:20:08,369 INFO 636300 [egg-security] use xssProtection middleware
+2019-12-03 09:20:08,369 INFO 636300 [egg-security] use xframe middleware
+2019-12-03 09:20:08,370 INFO 636300 [egg-security] use dta middleware
+2019-12-03 09:20:08,370 INFO 636300 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:20:08,396 INFO 636300 [egg:core] dump config after load, 6ms
+2019-12-03 09:20:08,847 INFO 636300 [egg-watcher:application] watcher start success
+2019-12-03 09:20:08,904 INFO 636300 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:20:08 GMT+0800 (GMT+08:00)
+2019-12-03 09:20:08,914 INFO 636300 [egg:core] dump config after ready, 6ms
+2019-12-03 09:20:37,678 INFO 631748 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:20:37,704 INFO 631748 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:20:37,750 INFO 631748 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:20:37,752 INFO 631748 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:20:38,053 INFO 631748 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:20:38,054 WARN 631748 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:20:38,144 INFO 631748 [egg-security] use noopen middleware
+2019-12-03 09:20:38,144 INFO 631748 [egg-security] use nosniff middleware
+2019-12-03 09:20:38,145 INFO 631748 [egg-security] use xssProtection middleware
+2019-12-03 09:20:38,145 INFO 631748 [egg-security] use xframe middleware
+2019-12-03 09:20:38,145 INFO 631748 [egg-security] use dta middleware
+2019-12-03 09:20:38,145 INFO 631748 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:20:38,176 INFO 631748 [egg:core] dump config after load, 9ms
+2019-12-03 09:20:38,522 INFO 631748 [egg-watcher:application] watcher start success
+2019-12-03 09:20:38,525 INFO 631748 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:20:38 GMT+0800 (GMT+08:00)
+2019-12-03 09:20:38,543 INFO 631748 [egg:core] dump config after ready, 8ms
+2019-12-03 09:20:42,200 INFO 636920 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:20:42,239 INFO 636920 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:20:42,298 INFO 636920 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:20:42,300 INFO 636920 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:20:42,631 INFO 636920 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:20:42,633 WARN 636920 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:20:42,657 INFO 636920 [egg-security] use noopen middleware
+2019-12-03 09:20:42,658 INFO 636920 [egg-security] use nosniff middleware
+2019-12-03 09:20:42,658 INFO 636920 [egg-security] use xssProtection middleware
+2019-12-03 09:20:42,659 INFO 636920 [egg-security] use xframe middleware
+2019-12-03 09:20:42,659 INFO 636920 [egg-security] use dta middleware
+2019-12-03 09:20:42,659 INFO 636920 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:20:42,687 INFO 636920 [egg:core] dump config after load, 8ms
+2019-12-03 09:20:43,040 INFO 636920 [egg-watcher:application] watcher start success
+2019-12-03 09:20:43,050 INFO 636920 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:20:43 GMT+0800 (GMT+08:00)
+2019-12-03 09:20:43,061 INFO 636920 [egg:core] dump config after ready, 6ms
+2019-12-03 09:21:06,877 INFO 637044 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:21:06,901 INFO 637044 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:21:06,940 INFO 637044 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:21:06,941 INFO 637044 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:21:07,188 INFO 637044 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:21:07,189 WARN 637044 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:21:07,227 INFO 637044 [egg-security] use noopen middleware
+2019-12-03 09:21:07,228 INFO 637044 [egg-security] use nosniff middleware
+2019-12-03 09:21:07,228 INFO 637044 [egg-security] use xssProtection middleware
+2019-12-03 09:21:07,229 INFO 637044 [egg-security] use xframe middleware
+2019-12-03 09:21:07,229 INFO 637044 [egg-security] use dta middleware
+2019-12-03 09:21:07,229 INFO 637044 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:21:07,254 INFO 637044 [egg:core] dump config after load, 10ms
+2019-12-03 09:21:07,605 INFO 637044 [egg-watcher:application] watcher start success
+2019-12-03 09:21:07,608 INFO 637044 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:21:07 GMT+0800 (GMT+08:00)
+2019-12-03 09:21:07,622 INFO 637044 [egg:core] dump config after ready, 7ms
+2019-12-03 09:21:09,035 INFO 637256 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:21:09,059 INFO 637256 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:21:09,106 INFO 637256 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:21:09,109 INFO 637256 [egg-oauth2-server] egg-oauth2-server started use 3 ms
+2019-12-03 09:21:09,362 INFO 637256 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:21:09,363 WARN 637256 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:21:09,387 INFO 637256 [egg-security] use noopen middleware
+2019-12-03 09:21:09,388 INFO 637256 [egg-security] use nosniff middleware
+2019-12-03 09:21:09,388 INFO 637256 [egg-security] use xssProtection middleware
+2019-12-03 09:21:09,388 INFO 637256 [egg-security] use xframe middleware
+2019-12-03 09:21:09,389 INFO 637256 [egg-security] use dta middleware
+2019-12-03 09:21:09,389 INFO 637256 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:21:09,416 INFO 637256 [egg:core] dump config after load, 9ms
+2019-12-03 09:21:09,716 INFO 637256 [egg-watcher:application] watcher start success
+2019-12-03 09:21:09,721 INFO 637256 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:21:09 GMT+0800 (GMT+08:00)
+2019-12-03 09:21:09,733 INFO 637256 [egg:core] dump config after ready, 8ms
+2019-12-03 09:25:28,097 INFO 637492 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:25:28,122 INFO 637492 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:25:28,164 INFO 637492 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:25:28,166 INFO 637492 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:25:28,341 INFO 637492 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:25:28,341 WARN 637492 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:25:28,366 INFO 637492 [egg-security] use noopen middleware
+2019-12-03 09:25:28,367 INFO 637492 [egg-security] use nosniff middleware
+2019-12-03 09:25:28,367 INFO 637492 [egg-security] use xssProtection middleware
+2019-12-03 09:25:28,367 INFO 637492 [egg-security] use xframe middleware
+2019-12-03 09:25:28,368 INFO 637492 [egg-security] use dta middleware
+2019-12-03 09:25:28,368 INFO 637492 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:25:28,393 INFO 637492 [egg:core] dump config after load, 6ms
+2019-12-03 09:25:28,767 INFO 637492 [egg-watcher:application] watcher start success
+2019-12-03 09:25:28,776 INFO 637492 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:25:28 GMT+0800 (GMT+08:00)
+2019-12-03 09:25:28,795 INFO 637492 [egg:core] dump config after ready, 6ms
+2019-12-03 09:27:57,652 INFO 637320 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:27:57,676 INFO 637320 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:27:57,717 INFO 637320 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:27:57,718 INFO 637320 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:27:58,121 INFO 637320 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:27:58,123 WARN 637320 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:27:58,144 INFO 637320 [egg-security] use noopen middleware
+2019-12-03 09:27:58,144 INFO 637320 [egg-security] use nosniff middleware
+2019-12-03 09:27:58,145 INFO 637320 [egg-security] use xssProtection middleware
+2019-12-03 09:27:58,145 INFO 637320 [egg-security] use xframe middleware
+2019-12-03 09:27:58,145 INFO 637320 [egg-security] use dta middleware
+2019-12-03 09:27:58,145 INFO 637320 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:27:58,173 INFO 637320 [egg:core] dump config after load, 5ms
+2019-12-03 09:27:58,415 INFO 637320 [egg-watcher:application] watcher start success
+2019-12-03 09:27:58,530 INFO 637320 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:27:58 GMT+0800 (GMT+08:00)
+2019-12-03 09:27:58,539 INFO 637320 [egg:core] dump config after ready, 6ms
+2019-12-03 09:28:20,857 INFO 636092 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:28:20,883 INFO 636092 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:28:20,924 INFO 636092 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:28:20,926 INFO 636092 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:28:21,392 INFO 636092 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:28:21,394 WARN 636092 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:28:21,419 INFO 636092 [egg-security] use noopen middleware
+2019-12-03 09:28:21,419 INFO 636092 [egg-security] use nosniff middleware
+2019-12-03 09:28:21,420 INFO 636092 [egg-security] use xssProtection middleware
+2019-12-03 09:28:21,420 INFO 636092 [egg-security] use xframe middleware
+2019-12-03 09:28:21,420 INFO 636092 [egg-security] use dta middleware
+2019-12-03 09:28:21,420 INFO 636092 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:28:21,447 INFO 636092 [egg:core] dump config after load, 7ms
+2019-12-03 09:28:21,841 INFO 636092 [egg-watcher:application] watcher start success
+2019-12-03 09:28:21,848 INFO 636092 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:28:21 GMT+0800 (GMT+08:00)
+2019-12-03 09:28:21,859 INFO 636092 [egg:core] dump config after ready, 6ms
+2019-12-03 09:28:25,441 INFO 636232 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:28:25,463 INFO 636232 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:28:25,503 INFO 636232 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:28:25,504 INFO 636232 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:28:25,981 INFO 636232 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:28:25,982 WARN 636232 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:28:26,006 INFO 636232 [egg-security] use noopen middleware
+2019-12-03 09:28:26,006 INFO 636232 [egg-security] use nosniff middleware
+2019-12-03 09:28:26,007 INFO 636232 [egg-security] use xssProtection middleware
+2019-12-03 09:28:26,007 INFO 636232 [egg-security] use xframe middleware
+2019-12-03 09:28:26,007 INFO 636232 [egg-security] use dta middleware
+2019-12-03 09:28:26,007 INFO 636232 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:28:26,040 INFO 636232 [egg:core] dump config after load, 9ms
+2019-12-03 09:28:26,319 INFO 636232 [egg-watcher:application] watcher start success
+2019-12-03 09:28:26,325 INFO 636232 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:28:26 GMT+0800 (GMT+08:00)
+2019-12-03 09:28:26,335 INFO 636232 [egg:core] dump config after ready, 7ms
+2019-12-03 09:29:53,307 INFO 637576 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:29:53,331 INFO 637576 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:29:53,371 INFO 637576 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:29:53,373 INFO 637576 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:29:53,698 INFO 637576 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:29:53,699 WARN 637576 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:29:53,719 INFO 637576 [egg-security] use noopen middleware
+2019-12-03 09:29:53,720 INFO 637576 [egg-security] use nosniff middleware
+2019-12-03 09:29:53,720 INFO 637576 [egg-security] use xssProtection middleware
+2019-12-03 09:29:53,720 INFO 637576 [egg-security] use xframe middleware
+2019-12-03 09:29:53,721 INFO 637576 [egg-security] use dta middleware
+2019-12-03 09:29:53,721 INFO 637576 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:29:53,743 INFO 637576 [egg:core] dump config after load, 6ms
+2019-12-03 09:29:54,020 INFO 637576 [egg-watcher:application] watcher start success
+2019-12-03 09:29:54,022 INFO 637576 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:29:54 GMT+0800 (GMT+08:00)
+2019-12-03 09:29:54,030 INFO 637576 [egg:core] dump config after ready, 6ms
+2019-12-03 09:29:55,159 INFO 637996 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:29:55,182 INFO 637996 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:29:55,226 INFO 637996 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:29:55,228 INFO 637996 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:29:55,389 INFO 637996 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:29:55,390 WARN 637996 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:29:55,409 INFO 637996 [egg-security] use noopen middleware
+2019-12-03 09:29:55,410 INFO 637996 [egg-security] use nosniff middleware
+2019-12-03 09:29:55,410 INFO 637996 [egg-security] use xssProtection middleware
+2019-12-03 09:29:55,410 INFO 637996 [egg-security] use xframe middleware
+2019-12-03 09:29:55,411 INFO 637996 [egg-security] use dta middleware
+2019-12-03 09:29:55,411 INFO 637996 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:29:55,432 INFO 637996 [egg:core] dump config after load, 6ms
+2019-12-03 09:29:55,687 INFO 637996 [egg-watcher:application] watcher start success
+2019-12-03 09:29:55,750 INFO 637996 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:29:55 GMT+0800 (GMT+08:00)
+2019-12-03 09:29:55,757 INFO 637996 [egg:core] dump config after ready, 5ms
+2019-12-03 09:30:23,984 INFO 638316 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:30:24,009 INFO 638316 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:30:24,049 INFO 638316 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:30:24,051 INFO 638316 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:30:24,258 INFO 638316 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:30:24,259 WARN 638316 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:30:24,280 INFO 638316 [egg-security] use noopen middleware
+2019-12-03 09:30:24,281 INFO 638316 [egg-security] use nosniff middleware
+2019-12-03 09:30:24,281 INFO 638316 [egg-security] use xssProtection middleware
+2019-12-03 09:30:24,282 INFO 638316 [egg-security] use xframe middleware
+2019-12-03 09:30:24,282 INFO 638316 [egg-security] use dta middleware
+2019-12-03 09:30:24,282 INFO 638316 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:30:24,304 INFO 638316 [egg:core] dump config after load, 5ms
+2019-12-03 09:30:24,566 INFO 638316 [egg-watcher:application] watcher start success
+2019-12-03 09:30:24,572 INFO 638316 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:30:24 GMT+0800 (GMT+08:00)
+2019-12-03 09:30:24,579 INFO 638316 [egg:core] dump config after ready, 6ms
+2019-12-03 09:30:25,913 INFO 638532 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:30:25,945 INFO 638532 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:30:26,007 INFO 638532 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:30:26,009 INFO 638532 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:30:26,271 INFO 638532 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:30:26,272 WARN 638532 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:30:26,294 INFO 638532 [egg-security] use noopen middleware
+2019-12-03 09:30:26,295 INFO 638532 [egg-security] use nosniff middleware
+2019-12-03 09:30:26,295 INFO 638532 [egg-security] use xssProtection middleware
+2019-12-03 09:30:26,296 INFO 638532 [egg-security] use xframe middleware
+2019-12-03 09:30:26,296 INFO 638532 [egg-security] use dta middleware
+2019-12-03 09:30:26,296 INFO 638532 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:30:26,320 INFO 638532 [egg:core] dump config after load, 8ms
+2019-12-03 09:30:26,692 INFO 638532 [egg-watcher:application] watcher start success
+2019-12-03 09:30:26,697 INFO 638532 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:30:26 GMT+0800 (GMT+08:00)
+2019-12-03 09:30:26,710 INFO 638532 [egg:core] dump config after ready, 5ms
+2019-12-03 09:31:01,826 INFO 636512 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:31:01,849 INFO 636512 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:31:01,892 INFO 636512 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:31:01,894 INFO 636512 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:31:02,345 INFO 636512 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:31:02,346 WARN 636512 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:31:02,368 INFO 636512 [egg-security] use noopen middleware
+2019-12-03 09:31:02,369 INFO 636512 [egg-security] use nosniff middleware
+2019-12-03 09:31:02,369 INFO 636512 [egg-security] use xssProtection middleware
+2019-12-03 09:31:02,370 INFO 636512 [egg-security] use xframe middleware
+2019-12-03 09:31:02,370 INFO 636512 [egg-security] use dta middleware
+2019-12-03 09:31:02,370 INFO 636512 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:31:02,397 INFO 636512 [egg:core] dump config after load, 9ms
+2019-12-03 09:31:02,685 INFO 636512 [egg-watcher:application] watcher start success
+2019-12-03 09:31:02,689 INFO 636512 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:31:02 GMT+0800 (GMT+08:00)
+2019-12-03 09:31:02,705 INFO 636512 [egg:core] dump config after ready, 9ms
+2019-12-03 09:31:04,301 INFO 638504 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:31:04,326 INFO 638504 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:31:04,366 INFO 638504 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:31:04,367 INFO 638504 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:31:04,678 INFO 638504 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:31:04,679 WARN 638504 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:31:04,702 INFO 638504 [egg-security] use noopen middleware
+2019-12-03 09:31:04,703 INFO 638504 [egg-security] use nosniff middleware
+2019-12-03 09:31:04,703 INFO 638504 [egg-security] use xssProtection middleware
+2019-12-03 09:31:04,703 INFO 638504 [egg-security] use xframe middleware
+2019-12-03 09:31:04,704 INFO 638504 [egg-security] use dta middleware
+2019-12-03 09:31:04,704 INFO 638504 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:31:04,728 INFO 638504 [egg:core] dump config after load, 6ms
+2019-12-03 09:31:05,086 INFO 638504 [egg-watcher:application] watcher start success
+2019-12-03 09:31:05,128 INFO 638504 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:31:05 GMT+0800 (GMT+08:00)
+2019-12-03 09:31:05,136 INFO 638504 [egg:core] dump config after ready, 6ms
+2019-12-03 09:31:11,213 INFO 638792 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:31:11,238 INFO 638792 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:31:11,276 INFO 638792 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:31:11,278 INFO 638792 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:31:11,607 INFO 638792 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:31:11,608 WARN 638792 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:31:11,645 INFO 638792 [egg-security] use noopen middleware
+2019-12-03 09:31:11,646 INFO 638792 [egg-security] use nosniff middleware
+2019-12-03 09:31:11,646 INFO 638792 [egg-security] use xssProtection middleware
+2019-12-03 09:31:11,647 INFO 638792 [egg-security] use xframe middleware
+2019-12-03 09:31:11,647 INFO 638792 [egg-security] use dta middleware
+2019-12-03 09:31:11,647 INFO 638792 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:31:11,677 INFO 638792 [egg:core] dump config after load, 5ms
+2019-12-03 09:31:12,062 INFO 638792 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:31:12 GMT+0800 (GMT+08:00)
+2019-12-03 09:31:12,065 INFO 638792 [egg-watcher:application] watcher start success
+2019-12-03 09:31:12,076 INFO 638792 [egg:core] dump config after ready, 7ms
+2019-12-03 09:31:13,932 INFO 636348 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:31:13,959 INFO 636348 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:31:14,003 INFO 636348 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:31:14,004 INFO 636348 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:31:14,321 INFO 636348 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:31:14,322 WARN 636348 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:31:14,347 INFO 636348 [egg-security] use noopen middleware
+2019-12-03 09:31:14,349 INFO 636348 [egg-security] use nosniff middleware
+2019-12-03 09:31:14,349 INFO 636348 [egg-security] use xssProtection middleware
+2019-12-03 09:31:14,350 INFO 636348 [egg-security] use xframe middleware
+2019-12-03 09:31:14,350 INFO 636348 [egg-security] use dta middleware
+2019-12-03 09:31:14,350 INFO 636348 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:31:14,376 INFO 636348 [egg:core] dump config after load, 6ms
+2019-12-03 09:31:14,690 INFO 636348 [egg-watcher:application] watcher start success
+2019-12-03 09:31:14,694 INFO 636348 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:31:14 GMT+0800 (GMT+08:00)
+2019-12-03 09:31:14,708 INFO 636348 [egg:core] dump config after ready, 10ms
+2019-12-03 09:31:44,070 INFO 634612 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:31:44,096 INFO 634612 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:31:44,146 INFO 634612 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:31:44,148 INFO 634612 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:31:44,564 INFO 634612 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:31:44,567 WARN 634612 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:31:44,593 INFO 634612 [egg-security] use noopen middleware
+2019-12-03 09:31:44,594 INFO 634612 [egg-security] use nosniff middleware
+2019-12-03 09:31:44,594 INFO 634612 [egg-security] use xssProtection middleware
+2019-12-03 09:31:44,594 INFO 634612 [egg-security] use xframe middleware
+2019-12-03 09:31:44,595 INFO 634612 [egg-security] use dta middleware
+2019-12-03 09:31:44,595 INFO 634612 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:31:44,626 INFO 634612 [egg:core] dump config after load, 11ms
+2019-12-03 09:31:45,159 INFO 634612 [egg-watcher:application] watcher start success
+2019-12-03 09:31:45,168 INFO 634612 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:31:45 GMT+0800 (GMT+08:00)
+2019-12-03 09:31:45,184 INFO 634612 [egg:core] dump config after ready, 12ms
+2019-12-03 09:31:47,240 INFO 638212 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:31:47,267 INFO 638212 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:31:47,324 INFO 638212 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:31:47,326 INFO 638212 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:31:47,583 INFO 638212 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:31:47,584 WARN 638212 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:31:47,608 INFO 638212 [egg-security] use noopen middleware
+2019-12-03 09:31:47,608 INFO 638212 [egg-security] use nosniff middleware
+2019-12-03 09:31:47,609 INFO 638212 [egg-security] use xssProtection middleware
+2019-12-03 09:31:47,609 INFO 638212 [egg-security] use xframe middleware
+2019-12-03 09:31:47,609 INFO 638212 [egg-security] use dta middleware
+2019-12-03 09:31:47,609 INFO 638212 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:31:47,639 INFO 638212 [egg:core] dump config after load, 11ms
+2019-12-03 09:31:48,004 INFO 638212 [egg-watcher:application] watcher start success
+2019-12-03 09:31:48,010 INFO 638212 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:31:48 GMT+0800 (GMT+08:00)
+2019-12-03 09:31:48,023 INFO 638212 [egg:core] dump config after ready, 6ms
+2019-12-03 09:32:29,915 INFO 638132 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:32:29,941 INFO 638132 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:32:29,986 INFO 638132 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:32:29,987 INFO 638132 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:32:30,219 INFO 638132 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:32:30,220 WARN 638132 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:32:30,243 INFO 638132 [egg-security] use noopen middleware
+2019-12-03 09:32:30,244 INFO 638132 [egg-security] use nosniff middleware
+2019-12-03 09:32:30,244 INFO 638132 [egg-security] use xssProtection middleware
+2019-12-03 09:32:30,245 INFO 638132 [egg-security] use xframe middleware
+2019-12-03 09:32:30,245 INFO 638132 [egg-security] use dta middleware
+2019-12-03 09:32:30,245 INFO 638132 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:32:30,272 INFO 638132 [egg:core] dump config after load, 5ms
+2019-12-03 09:32:30,577 INFO 638132 [egg-watcher:application] watcher start success
+2019-12-03 09:32:30,580 INFO 638132 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:32:30 GMT+0800 (GMT+08:00)
+2019-12-03 09:32:30,593 INFO 638132 [egg:core] dump config after ready, 5ms
+2019-12-03 09:32:32,206 INFO 637344 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:32:32,228 INFO 637344 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:32:32,301 INFO 637344 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:32:32,304 INFO 637344 [egg-oauth2-server] egg-oauth2-server started use 3 ms
+2019-12-03 09:32:32,803 INFO 637344 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:32:32,804 WARN 637344 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:32:32,831 INFO 637344 [egg-security] use noopen middleware
+2019-12-03 09:32:32,832 INFO 637344 [egg-security] use nosniff middleware
+2019-12-03 09:32:32,832 INFO 637344 [egg-security] use xssProtection middleware
+2019-12-03 09:32:32,833 INFO 637344 [egg-security] use xframe middleware
+2019-12-03 09:32:32,834 INFO 637344 [egg-security] use dta middleware
+2019-12-03 09:32:32,834 INFO 637344 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:32:32,868 INFO 637344 [egg:core] dump config after load, 8ms
+2019-12-03 09:32:33,238 INFO 637344 [egg-watcher:application] watcher start success
+2019-12-03 09:32:33,269 INFO 637344 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:32:33 GMT+0800 (GMT+08:00)
+2019-12-03 09:32:33,278 INFO 637344 [egg:core] dump config after ready, 5ms
+2019-12-03 09:42:09,954 INFO 631660 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:42:09,978 INFO 631660 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:42:10,021 INFO 631660 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:42:10,023 INFO 631660 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:42:10,842 INFO 631660 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:42:10,844 WARN 631660 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:42:10,903 INFO 631660 [egg-security] use noopen middleware
+2019-12-03 09:42:10,905 INFO 631660 [egg-security] use nosniff middleware
+2019-12-03 09:42:10,906 INFO 631660 [egg-security] use xssProtection middleware
+2019-12-03 09:42:10,906 INFO 631660 [egg-security] use xframe middleware
+2019-12-03 09:42:10,907 INFO 631660 [egg-security] use dta middleware
+2019-12-03 09:42:10,907 INFO 631660 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:42:10,939 INFO 631660 [egg:core] dump config after load, 11ms
+2019-12-03 09:42:11,210 INFO 631660 [egg-watcher:application] watcher start success
+2019-12-03 09:42:11,213 INFO 631660 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:42:11 GMT+0800 (GMT+08:00)
+2019-12-03 09:42:11,240 INFO 631660 [egg:core] dump config after ready, 23ms
+2019-12-03 09:42:12,972 INFO 639316 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:42:13,009 INFO 639316 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:42:13,056 INFO 639316 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:42:13,058 INFO 639316 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:42:13,272 INFO 639316 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:42:13,273 WARN 639316 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:42:13,294 INFO 639316 [egg-security] use noopen middleware
+2019-12-03 09:42:13,294 INFO 639316 [egg-security] use nosniff middleware
+2019-12-03 09:42:13,294 INFO 639316 [egg-security] use xssProtection middleware
+2019-12-03 09:42:13,295 INFO 639316 [egg-security] use xframe middleware
+2019-12-03 09:42:13,295 INFO 639316 [egg-security] use dta middleware
+2019-12-03 09:42:13,295 INFO 639316 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:42:13,320 INFO 639316 [egg:core] dump config after load, 7ms
+2019-12-03 09:42:13,691 INFO 639316 [egg-watcher:application] watcher start success
+2019-12-03 09:42:13,699 INFO 639316 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:42:13 GMT+0800 (GMT+08:00)
+2019-12-03 09:42:13,708 INFO 639316 [egg:core] dump config after ready, 7ms
+2019-12-03 09:52:51,825 INFO 634616 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:52:51,848 INFO 634616 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:52:51,888 INFO 634616 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:52:51,890 INFO 634616 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:52:52,168 INFO 634616 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:52:52,169 WARN 634616 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:52:52,189 INFO 634616 [egg-security] use noopen middleware
+2019-12-03 09:52:52,190 INFO 634616 [egg-security] use nosniff middleware
+2019-12-03 09:52:52,190 INFO 634616 [egg-security] use xssProtection middleware
+2019-12-03 09:52:52,190 INFO 634616 [egg-security] use xframe middleware
+2019-12-03 09:52:52,191 INFO 634616 [egg-security] use dta middleware
+2019-12-03 09:52:52,191 INFO 634616 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:52:52,214 INFO 634616 [egg:core] dump config after load, 5ms
+2019-12-03 09:52:52,574 INFO 634616 [egg-watcher:application] watcher start success
+2019-12-03 09:52:52,577 INFO 634616 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:52:52 GMT+0800 (GMT+08:00)
+2019-12-03 09:52:52,596 INFO 634616 [egg:core] dump config after ready, 12ms
+2019-12-03 09:52:54,157 INFO 633180 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:52:54,181 INFO 633180 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:52:54,221 INFO 633180 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:52:54,222 INFO 633180 [egg-oauth2-server] egg-oauth2-server started use 1 ms
+2019-12-03 09:52:54,563 INFO 633180 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:52:54,564 WARN 633180 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:52:54,587 INFO 633180 [egg-security] use noopen middleware
+2019-12-03 09:52:54,588 INFO 633180 [egg-security] use nosniff middleware
+2019-12-03 09:52:54,588 INFO 633180 [egg-security] use xssProtection middleware
+2019-12-03 09:52:54,589 INFO 633180 [egg-security] use xframe middleware
+2019-12-03 09:52:54,589 INFO 633180 [egg-security] use dta middleware
+2019-12-03 09:52:54,589 INFO 633180 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:52:54,615 INFO 633180 [egg:core] dump config after load, 8ms
+2019-12-03 09:52:54,942 INFO 633180 [egg-watcher:application] watcher start success
+2019-12-03 09:52:54,945 INFO 633180 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:52:54 GMT+0800 (GMT+08:00)
+2019-12-03 09:52:54,957 INFO 633180 [egg:core] dump config after ready, 7ms
+2019-12-03 09:57:20,940 INFO 639024 [egg:logger] init all loggers with options: {"dir":"D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-restapi-module-tool-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-03 09:57:20,974 INFO 639024 [egg-mysql] connecting root@localhost:3306/guess_sport
+2019-12-03 09:57:21,028 INFO 639024 [egg-oauth2-server] egg-oauth2-server begin start
+2019-12-03 09:57:21,030 INFO 639024 [egg-oauth2-server] egg-oauth2-server started use 2 ms
+2019-12-03 09:57:21,355 INFO 639024 [egg-static] starting static serve /public/ -> D:\project\egg-restapi-module-tool\app\public
+2019-12-03 09:57:21,356 WARN 639024 [egg-security] Please set `match` or `ignore` on sub config
+2019-12-03 09:57:21,380 INFO 639024 [egg-security] use noopen middleware
+2019-12-03 09:57:21,381 INFO 639024 [egg-security] use nosniff middleware
+2019-12-03 09:57:21,381 INFO 639024 [egg-security] use xssProtection middleware
+2019-12-03 09:57:21,382 INFO 639024 [egg-security] use xframe middleware
+2019-12-03 09:57:21,382 INFO 639024 [egg-security] use dta middleware
+2019-12-03 09:57:21,382 INFO 639024 [egg-security] compose 5 middlewares into one security middleware
+2019-12-03 09:57:21,413 INFO 639024 [egg:core] dump config after load, 7ms
+2019-12-03 09:57:21,738 INFO 639024 [egg-watcher:application] watcher start success
+2019-12-03 09:57:21,740 INFO 639024 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 03 2019 09:57:21 GMT+0800 (GMT+08:00)
+2019-12-03 09:57:21,749 INFO 639024 [egg:core] dump config after ready, 7ms

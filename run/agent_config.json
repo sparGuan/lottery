@@ -8,16 +8,19 @@
     },
     "security": {
       "domainWhiteList": [
-        "*",
         "http://120.78.141.142:7001",
         "http://192.168.0.139:7001",
         "http://127.0.0.1:7001",
         "http://localhost:7001",
-        "http://192.168.0.101:8080",
+        "http://192.168.1.178:8081",
         "http://localhost:8080",
         "http://192.168.1.21:8080",
         "http://localhost:8099",
-        "http://192.168.1.21:8099"
+        "http://192.168.1.21:7001",
+        "http://192.168.1.21:8099",
+        "http://192.168.1.178:8080",
+        "http://192.168.1.178:7001",
+        "http://192.168.1.28:8080"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -82,7 +85,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/mac/egg-restapi-module-tool/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -95,8 +98,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/mac/egg-restapi-module-tool/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/mac/egg-restapi-module-tool/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -144,14 +147,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/mac/egg-restapi-module-tool/app/public",
+      "dir": "D:\\project\\egg-restapi-module-tool\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/mac/egg-restapi-module-tool/app/view",
+      "root": "D:\\project\\egg-restapi-module-tool\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -177,7 +180,7 @@
         "host": "localhost",
         "port": "3306",
         "user": "root",
-        "password": "<String len: 3>",
+        "password": "<String len: 0>",
         "database": "guess_sport"
       }
     },
@@ -187,9 +190,11 @@
     "oAuth2Server": {
       "debug": true,
       "grants": [
-        "password"
+        "password",
+        "client_credentials"
       ],
-      "expires": 60
+      "expires": 60000,
+      "accessTokenLifetime": 259200
     },
     "env": "local",
     "name": "egg-restapi-module-tool",
@@ -213,8 +218,7 @@
         "debug": "egg-bin debug",
         "test": "egg-bin test"
       },
-      "author": "",
-      "license": "ISC",
+      "author": "spar",
       "devDependencies": {
         "autoprefixer": "6.4.0",
         "axios": "^0.16.1",
@@ -260,6 +264,8 @@
       },
       "dependencies": {
         "antd": "^2.8.2",
+        "async-lock": "^1.2.2",
+        "babel-register": "^6.26.0",
         "co-fs": "^1.2.0",
         "csrf": "^3.0.6",
         "draft-js-export-html": "0.5.2",
@@ -275,8 +281,12 @@
         "egg-validate": "^1.0.0",
         "egg-view-nunjucks": "^2.0.0",
         "egg-view-react": "^0.0.1",
+        "g2-mobile": "2.1.13",
+        "lodash": "^4.17.15",
         "moment": "^2.24.0",
         "mysql": "^2.13.0",
+        "node-rsa": "^1.0.6",
+        "node-uuid": "^1.4.8",
         "pg": "^6.1.5",
         "pg-hstore": "^2.3.2",
         "query-string": "^5.0.0",
@@ -338,9 +348,9 @@
         }
       ]
     },
-    "baseDir": "/Users/mac/egg-restapi-module-tool",
-    "HOME": "/Users/mac",
-    "rundir": "/Users/mac/egg-restapi-module-tool/run",
+    "baseDir": "D:\\project\\egg-restapi-module-tool",
+    "HOME": "C:\\Users\\Administrator",
+    "rundir": "D:\\project\\egg-restapi-module-tool\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -371,7 +381,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/mac/egg-restapi-module-tool/logs/egg-restapi-module-tool",
+      "dir": "D:\\project\\egg-restapi-module-tool\\logs\\egg-restapi-module-tool",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -434,6 +444,7 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "private_key": "-----BEGIN PRIVATE KEY----- ... -----END PRIVATE KEY-----",
     "middleware": [
       "robot",
       "errorHandler",
@@ -460,8 +471,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-session",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -473,8 +484,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-security",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security",
       "version": "1.14.0"
     },
     "jsonp": {
@@ -486,8 +497,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-jsonp",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -499,8 +510,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-onerror",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -510,8 +521,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-i18n",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -521,8 +532,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-watcher",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "multipart": {
@@ -532,8 +543,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-multipart",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart",
       "version": "1.5.1"
     },
     "development": {
@@ -547,8 +558,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-development",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-development",
       "version": "2.4.3"
     },
     "schedule": {
@@ -558,8 +569,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-schedule",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "logrotator": {
@@ -571,8 +582,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-logrotator",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -582,8 +593,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-static",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -593,8 +604,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/node_modules/egg/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-view",
+      "from": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -607,8 +618,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-view-nunjucks",
+      "from": "D:\\project\\egg-restapi-module-tool\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
     },
     "validate": {
@@ -618,8 +629,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-validate",
+      "from": "D:\\project\\egg-restapi-module-tool\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-validate",
       "version": "1.1.1"
     },
     "mysql": {
@@ -629,8 +640,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-mysql",
+      "from": "D:\\project\\egg-restapi-module-tool\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-mysql",
       "version": "2.0.0"
     },
     "cors": {
@@ -640,8 +651,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-cors",
+      "from": "D:\\project\\egg-restapi-module-tool\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-cors",
       "version": "1.2.0"
     },
     "oAuth2Server": {
@@ -651,8 +662,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/mac/egg-restapi-module-tool/config/plugin.js",
-      "path": "/Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server",
+      "from": "D:\\project\\egg-restapi-module-tool\\config\\plugin.js",
+      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-oauth2-server",
       "version": "2.2.6"
     }
   }

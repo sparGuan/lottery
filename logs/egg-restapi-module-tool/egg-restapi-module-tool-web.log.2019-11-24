@@ -1,0 +1,637 @@
+2019-11-24 10:33:52,080 ERROR 16244 [-/127.0.0.1/-/6ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16244
+hostname: SC-201809281454
+
+2019-11-24 10:33:57,090 ERROR 16244 [-/127.0.0.1/-/5ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16244
+hostname: SC-201809281454
+
+2019-11-24 10:34:21,231 ERROR 14832 [-/127.0.0.1/-/20ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14832
+hostname: SC-201809281454
+
+2019-11-24 10:35:35,640 ERROR 16672 [-/127.0.0.1/-/19ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16672
+hostname: SC-201809281454
+
+2019-11-24 10:36:53,647 ERROR 17136 [-/127.0.0.1/-/21ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 17136
+hostname: SC-201809281454
+
+2019-11-24 10:37:20,104 ERROR 15980 [-/127.0.0.1/-/19ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 15980
+hostname: SC-201809281454
+
+2019-11-24 10:38:16,621 ERROR 14232 [-/127.0.0.1/-/26ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14232
+hostname: SC-201809281454
+
+2019-11-24 10:38:47,792 ERROR 16820 [-/127.0.0.1/-/21ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16820
+hostname: SC-201809281454
+
+2019-11-24 10:39:03,362 ERROR 4192 [-/127.0.0.1/-/23ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4192
+hostname: SC-201809281454
+
+2019-11-24 11:32:55,921 INFO 32012 [-/192.168.1.178/-/29ms POST /api/room/create_order] before create===================> authorization:  Bearer c34f11959fafeaf9171f936f6668ca7139b2c4e51574566375
+2019-11-24 11:33:24,268 INFO 32012 [-/127.0.0.1/-/0ms GET /api/create_room?id=11&tx=452345324523523534] before update===================>1574566404
+2019-11-24 11:34:45,060 INFO 23984 [-/127.0.0.1/-/7ms GET /api/create_room?id=11&tx=452345324523523534] before update===================>1574566485
+2019-11-24 11:34:45,151 INFO 23984 [-/127.0.0.1/-/98ms GET /api/create_room?id=11&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> [object Object]==============>1574566485
+2019-11-24 11:34:45,151 INFO 23984 [-/127.0.0.1/-/98ms GET /api/create_room?id=11&tx=452345324523523534] 创建庄盘失败 response===========>[object Object]time:1574566485
+2019-11-24 11:36:29,273 INFO 32072 [-/127.0.0.1/-/5ms GET /api/create_room?id=11&tx=452345324523523534] before update===================>1574566589
+2019-11-24 11:36:29,328 INFO 32072 [-/127.0.0.1/-/60ms GET /api/create_room?id=11&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> [object Object]==============>1574566589
+2019-11-24 11:36:29,329 INFO 32072 [-/127.0.0.1/-/61ms GET /api/create_room?id=11&tx=452345324523523534] 创建庄盘失败 response===========>[object Object]time:1574566589
+2019-11-24 11:36:44,908 INFO 32728 [-/127.0.0.1/-/8ms GET /api/create_room?id=11&tx=452345324523523534] before update===================>1574566604
+2019-11-24 11:36:45,046 INFO 32728 [-/127.0.0.1/-/146ms GET /api/create_room?id=11&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> [object Object]==============>1574566605
+2019-11-24 11:36:45,046 INFO 32728 [-/127.0.0.1/-/146ms GET /api/create_room?id=11&tx=452345324523523534] 创建庄盘失败 response===========>[object Object]time:1574566605
+2019-11-24 11:57:54,811 WARN 35972 [-/127.0.0.1/-/24ms POST /api/v1/create_bets_order] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 35972
+hostname: SC-201809281454
+
+2019-11-24 13:53:21,198 INFO 49308 [-/192.168.1.178/-/11ms POST /api/room/create_order] before create===================> authorization:  Bearer fcc6df3d42ff9982a29859bbf133c80a002eb5861574574801
+2019-11-24 13:54:06,839 INFO 49308 [-/127.0.0.1/-/1ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574574846
+2019-11-24 13:54:06,912 INFO 49308 [-/127.0.0.1/-/74ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":33,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574574846
+2019-11-24 13:54:06,912 INFO 49308 [-/127.0.0.1/-/74ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574574846
+2019-11-24 13:55:33,630 INFO 49028 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574574933
+2019-11-24 13:55:33,740 INFO 49028 [-/127.0.0.1/-/116ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":34,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574574933
+2019-11-24 13:55:33,740 INFO 49028 [-/127.0.0.1/-/116ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574574933
+2019-11-24 13:57:01,059 INFO 48348 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575021
+2019-11-24 13:57:01,144 INFO 48348 [-/127.0.0.1/-/90ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":35,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575021
+2019-11-24 13:57:01,144 INFO 48348 [-/127.0.0.1/-/91ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575021
+2019-11-24 13:57:32,730 INFO 51504 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575052
+2019-11-24 13:57:32,799 INFO 51504 [-/127.0.0.1/-/74ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":36,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575052
+2019-11-24 13:57:32,799 INFO 51504 [-/127.0.0.1/-/74ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575052
+2019-11-24 13:58:11,419 INFO 51596 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575091
+2019-11-24 13:58:11,516 INFO 51596 [-/127.0.0.1/-/103ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":37,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575091
+2019-11-24 13:58:11,516 INFO 51596 [-/127.0.0.1/-/103ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575091
+2019-11-24 14:00:43,940 INFO 51560 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575243
+2019-11-24 14:00:44,000 INFO 51560 [-/127.0.0.1/-/65ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":38,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575244
+2019-11-24 14:00:44,000 INFO 51560 [-/127.0.0.1/-/65ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575244
+2019-11-24 14:00:44,002 INFO 51560 [-/127.0.0.1/-/67ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":38,"status":0,"tx":"452345324523523534","update_time":1574575244}id: 12 ===========>time: 1574575244
+2019-11-24 14:00:44,002 INFO 51560 [-/127.0.0.1/-/67ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574575244
+2019-11-24 14:01:02,729 INFO 50680 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575262
+2019-11-24 14:01:02,799 INFO 50680 [-/127.0.0.1/-/75ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":39,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575262
+2019-11-24 14:01:02,799 INFO 50680 [-/127.0.0.1/-/76ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575262
+2019-11-24 14:01:02,805 INFO 50680 [-/127.0.0.1/-/82ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":39,"status":0,"tx":"452345324523523534","update_time":1574575262}id: 12 ===========>time: 1574575262
+2019-11-24 14:01:02,805 INFO 50680 [-/127.0.0.1/-/82ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574575262
+2019-11-24 14:01:28,858 INFO 52436 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575288
+2019-11-24 14:01:28,955 INFO 52436 [-/127.0.0.1/-/103ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":40,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575288
+2019-11-24 14:01:28,955 INFO 52436 [-/127.0.0.1/-/103ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575288
+2019-11-24 14:01:28,959 INFO 52436 [-/127.0.0.1/-/107ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":40,"status":0,"tx":"452345324523523534","update_time":1574575288}id: 12 ===========>time: 1574575288
+2019-11-24 14:01:28,959 INFO 52436 [-/127.0.0.1/-/107ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574575288
+2019-11-24 14:01:49,274 INFO 52640 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575309
+2019-11-24 14:01:49,379 INFO 52640 [-/127.0.0.1/-/110ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":41,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575309
+2019-11-24 14:01:49,379 INFO 52640 [-/127.0.0.1/-/110ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575309
+2019-11-24 14:02:43,539 INFO 52584 [-/127.0.0.1/-/4ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575363
+2019-11-24 14:02:43,599 INFO 52584 [-/127.0.0.1/-/65ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":42,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575363
+2019-11-24 14:02:43,599 INFO 52584 [-/127.0.0.1/-/65ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575363
+2019-11-24 14:02:43,601 INFO 52584 [-/127.0.0.1/-/67ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":42,"status":0,"tx":"452345324523523534","update_time":1574575363}id: 12 ===========>time: 1574575363
+2019-11-24 14:02:43,601 INFO 52584 [-/127.0.0.1/-/67ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574575363
+2019-11-24 14:02:57,790 INFO 53100 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575377
+2019-11-24 14:02:57,901 INFO 53100 [-/127.0.0.1/-/116ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":43,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575377
+2019-11-24 14:02:57,901 INFO 53100 [-/127.0.0.1/-/117ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575377
+2019-11-24 14:02:57,905 INFO 53100 [-/127.0.0.1/-/121ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":43,"status":0,"tx":"452345324523523534","update_time":1574575377}id: 12 ===========>time: 1574575377
+2019-11-24 14:02:57,905 INFO 53100 [-/127.0.0.1/-/121ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574575377
+2019-11-24 14:03:38,896 INFO 52460 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575418
+2019-11-24 14:03:39,008 INFO 52460 [-/127.0.0.1/-/117ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":44,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575419
+2019-11-24 14:03:39,008 INFO 52460 [-/127.0.0.1/-/117ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575419
+2019-11-24 14:03:39,016 INFO 52460 [-/127.0.0.1/-/125ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":44,"status":0,"tx":"452345324523523534","update_time":1574575419}id: 12 ===========>time: 1574575419
+2019-11-24 14:03:39,016 INFO 52460 [-/127.0.0.1/-/125ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574575419
+2019-11-24 14:05:11,594 INFO 52328 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575511
+2019-11-24 14:05:11,648 INFO 52328 [-/127.0.0.1/-/59ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":45,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575511
+2019-11-24 14:05:11,649 INFO 52328 [-/127.0.0.1/-/60ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575511
+2019-11-24 14:05:11,651 INFO 52328 [-/127.0.0.1/-/62ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":45,"status":0,"tx":"452345324523523534","update_time":1574575511}id: 12 ===========>time: 1574575511
+2019-11-24 14:05:11,651 INFO 52328 [-/127.0.0.1/-/62ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574575511
+2019-11-24 14:08:23,301 INFO 54556 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575703
+2019-11-24 14:08:23,416 INFO 54556 [-/127.0.0.1/-/120ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":46,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575703
+2019-11-24 14:08:23,416 INFO 54556 [-/127.0.0.1/-/121ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575703
+2019-11-24 14:08:52,581 INFO 52820 [-/127.0.0.1/-/7ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575732
+2019-11-24 14:08:52,703 INFO 52820 [-/127.0.0.1/-/129ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":47,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575732
+2019-11-24 14:08:52,703 INFO 52820 [-/127.0.0.1/-/129ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575732
+2019-11-24 14:09:15,561 INFO 56040 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574575755
+2019-11-24 14:09:15,629 INFO 56040 [-/127.0.0.1/-/73ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":48,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574575755
+2019-11-24 14:09:15,629 INFO 56040 [-/127.0.0.1/-/73ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574575755
+2019-11-24 14:09:15,632 INFO 56040 [-/127.0.0.1/-/76ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":48,"status":0,"tx":"452345324523523534","update_time":1574575755}id: 12 ===========>time: 1574575755
+2019-11-24 14:09:15,632 INFO 56040 [-/127.0.0.1/-/76ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574575755
+2019-11-24 14:46:07,027 INFO 50432 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574577967
+2019-11-24 14:46:07,082 INFO 50432 [-/127.0.0.1/-/60ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":49,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574577967
+2019-11-24 14:46:07,082 INFO 50432 [-/127.0.0.1/-/60ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574577967
+2019-11-24 14:47:12,996 INFO 55336 [-/127.0.0.1/-/7ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578032
+2019-11-24 14:47:13,111 INFO 55336 [-/127.0.0.1/-/123ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":50,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574578033
+2019-11-24 14:47:13,111 INFO 55336 [-/127.0.0.1/-/123ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578033
+2019-11-24 14:47:29,741 INFO 54660 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578049
+2019-11-24 14:47:29,819 INFO 54660 [-/127.0.0.1/-/83ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":51,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574578049
+2019-11-24 14:47:29,819 INFO 54660 [-/127.0.0.1/-/83ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578049
+2019-11-24 14:47:49,919 INFO 55452 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578069
+2019-11-24 14:47:49,978 INFO 55452 [-/127.0.0.1/-/64ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":52,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574578069
+2019-11-24 14:47:49,978 INFO 55452 [-/127.0.0.1/-/64ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578069
+2019-11-24 14:48:38,713 INFO 55488 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578118
+2019-11-24 14:48:38,782 INFO 55488 [-/127.0.0.1/-/73ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":53,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574578118
+2019-11-24 14:48:38,782 INFO 55488 [-/127.0.0.1/-/74ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578118
+2019-11-24 14:49:08,558 INFO 56512 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578148
+2019-11-24 14:49:08,630 INFO 56512 [-/127.0.0.1/-/76ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":54,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574578148
+2019-11-24 14:49:08,630 INFO 56512 [-/127.0.0.1/-/77ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578148
+2019-11-24 14:49:08,667 INFO 56512 [-/127.0.0.1/-/114ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":54,"status":0,"tx":"452345324523523534","update_time":1574578148}id: 12 ===========>time: 1574578148
+2019-11-24 14:49:08,667 INFO 56512 [-/127.0.0.1/-/114ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574578148
+2019-11-24 14:54:03,520 INFO 57248 [-/127.0.0.1/-/7ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578443
+2019-11-24 14:54:03,521 INFO 57248 [-/127.0.0.1/-/8ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578443
+2019-11-24 14:54:03,522 INFO 57248 [-/127.0.0.1/-/9ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"status":0,"tx":"452345324523523534","update_time":1574578443}id: 12 ===========>time: 1574578443
+2019-11-24 14:54:03,523 INFO 57248 [-/127.0.0.1/-/9ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574578443
+2019-11-24 14:54:16,059 INFO 57684 [-/127.0.0.1/-/7ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578456
+2019-11-24 14:54:16,060 INFO 57684 [-/127.0.0.1/-/8ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578456
+2019-11-24 14:54:16,065 INFO 57684 [-/127.0.0.1/-/13ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"status":0,"tx":"452345324523523534","update_time":1574578456}id: 12 ===========>time: 1574578456
+2019-11-24 14:54:16,065 INFO 57684 [-/127.0.0.1/-/13ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574578456
+2019-11-24 14:54:42,271 INFO 57000 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578482
+2019-11-24 14:54:42,272 INFO 57000 [-/127.0.0.1/-/7ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578482
+2019-11-24 14:54:42,304 INFO 57000 [-/127.0.0.1/-/39ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"status":0,"tx":"452345324523523534","update_time":1574578482}id: 12 ===========>time: 1574578482
+2019-11-24 14:54:42,304 INFO 57000 [-/127.0.0.1/-/39ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574578482
+2019-11-24 14:55:18,352 INFO 57364 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578518
+2019-11-24 14:55:18,472 INFO 57364 [-/127.0.0.1/-/126ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":55,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574578518
+2019-11-24 14:55:18,472 INFO 57364 [-/127.0.0.1/-/126ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578518
+2019-11-24 14:55:18,560 INFO 57364 [-/127.0.0.1/-/214ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":55,"status":0,"tx":"452345324523523534","update_time":1574578518}id: 12 ===========>time: 1574578518
+2019-11-24 14:55:18,560 INFO 57364 [-/127.0.0.1/-/214ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574578518
+2019-11-24 14:55:42,895 INFO 57492 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578542
+2019-11-24 14:55:42,965 INFO 57492 [-/127.0.0.1/-/76ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":56,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574578542
+2019-11-24 14:55:42,965 INFO 57492 [-/127.0.0.1/-/76ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578542
+2019-11-24 15:01:57,827 INFO 59008 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574578917
+2019-11-24 15:01:57,896 INFO 59008 [-/127.0.0.1/-/74ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":57,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574578917
+2019-11-24 15:01:57,897 INFO 59008 [-/127.0.0.1/-/75ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574578917
+2019-11-24 15:01:57,901 INFO 59008 [-/127.0.0.1/-/79ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":57,"status":0,"tx":"452345324523523534","update_time":1574578917}id: 12 ===========>time: 1574578917
+2019-11-24 15:01:57,901 INFO 59008 [-/127.0.0.1/-/79ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574578917
+2019-11-24 15:12:10,789 INFO 57932 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579530
+2019-11-24 15:12:10,858 INFO 57932 [-/127.0.0.1/-/74ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":58,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579530
+2019-11-24 15:12:10,858 INFO 57932 [-/127.0.0.1/-/74ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579530
+2019-11-24 15:12:10,886 INFO 57932 [-/127.0.0.1/-/102ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":58,"status":0,"tx":"452345324523523534","update_time":1574579530}id: 12 ===========>time: 1574579530
+2019-11-24 15:12:10,886 INFO 57932 [-/127.0.0.1/-/102ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579530
+2019-11-24 15:12:28,619 INFO 59136 [-/127.0.0.1/-/8ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579548
+2019-11-24 15:12:28,690 INFO 59136 [-/127.0.0.1/-/79ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":59,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579548
+2019-11-24 15:12:28,691 INFO 59136 [-/127.0.0.1/-/80ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579548
+2019-11-24 15:12:28,741 INFO 59136 [-/127.0.0.1/-/130ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":59,"status":0,"tx":"452345324523523534","update_time":1574579548}id: 12 ===========>time: 1574579548
+2019-11-24 15:12:28,741 INFO 59136 [-/127.0.0.1/-/130ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579548
+2019-11-24 15:13:14,991 INFO 60152 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579594
+2019-11-24 15:13:15,104 INFO 60152 [-/127.0.0.1/-/120ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":60,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579595
+2019-11-24 15:13:15,104 INFO 60152 [-/127.0.0.1/-/120ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579595
+2019-11-24 15:13:15,164 INFO 60152 [-/127.0.0.1/-/180ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":60,"status":0,"tx":"452345324523523534","update_time":1574579595}id: 12 ===========>time: 1574579595
+2019-11-24 15:13:15,164 INFO 60152 [-/127.0.0.1/-/180ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579595
+2019-11-24 15:13:23,666 INFO 22776 [-/127.0.0.1/-/8ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579603
+2019-11-24 15:13:23,728 INFO 22776 [-/127.0.0.1/-/70ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":61,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579603
+2019-11-24 15:13:23,728 INFO 22776 [-/127.0.0.1/-/70ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579603
+2019-11-24 15:13:23,757 INFO 22776 [-/127.0.0.1/-/99ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":61,"status":0,"tx":"452345324523523534","update_time":1574579603}id: 12 ===========>time: 1574579603
+2019-11-24 15:13:23,757 INFO 22776 [-/127.0.0.1/-/99ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579603
+2019-11-24 15:13:45,254 INFO 59424 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579625
+2019-11-24 15:13:45,313 INFO 59424 [-/127.0.0.1/-/64ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":62,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579625
+2019-11-24 15:13:45,313 INFO 59424 [-/127.0.0.1/-/64ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579625
+2019-11-24 15:13:45,382 INFO 59424 [-/127.0.0.1/-/133ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":62,"status":0,"tx":"452345324523523534","update_time":1574579625}id: 12 ===========>time: 1574579625
+2019-11-24 15:13:45,382 INFO 59424 [-/127.0.0.1/-/133ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579625
+2019-11-24 15:15:47,560 INFO 50960 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579747
+2019-11-24 15:15:47,665 INFO 50960 [-/127.0.0.1/-/110ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":63,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579747
+2019-11-24 15:15:47,665 INFO 50960 [-/127.0.0.1/-/110ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579747
+2019-11-24 15:17:18,807 INFO 60724 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579838
+2019-11-24 15:17:18,877 INFO 60724 [-/127.0.0.1/-/75ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":64,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579838
+2019-11-24 15:17:18,877 INFO 60724 [-/127.0.0.1/-/75ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579838
+2019-11-24 15:17:18,942 INFO 60724 [-/127.0.0.1/-/140ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>更新庄订单失败{"banker_disc_id":64,"status":0,"tx":"452345324523523534","update_time":1574579838}id: 12 ===========>time: 1574579838
+2019-11-24 15:17:18,942 INFO 60724 [-/127.0.0.1/-/140ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579838
+2019-11-24 15:17:34,117 INFO 58868 [-/127.0.0.1/-/8ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579854
+2019-11-24 15:17:34,217 INFO 58868 [-/127.0.0.1/-/108ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":65,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579854
+2019-11-24 15:17:34,217 INFO 58868 [-/127.0.0.1/-/108ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579854
+2019-11-24 15:17:34,315 INFO 58868 [-/127.0.0.1/-/206ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>创建奖金池记录失败{"update_time":1574579854,"create_time":1574579854,"award_pool_id":1}time: 1574579854
+2019-11-24 15:17:34,315 INFO 58868 [-/127.0.0.1/-/206ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579854
+2019-11-24 15:18:23,926 INFO 60168 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579903
+2019-11-24 15:18:24,028 INFO 60168 [-/127.0.0.1/-/108ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":66,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579904
+2019-11-24 15:18:24,028 INFO 60168 [-/127.0.0.1/-/108ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579904
+2019-11-24 15:18:24,088 INFO 60168 [-/127.0.0.1/-/168ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>创建奖金池记录失败{"update_time":1574579904,"create_time":1574579904,"award_pool_id":2}time: 1574579904
+2019-11-24 15:18:24,088 INFO 60168 [-/127.0.0.1/-/168ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579904
+2019-11-24 15:19:44,365 INFO 59444 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574579984
+2019-11-24 15:19:44,432 INFO 59444 [-/127.0.0.1/-/72ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":67,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574579984
+2019-11-24 15:19:44,432 INFO 59444 [-/127.0.0.1/-/72ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574579984
+2019-11-24 15:19:44,491 INFO 59444 [-/127.0.0.1/-/131ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>创建奖金池记录失败{"update_time":1574579984,"create_time":1574579984,"award_pool_id":3}time: 1574579984
+2019-11-24 15:19:44,491 INFO 59444 [-/127.0.0.1/-/131ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574579984
+2019-11-24 15:20:04,144 INFO 61660 [-/127.0.0.1/-/8ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574580004
+2019-11-24 15:20:04,208 INFO 61660 [-/127.0.0.1/-/72ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":68,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574580004
+2019-11-24 15:20:04,208 INFO 61660 [-/127.0.0.1/-/72ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574580004
+2019-11-24 15:20:04,327 INFO 61660 [-/127.0.0.1/-/191ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesUserOrderRecord] =================>创建奖金池记录失败{"update_time":1574580004,"create_time":1574580004,"award_pool_id":4}time: 1574580004
+2019-11-24 15:20:04,327 INFO 61660 [-/127.0.0.1/-/191ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574580004
+2019-11-24 15:20:47,823 INFO 60968 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574580047
+2019-11-24 15:20:47,889 INFO 60968 [-/127.0.0.1/-/72ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":69,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574580047
+2019-11-24 15:20:47,889 INFO 60968 [-/127.0.0.1/-/72ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574580047
+2019-11-24 15:21:23,407 INFO 53840 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574580083
+2019-11-24 15:21:23,476 INFO 53840 [-/127.0.0.1/-/75ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":70,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574580083
+2019-11-24 15:21:23,476 INFO 53840 [-/127.0.0.1/-/75ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574580083
+2019-11-24 15:24:35,327 INFO 61876 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574580275
+2019-11-24 15:24:35,418 INFO 61876 [-/127.0.0.1/-/96ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":71,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574580275
+2019-11-24 15:24:35,418 INFO 61876 [-/127.0.0.1/-/96ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574580275
+2019-11-24 15:24:45,765 INFO 63396 [-/127.0.0.1/-/7ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574580285
+2019-11-24 15:24:45,834 INFO 63396 [-/127.0.0.1/-/76ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":72,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574580285
+2019-11-24 15:24:45,834 INFO 63396 [-/127.0.0.1/-/76ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574580285
+2019-11-24 15:25:40,807 INFO 63324 [-/127.0.0.1/-/6ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574580340
+2019-11-24 15:25:40,872 INFO 63324 [-/127.0.0.1/-/71ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":73,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574580340
+2019-11-24 15:25:40,873 INFO 63324 [-/127.0.0.1/-/72ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574580340
+2019-11-24 15:25:40,971 INFO 63324 [-/127.0.0.1/-/170ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574580340
+2019-11-24 15:26:44,781 INFO 63172 [-/127.0.0.1/-/5ms GET /api/create_room?id=12&tx=452345324523523534] before update===================>1574580404
+2019-11-24 15:26:44,841 INFO 63172 [-/127.0.0.1/-/65ms GET /api/create_room?id=12&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":74,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574580404
+2019-11-24 15:26:44,841 INFO 63172 [-/127.0.0.1/-/65ms GET /api/create_room?id=12&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574580404
+2019-11-24 15:26:45,015 INFO 63172 [-/127.0.0.1/-/239ms GET /api/create_room?id=12&tx=452345324523523534] end update===================>1574580405
+2019-11-24 15:31:03,625 WARN 64004 [-/192.168.1.178/-/37ms POST /api/room/create_order] nodejs.invalid_token: Invalid token: access token has expired
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at AuthenticateHandler.validateAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:224:11)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:74:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:73:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token has expired"
+name: "invalid_token"
+pid: 64004
+hostname: SC-201809281454
+
+2019-11-24 15:31:13,475 INFO 64004 [-/192.168.1.178/-/2ms POST /api/room/create_order] before create===================> authorization:  Bearer 24bd106822a130ee16cdcc6ba51f73b973ea05651574580673
+2019-11-24 15:31:25,241 INFO 64004 [-/127.0.0.1/-/1ms GET /api/create_room?id=13&tx=452345324523523534] before update===================>1574580685
+2019-11-24 15:31:25,308 INFO 64004 [-/127.0.0.1/-/68ms GET /api/create_room?id=13&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":75,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574580685
+2019-11-24 15:31:25,308 INFO 64004 [-/127.0.0.1/-/68ms GET /api/create_room?id=13&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574580685
+2019-11-24 15:31:25,419 INFO 64004 [-/127.0.0.1/-/179ms GET /api/create_room?id=13&tx=452345324523523534] end update===================>1574580685
+2019-11-24 15:43:26,594 INFO 65216 [-/192.168.1.178/-/62ms POST /api/room/create_order] before create===================> authorization:  Bearer 24bd106822a130ee16cdcc6ba51f73b973ea05651574581406
+2019-11-24 15:43:40,711 INFO 65216 [-/127.0.0.1/-/1ms GET /api/create_room?id=13&tx=452345324523523534] before update===================>1574581420
+2019-11-24 15:43:40,766 INFO 65216 [-/127.0.0.1/-/56ms GET /api/create_room?id=13&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":76,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574581420
+2019-11-24 15:43:40,766 INFO 65216 [-/127.0.0.1/-/56ms GET /api/create_room?id=13&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574581420
+2019-11-24 15:43:40,853 INFO 65216 [-/127.0.0.1/-/143ms GET /api/create_room?id=13&tx=452345324523523534] end update===================>1574581420
+2019-11-24 15:44:36,676 INFO 65216 [-/192.168.1.178/-/4ms POST /api/room/create_order] before create===================> authorization:  Bearer 24bd106822a130ee16cdcc6ba51f73b973ea05651574581476
+2019-11-24 15:44:58,681 INFO 65216 [-/127.0.0.1/-/0ms GET /api/create_room?id=15&tx=452345324523523534] before update===================>1574581498
+2019-11-24 15:44:58,748 INFO 65216 [-/127.0.0.1/-/67ms GET /api/create_room?id=15&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":77,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574581498
+2019-11-24 15:44:58,748 INFO 65216 [-/127.0.0.1/-/67ms GET /api/create_room?id=15&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574581498
+2019-11-24 15:44:58,837 INFO 65216 [-/127.0.0.1/-/156ms GET /api/create_room?id=15&tx=452345324523523534] end update===================>1574581498
+2019-11-24 16:02:17,999 INFO 66080 [-/192.168.1.178/-/34ms POST /api/room/create_order] before create===================> authorization:  Bearer 24bd106822a130ee16cdcc6ba51f73b973ea05651574582537
+2019-11-24 16:02:23,370 INFO 66080 [-/127.0.0.1/-/1ms GET /api/create_room?id=16&tx=452345324523523534] before update===================>1574582543
+2019-11-24 16:02:23,476 INFO 66080 [-/127.0.0.1/-/107ms GET /api/create_room?id=16&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":78,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574582543
+2019-11-24 16:02:23,476 INFO 66080 [-/127.0.0.1/-/107ms GET /api/create_room?id=16&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574582543
+2019-11-24 16:04:53,782 INFO 66080 [-/192.168.1.178/-/3ms POST /api/room/create_order] before create===================> authorization:  Bearer 24bd106822a130ee16cdcc6ba51f73b973ea05651574582693
+2019-11-24 16:05:00,835 INFO 66080 [-/127.0.0.1/-/0ms GET /api/create_room?id=17&tx=452345324523523534] before update===================>1574582700
+2019-11-24 16:05:00,904 INFO 66080 [-/127.0.0.1/-/70ms GET /api/create_room?id=17&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":79,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574582700
+2019-11-24 16:05:00,904 INFO 66080 [-/127.0.0.1/-/70ms GET /api/create_room?id=17&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574582700
+2019-11-24 16:07:34,397 INFO 65748 [-/192.168.1.178/-/38ms POST /api/room/create_order] before create===================> authorization:  Bearer 24bd106822a130ee16cdcc6ba51f73b973ea05651574582854
+2019-11-24 16:07:42,337 INFO 65748 [-/127.0.0.1/-/1ms GET /api/create_room?id=18&tx=452345324523523534] before update===================>1574582862
+2019-11-24 16:07:42,399 INFO 65748 [-/127.0.0.1/-/63ms GET /api/create_room?id=18&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":80,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574582862
+2019-11-24 16:07:42,399 INFO 65748 [-/127.0.0.1/-/63ms GET /api/create_room?id=18&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574582862
+2019-11-24 16:07:42,457 INFO 65748 [-/127.0.0.1/-/121ms GET /api/create_room?id=18&tx=452345324523523534] end update===================>1574582862
+2019-11-24 16:10:27,206 INFO 66044 [-/192.168.1.178/-/60ms POST /api/room/create_order] before create===================> authorization:  Bearer 24bd106822a130ee16cdcc6ba51f73b973ea05651574583027
+2019-11-24 16:10:37,027 INFO 66044 [-/127.0.0.1/-/0ms GET /api/create_room?id=19&tx=452345324523523534] before update===================>1574583037
+2019-11-24 16:10:37,093 INFO 66044 [-/127.0.0.1/-/66ms GET /api/create_room?id=19&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":81,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574583037
+2019-11-24 16:10:37,093 INFO 66044 [-/127.0.0.1/-/66ms GET /api/create_room?id=19&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574583037
+2019-11-24 17:21:32,643 WARN 74392 [-/127.0.0.1/-/40ms POST /api/v1/create_bets_order] nodejs.invalid_token: Invalid token: access token has expired
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at AuthenticateHandler.validateAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:224:11)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:74:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:73:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token has expired"
+name: "invalid_token"
+pid: 74392
+hostname: SC-201809281454
+
+2019-11-24 17:34:19,718 WARN 74272 [-/192.168.1.178/-/50ms POST /api/room/create_order] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 74272
+hostname: SC-201809281454
+
+2019-11-24 17:34:36,960 INFO 74272 [-/192.168.1.178/-/22ms POST /api/room/create_order] before create===================> authorization:  Bearer 5a5de05d42d4bba65640af2ef6679009ced7a4f01574588076
+2019-11-24 17:34:55,628 INFO 74272 [-/127.0.0.1/-/0ms GET /api/create_room?id=20&tx=452345324523523534] before update===================>1574588095
+2019-11-24 17:34:55,694 INFO 74272 [-/127.0.0.1/-/66ms GET /api/create_room?id=20&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":82,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574588095
+2019-11-24 17:34:55,694 INFO 74272 [-/127.0.0.1/-/66ms GET /api/create_room?id=20&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574588095
+2019-11-24 17:34:55,810 INFO 74272 [-/127.0.0.1/-/182ms GET /api/create_room?id=20&tx=452345324523523534] end update===================>1574588095
+2019-11-24 17:35:29,738 INFO 74272 [-/127.0.0.1/-/5ms POST /api/v1/create_bets_order] [service.bets] 奖金池不存在===================>id:81 time:'+ 1574588129
+2019-11-24 17:36:24,369 INFO 74272 [-/127.0.0.1/-/48ms POST /api/v1/create_bets_order] [service.bets] =================>扣除库存失败{"update_time":1574588184,"banker_disc_id":"82","balance":4500}time: 1574588184
+2019-11-24 17:39:16,122 INFO 76176 [-/192.168.1.178/-/42ms POST /api/room/create_order] before create===================> authorization:  Bearer 5a5de05d42d4bba65640af2ef6679009ced7a4f01574588356
+2019-11-24 17:39:29,086 INFO 76176 [-/127.0.0.1/-/1ms GET /api/create_room?id=21&tx=452345324523523534] before update===================>1574588369
+2019-11-24 17:39:29,179 INFO 76176 [-/127.0.0.1/-/94ms GET /api/create_room?id=21&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":83,"serverStatus":2,"warningCount":3,"message":"","protocol41":true,"changedRows":0}==============>1574588369
+2019-11-24 17:39:29,179 INFO 76176 [-/127.0.0.1/-/94ms GET /api/create_room?id=21&tx=452345324523523534] 创建庄盘失败 response===========>{"success":false,"message":"创建庄盘失败","code":1}time:1574588369
+2019-11-24 17:39:29,295 INFO 76176 [-/127.0.0.1/-/210ms GET /api/create_room?id=21&tx=452345324523523534] end update===================>1574588369
+2019-11-24 18:39:35,974 WARN 57040 [-/127.0.0.1/-/29ms POST /api/v1/create_bets] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 57040
+hostname: SC-201809281454
+
+2019-11-24 18:39:49,224 INFO 57040 [-/127.0.0.1/-/24ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！出入金记录id:10time: 1574591989
+2019-11-24 18:40:24,790 INFO 57052 [-/127.0.0.1/-/58ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！出入金记录id:10time: 1574592024
+2019-11-24 18:41:44,859 INFO 87308 [-/127.0.0.1/-/44ms POST /api/v1/create_bets] [service.bets] =================>更新玩家入金失败:出入金记录id19time: 1574592104
+2019-11-24 18:42:07,907 INFO 87616 [-/127.0.0.1/-/68ms POST /api/v1/create_bets] [service.bets] =================>更新玩家入金失败:出入金记录id19time: 1574592127
+2019-11-24 18:42:37,896 INFO 87620 [-/127.0.0.1/-/82ms POST /api/v1/create_bets] [service.bets] =================>更新玩家入金失败:出入金记录id19time: 1574592157
+2019-11-24 20:51:24,883 WARN 22080 [-/127.0.0.1/-/4ms POST /api/gamesPoint/publishGames] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 22080
+hostname: SC-201809281454
+

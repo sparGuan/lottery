@@ -32,8 +32,15 @@ const Routers = function({ history, app }) {
       models: () => [import("./models/tableForm")],
       component: () => import("./routes/tableManager/TableForm")
     },
+    // 首页数据大盘
     {
-      path: "/gamesManager",
+      path: "/home",
+      models: () => [import("./models/home")],
+      component: () => import("./routes/home/index")
+    },
+
+    {
+      path: "/games/gamesManager",
       models: () => [import("./models/gamesManager")],
       component: () => import("./routes/gamesManager/index")
     },
@@ -49,7 +56,7 @@ const Routers = function({ history, app }) {
     },
     // 赛点
     {
-      path: "/gamesPoint",
+      path: "/games/gamesPoint",
       models: () => [import("./models/gamesPoint")],
       component: () => import("./routes/gamesPoint/index")
     },
@@ -65,7 +72,7 @@ const Routers = function({ history, app }) {
     },
     
     {
-      path: "/gamesLevel",
+      path: "/games/gamesLevel",
       models: () => [import("./models/gamesLevel")],
       component: () => import("./routes/gamesLevel/index")
     },
@@ -80,9 +87,61 @@ const Routers = function({ history, app }) {
       component: () => import("./routes/gamesLevel/GamesLevelForm")
     },
 
+    // 赛事类别
+    {
+      path: "/games/gamesType",
+      models: () => [import("./models/gamesType")],
+      component: () => import("./routes/gamesType/index")
+    },
+    {
+      path: "/gamesType/create",
+      models: () => [import("./models/gamesTypeForm")],
+      component: () => import("./routes/gamesType/GamesTypeForm")
+    },
+    {
+      path: "/gamesType/edit/:id",
+      models: () => [import("./models/gamesTypeForm")],
+      component: () => import("./routes/gamesType/GamesTypeForm")
+    },
+
+    // 投注管理
+    {
+      path: "/betManager",
+      models: () => [import("./models/bet")],
+      component: () => import("./routes/bets/index")
+    },
+    
+    // {
+    //   path: "/senceType/create",
+    //   models: () => [import("./models/senceTypeForm")],
+    //   component: () => import("./routes/senceType/SenceTypeForm")
+    // },
+    // {
+    //   path: "/senceType/edit/:id",
+    //   models: () => [import("./models/senceTypeForm")],
+    //   component: () => import("./routes/senceType/SenceTypeForm")
+    // },
+
+    // 场次类型
+    {
+      path: "/games/senceType",
+      models: () => [import("./models/senceType")],
+      component: () => import("./routes/senceType/index")
+    },
+    {
+      path: "/senceType/create",
+      models: () => [import("./models/senceTypeForm")],
+      component: () => import("./routes/senceType/SenceTypeForm")
+    },
+    {
+      path: "/senceType/edit/:id",
+      models: () => [import("./models/senceTypeForm")],
+      component: () => import("./routes/senceType/SenceTypeForm")
+    },
+
     // banner图信息
     {
-      path: "/banner",
+      path: "/games/banner",
       models: () => [import("./models/banner")],
       component: () => import("./routes/banner/index")
     },
@@ -96,6 +155,25 @@ const Routers = function({ history, app }) {
       models: () => [import("./models/bannerForm")],
       component: () => import("./routes/banner/BannerForm")
     },
+
+    // 系统设置
+    {
+      path: "/system/user",
+      models: () => [import("./models/user")],
+      component: () => import("./routes/user/index")
+    },
+
+    // 房间信息
+    // {
+    //   path: "/room",
+    //   models: () => [import("./models/room")],
+    //   component: () => import("./routes/room/index")
+    // },
+    // {
+    //   path: "/room/edit/:id",
+    //   models: () => [import("./models/roomForm")],
+    //   component: () => import("./routes/room/roomForm")
+    // },
   ];
 
   return (
@@ -105,7 +183,7 @@ const Routers = function({ history, app }) {
           <Route
             exact
             path="/"
-            render={() => <Redirect to="/tableManager" />}
+            render={() => <Redirect to="/home" />}
           />
           {routes.map(({ path, ...dynamics }, key) => (
             <Route

@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-11-20 09:05:53
+ * @LastEditTime: 2019-11-28 14:28:04
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \egg-restapi-module-tool\static\src\routes\gamesLevel\GamesLevelView.js
+ */
 import React, { Component, PropTypes } from "react";
 import {
 	Input,
@@ -34,7 +42,7 @@ class GamesLevelView extends Component {
 	}
 
 	goBack() {
-		this.props.dispatch(routerRedux.push({ pathname: "/gamesLevel" }));
+		this.props.dispatch(routerRedux.push({ pathname: "/games/gamesLevel" }));
 	}
   
   returnRespone = ({img_url}) => {

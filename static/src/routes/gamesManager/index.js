@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from "react";
 import { connect } from "dva";
-import { Table, Button, Modal, Switch } from "antd";
+import { Table, Button, Modal, Switch, Popconfirm  } from "antd";
 import { routerRedux } from "dva/router";
 
 const columns = [
@@ -37,6 +37,19 @@ class GamesManager extends Component {
 					>
 						编辑
 					</span>
+					{
+						record.status === 0 &&
+						<Popconfirm title="确定关闭该联赛? 一旦关闭有关赛事将停止！" onConfirm={() => this.toCloseGames(record.id)}>
+								<span
+									style={linkStyle}
+								>
+									关闭
+								</span>
+						</Popconfirm>
+
+						
+					}
+					
 				</div>
 			);
 		};
@@ -44,6 +57,10 @@ class GamesManager extends Component {
 
 	componentDidMount() {
 		this.loadTableData();
+	}
+
+	toCloseGames(id) {
+
 	}
 
 	loadTableData(page = 1, pageSize = 10) {

@@ -5,7 +5,7 @@ var baseWebpackConfig = require("./webpack.base.config");
 module.exports = merge(baseWebpackConfig, {
   devtool: "source-map",
   devServer: {
-    host: "192.168.0.101",
+    host: "0.0.0.0",
     disableHostCheck: true
   },
   plugins: [

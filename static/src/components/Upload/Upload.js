@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-11-20 09:05:53
+ * @LastEditTime: 2019-11-28 15:07:37
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \egg-restapi-module-tool\static\src\components\Upload\Upload.js
+ */
 import React, { PureComponent } from 'react'
 import { Upload, Icon, message } from 'antd';
 import Cookie from "../../utils/js.cookie"
@@ -63,11 +71,11 @@ class UploadFile extends PureComponent {
         className="upload-uploader"
         showUploadList={false}
         headers={{Authorization: Cookie.get("SESSION_TOKEN") }}
-        action="http://127.0.0.1:7001/api/upload"
+        action="http://192.168.1.178:7001/api/upload"
         beforeUpload={beforeUpload}
         onChange={this.handleChange}
       >
-        {imageUrl || img_url ? <img src={imageUrl || `http://127.0.0.1:7001/public/uploads/${img_url}`} alt="Upload" style={{ width: '100%' }} /> : uploadButton}
+        {imageUrl || img_url ? <img src={imageUrl || `http://192.168.1.178:7001/public/uploads/${img_url}`} alt="Upload" style={{ width: '100%' }} /> : uploadButton}
       </Upload>
     );
   }

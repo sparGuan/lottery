@@ -38,7 +38,7 @@ class GamesPointView extends Component {
   }
   
   goBack () {
-    this.props.dispatch(routerRedux.push({ pathname: "/gamesPoint" }));
+    this.props.dispatch(routerRedux.push({ pathname: "/games/gamesPoint" }));
   }
 
   returnResponeMaster = ({ img_url }) => {
@@ -58,11 +58,15 @@ class GamesPointView extends Component {
   render () {
     const { getFieldDecorator } = this.props.form;
     const { Option } = Select;
-    let { list, status, master_count, slave_count, master_consult, slave_consult, commission, games_id, master_info, slave_info, master_start_time,master_img_url, slave_img_url, flat_consult } = this.props
+    let { list, status, master_count, slave_count, master_consult, slave_consult, commission, games_id, master_info, slave_info, master_start_time,master_img_url, slave_img_url, flat_consult, gamesPlay } = this.props
     if (master_start_time) {
       master_start_time = moment(master_start_time, 'YYYY-MM-DD HH:mm')
     }
-
+    if (gamesPlay) {
+      gamesPlay = JSON.parse(decodeURI(gamesPlay))
+    } else {
+      gamesPlay = []
+    }
     const formItemLayout = {
       labelCol: { span: 3 },
       wrapperCol: { span: 12 }
@@ -210,17 +214,6 @@ class GamesPointView extends Component {
             })(<Input placeholder="请输入客场赔率参考值" type="number"/>)}
           </FormItem>
 
-          <FormItem {...formItemLayout} label="主场赔率参考值">
-            {getFieldDecorator("master_consult", {
-              initialValue: master_consult,
-              rules: [
-                {
-                  required: true,
-                  message: "请输入主场赔率参考值"
-                }
-              ]
-            })(<Input placeholder="请输入主场赔率参考值" type="number"/>)}
-          </FormItem>
 
           <FormItem {...formItemLayout} label="平场赔率参考值">
               {getFieldDecorator('flat_consult', {
@@ -241,7 +234,7 @@ class GamesPointView extends Component {
           </FormItem>
             {/*玩法  */}
           <FormItem {...formItemLayout} label="庄盘玩法：">
-              <PlayBox returnToParentData={(data) => {this.returnToParentData(data)}}></PlayBox>
+              <PlayBox returnToParentData={(data) => {this.returnToParentData(data)}} playList={gamesPlay}></PlayBox>
           </FormItem>
 
           <FormItem {...formItemLayout} label="状态">

@@ -45,7 +45,7 @@ class GamesView extends Component {
 	}
 
 	goBack() {
-		this.props.dispatch(routerRedux.push({ pathname: "/gamesManager" }));
+		this.props.dispatch(routerRedux.push({ pathname: "/games/gamesManager" }));
 	}
   
   returnRespone = ({img_url}) => {

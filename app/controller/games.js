@@ -11,6 +11,7 @@ exports.index = function*() {
     this.body = response;
     this.status = 200;
 };
+
 // 查询出10条比赛是今天的，然后是里面的10条赛点
 exports.get_games_points_all = function*() {
   const res = this.params.res;
@@ -19,9 +20,27 @@ exports.get_games_points_all = function*() {
   this.returnJson({ data: result})
   this.status = 200;
 };
-exports.get_games_points_id = function*() {
+
+// 筛选每日 顶级 其他
+exports.get_games_points_filter = function*() {
   const res = this.params.res;
   delete this.params.res;
+  const result = yield this.service.games.loadGamesAndPointsFilter(this.query);
+  this.returnJson({ data: result})
+  this.status = 200;
+};
+
+
+
+exports.get_games_points_id = function*() {
+  const response = { success: false, message: "操作失败", code: 1 };
+  const res = this.params.res;
+  delete this.params.res;
+  const { id } = this.query
+  if (this._.isEmpty(id)) {
+    response.message = '缺少Id'
+    return this.returnJson(response)
+  }
   const result = yield this.service.games.loadGamesPoint(this.query);
   this.returnJson({ data: result})
   this.status = 200;

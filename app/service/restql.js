@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-11-20 09:05:53
+ * @LastEditTime: 2019-11-30 17:25:56
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \egg-restapi-module-tool\app\service\restql.js
+ */
 module.exports = app => {
   class RestqlService extends app.Service {
     *index(modal, query, condition = {}) {
@@ -23,9 +31,7 @@ module.exports = app => {
       return { record, totalRecord: totalRecord[0].total };
     }
     *show(modal, params) {
-      console.log(modal);
       const modalId = yield this.service.tableinfo.primaryKey(modal);
-      console.log(modalId);
       let condition = {};
       condition[modalId] = params.id;
       let record = yield this.app.mysql.get(modal, condition);

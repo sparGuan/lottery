@@ -1,0 +1,1322 @@
+2019-11-11 19:58:54,971 WARN 11700 [-/::1/-/15ms POST /user/authorize?t=1573473534665] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 11700
+hostname: macdeMacBook-Pro.local
+
+2019-11-18 09:51:02,335 WARN 90388 [-/127.0.0.1/-/11ms POST /user/authorize?t=1574041862289] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:68:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 90388
+hostname: macdeMacBook-Pro.local
+
+2019-11-18 10:03:19,860 WARN 91085 [-/192.168.1.21/-/9ms PUT /api/gamesPoint/games_point/11?t=1574042599811] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 91085
+hostname: macdeMacBook-Pro.local
+
+2019-11-18 10:03:21,463 WARN 91085 [-/192.168.1.21/-/4ms PUT /api/gamesPoint/games_point/11?t=1574042601422] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 91085
+hostname: macdeMacBook-Pro.local
+
+2019-11-19 14:43:37,023 WARN 3742 [-/192.168.1.178/-/10ms POST /api/upload] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 3742
+hostname: macdeMacBook-Pro.local
+
+2019-11-19 14:43:57,308 WARN 3742 [-/192.168.1.178/-/6ms POST /api/upload] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 3742
+hostname: macdeMacBook-Pro.local
+
+2019-11-19 14:45:45,243 WARN 3742 [-/192.168.1.21/-/17ms POST /api/upload] Saving 3a8d16a209e8bdbb04f145cebac9230b.jpg to /Users/mac/egg-restapi-module-tool/app/public/uploads/15741459452433a8d16a209e8bdbb04f145cebac9230b.jpg
+2019-11-19 14:46:02,231 WARN 3742 [-/192.168.1.178/-/10ms POST /api/upload] Saving a4.jpg to /Users/mac/egg-restapi-module-tool/app/public/uploads/1574145962231a4.jpg
+2019-11-19 14:46:18,920 WARN 3742 [-/192.168.1.178/-/7ms POST /api/upload] Saving a8.jpg to /Users/mac/egg-restapi-module-tool/app/public/uploads/1574145978920a8.jpg
+2019-11-19 14:46:22,295 WARN 3742 [-/192.168.1.178/-/6ms POST /api/upload] Saving a1.jpg to /Users/mac/egg-restapi-module-tool/app/public/uploads/1574145982295a1.jpg
+2019-11-19 16:47:56,889 WARN 3742 [-/192.168.1.178/-/7ms POST /api/upload] Saving a9.jpg to /Users/mac/egg-restapi-module-tool/app/public/uploads/1574153276889a9.jpg
+2019-11-19 16:48:04,153 WARN 3742 [-/192.168.1.178/-/8ms POST /api/upload] Saving p_big3.jpg to /Users/mac/egg-restapi-module-tool/app/public/uploads/1574153284153p_big3.jpg
+2019-11-19 16:49:34,988 WARN 3742 [-/192.168.1.178/-/5ms POST /user/authorize?t=1574153374595] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 3742
+hostname: macdeMacBook-Pro.local
+
+2019-11-19 16:52:38,954 WARN 6398 [-/127.0.0.1/-/15ms POST /api/upload] Saving 51fa7ce9-ddba-4953-90fd-a15262e24443.jpeg to /Users/mac/egg-restapi-module-tool/app/public/uploads/157415355895351fa7ce9-ddba-4953-90fd-a15262e24443.jpeg
+2019-11-20 10:29:10,397 WARN 90480 [-/127.0.0.1/-/1474ms POST /oauth2/access_token] nodejs.invalid_grant: Invalid grant: user credentials are invalid
+    at new InvalidGrantError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-grant-error.js:27:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:94:15
+From previous event:
+    at PasswordGrantType.getUser (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:92:6)
+    at PasswordGrantType.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:63:19)
+From previous event:
+    at PasswordGrantType.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:62:6)
+    at TokenHandler.handleGrantType (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:231:6)
+    at TokenHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:93:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at TokenHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:92:6)
+    at OAuth2Server.token (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:75:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:104:32)
+    at Object.callFn (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+statusCode: 400
+status: 400
+code: 400
+message: "Invalid grant: user credentials are invalid"
+name: "invalid_grant"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 10:29:11,078 WARN 90480 [-/127.0.0.1/-/2ms POST /user/authorize?t=1574216948826] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 10:29:22,861 WARN 90480 [-/127.0.0.1/-/1714ms POST /oauth2/access_token] nodejs.invalid_grant: Invalid grant: user credentials are invalid
+    at new InvalidGrantError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-grant-error.js:27:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:94:15
+From previous event:
+    at PasswordGrantType.getUser (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:92:6)
+    at PasswordGrantType.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:63:19)
+From previous event:
+    at PasswordGrantType.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:62:6)
+    at TokenHandler.handleGrantType (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:231:6)
+    at TokenHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:93:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at TokenHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:92:6)
+    at OAuth2Server.token (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:75:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:104:32)
+    at Object.callFn (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+statusCode: 400
+status: 400
+code: 400
+message: "Invalid grant: user credentials are invalid"
+name: "invalid_grant"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 10:29:23,561 WARN 90480 [-/127.0.0.1/-/1ms POST /user/authorize?t=1574216961138] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 10:59:32,175 WARN 90480 [-/127.0.0.1/-/807ms POST /oauth2/access_token] nodejs.invalid_grant: Invalid grant: user credentials are invalid
+    at new InvalidGrantError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-grant-error.js:27:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:94:15
+From previous event:
+    at PasswordGrantType.getUser (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:92:6)
+    at PasswordGrantType.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:63:19)
+From previous event:
+    at PasswordGrantType.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:62:6)
+    at TokenHandler.handleGrantType (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:231:6)
+    at TokenHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:93:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at TokenHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:92:6)
+    at OAuth2Server.token (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:75:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:104:32)
+    at Object.callFn (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+statusCode: 400
+status: 400
+code: 400
+message: "Invalid grant: user credentials are invalid"
+name: "invalid_grant"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 10:59:32,960 WARN 90480 [-/127.0.0.1/-/2ms POST /user/authorize?t=1574218771240] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 11:00:02,801 WARN 90480 [-/127.0.0.1/-/758ms POST /oauth2/access_token] nodejs.invalid_grant: Invalid grant: user credentials are invalid
+    at new InvalidGrantError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-grant-error.js:27:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:94:15
+From previous event:
+    at PasswordGrantType.getUser (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:92:6)
+    at PasswordGrantType.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:63:19)
+From previous event:
+    at PasswordGrantType.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:62:6)
+    at TokenHandler.handleGrantType (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:231:6)
+    at TokenHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:93:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at TokenHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:92:6)
+    at OAuth2Server.token (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:75:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:104:32)
+    at Object.callFn (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+statusCode: 400
+status: 400
+code: 400
+message: "Invalid grant: user credentials are invalid"
+name: "invalid_grant"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 11:00:03,580 WARN 90480 [-/127.0.0.1/-/1ms POST /user/authorize?t=1574218801955] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 11:00:10,152 WARN 90480 [-/127.0.0.1/-/810ms POST /oauth2/access_token] nodejs.invalid_grant: Invalid grant: user credentials are invalid
+    at new InvalidGrantError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-grant-error.js:27:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:94:15
+From previous event:
+    at PasswordGrantType.getUser (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:92:6)
+    at PasswordGrantType.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:63:19)
+From previous event:
+    at PasswordGrantType.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:62:6)
+    at TokenHandler.handleGrantType (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:231:6)
+    at TokenHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:93:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at TokenHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:92:6)
+    at OAuth2Server.token (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:75:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:104:32)
+    at Object.callFn (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+statusCode: 400
+status: 400
+code: 400
+message: "Invalid grant: user credentials are invalid"
+name: "invalid_grant"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 11:00:11,148 WARN 90480 [-/127.0.0.1/-/1ms POST /user/authorize?t=1574218809330] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 11:00:43,055 WARN 90480 [-/127.0.0.1/-/739ms POST /oauth2/access_token] nodejs.invalid_grant: Invalid grant: user credentials are invalid
+    at new InvalidGrantError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-grant-error.js:27:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:94:15
+From previous event:
+    at PasswordGrantType.getUser (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:92:6)
+    at PasswordGrantType.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:63:19)
+From previous event:
+    at PasswordGrantType.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\grant-types\password-grant-type.js:62:6)
+    at TokenHandler.handleGrantType (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:231:6)
+    at TokenHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:93:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at TokenHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\token-handler.js:92:6)
+    at OAuth2Server.token (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:75:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:104:32)
+    at Object.callFn (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+statusCode: 400
+status: 400
+code: 400
+message: "Invalid grant: user credentials are invalid"
+name: "invalid_grant"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 11:00:43,834 WARN 90480 [-/127.0.0.1/-/2ms POST /user/authorize?t=1574218842305] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 90480
+hostname: SC-201809281454
+
+2019-11-20 14:37:26,714 WARN 105568 [-/127.0.0.1/-/30ms POST /api/upload] Saving a7.jpg to D:\project\egg-restapi-module-tool\app\public\uploads\1574231846713a7.jpg
+2019-11-20 14:42:47,829 WARN 105568 [-/127.0.0.1/-/35ms POST /api/upload] Saving a3.jpg to D:\project\egg-restapi-module-tool\app\public\uploads\1574232167829a3.jpg
+2019-11-20 14:43:47,252 WARN 105568 [-/127.0.0.1/-/31ms POST /api/upload] Saving a7.jpg to D:\project\egg-restapi-module-tool\app\public\uploads\1574232227251a7.jpg
+2019-11-20 14:47:44,174 WARN 105568 [-/::1/-/2ms POST /api/room/room] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 105568
+hostname: SC-201809281454
+
+2019-11-20 15:25:12,876 WARN 107388 [-/::1/-/24ms POST /api/room/room] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 107388
+hostname: SC-201809281454
+
+2019-11-20 15:50:51,435 WARN 108772 [-/::1/-/3ms POST /api/room/games_room] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 108772
+hostname: SC-201809281454
+
+2019-11-20 15:51:04,848 WARN 108772 [-/127.0.0.1/-/26ms POST /api/upload] Saving a7.jpg to D:\project\egg-restapi-module-tool\app\public\uploads\1574236264847a7.jpg
+2019-11-20 16:02:26,293 WARN 104876 [-/::1/-/21ms POST /api/room/games_room] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 104876
+hostname: SC-201809281454
+
+2019-11-20 16:03:50,564 WARN 104120 [-/::1/-/26ms POST /api/room/games_room] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 104120
+hostname: SC-201809281454
+
+2019-11-20 16:28:37,375 WARN 107912 [-/::1/-/3ms POST /api/room/games_room] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 107912
+hostname: SC-201809281454
+
+2019-11-20 19:19:32,641 WARN 134840 [-/::1/-/27ms POST /api/room/search] nodejs.unauthorized_request: Unauthorized request: no authentication given
+    at new UnauthorizedRequestError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\unauthorized-request-error.js:28:14)
+    at AuthenticateHandler.getTokenFromRequest (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:132:9)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:68:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:67:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Unauthorized request: no authentication given"
+name: "unauthorized_request"
+pid: 134840
+hostname: SC-201809281454
+
+2019-11-20 19:34:41,083 WARN 137188 [-/::1/-/6ms POST /api/room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 137188
+hostname: SC-201809281454
+

@@ -1,0 +1,456 @@
+2019-12-02 13:01:10,298 ERROR 568664 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 568664
+hostname: SC-201809281454
+
+2019-12-02 15:15:34,961 ERROR 595464 [Job#1575270883740676904784325789158] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:15:35,558 ERROR 595464 [Job#1575270883740676904784325789158] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 51818ms
+2019-12-02 15:16:25,988 ERROR 595464 [Job#1575270913741676934784762980159] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:16:26,660 ERROR 595464 [Job#1575270913741676934784762980159] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 72918ms
+2019-12-02 15:17:04,008 ERROR 595464 [Job#1575270973743676994786655960161] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:17:04,602 ERROR 595464 [Job#1575270973743676994786655960161] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 50858ms
+2019-12-02 15:17:16,013 ERROR 595464 [Job#1575270943742676964786101008160] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:17:16,597 ERROR 595464 [Job#1575270943742676964786101008160] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 92853ms
+2019-12-02 15:18:04,039 ERROR 595464 [Job#1575271033746677054789719713163] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:18:04,695 ERROR 595464 [Job#1575271033746677054789719713163] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 50948ms
+2019-12-02 15:18:07,041 ERROR 595464 [Job#1575271003745677024788429757162] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:18:07,680 ERROR 595464 [Job#1575271003745677024788429757162] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 83935ms
+2019-12-02 15:18:58,088 ERROR 595464 [Job#1575271063748677084791742400164] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:18:58,760 ERROR 595464 [Job#1575271063748677084791742400164] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 75010ms
+2019-12-02 15:19:34,101 ERROR 595464 [Job#1575271123751677144794595664166] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:19:34,908 ERROR 595464 [Job#1575271123751677144794595664166] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 51154ms
+2019-12-02 15:19:49,108 ERROR 595464 [Job#1575271093750677114793408108165] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:19:49,799 ERROR 595464 [Job#1575271093750677114793408108165] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 96048ms
+2019-12-02 15:20:34,137 ERROR 595464 [Job#1575271183756677204799310904168] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:20:34,857 ERROR 595464 [Job#1575271183756677204799310904168] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 51101ms
+2019-12-02 15:20:40,141 ERROR 595464 [Job#1575271153754677174798010707167] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute error. { Error: ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
+    at Query.Sequence._packetToError (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+    --------------------
+    at Pool.query (D:\project\egg-restapi-module-tool\node_modules\mysql\lib\Pool.js:199:23)
+    at Object.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\ali-rds\lib\client.js:29:10)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:135:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:119:55)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    sql:  UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )
+  code: 'ER_LOCK_WAIT_TIMEOUT',
+  errno: 1205,
+  sqlMessage: 'Lock wait timeout exceeded; try restarting transaction',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   ' UPDATE banker_order_record a SET a.`status` = 1 WHERE a.id IN (  select id from banker_order_record WHERE `status` = 2 and unix_timestamp(current_timestamp()) > unix_timestamp(expires) )' }
+2019-12-02 15:20:40,805 ERROR 595464 [Job#1575271153754677174798010707167] D:\project\egg-restapi-module-tool\app\schedule\cancel_expires_order.js execute failed, used 87050ms
+2019-12-02 15:52:11,508 ERROR 598056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 598056
+hostname: SC-201809281454
+
+2019-12-02 16:47:59,039 ERROR 598056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 598056
+hostname: SC-201809281454
+

@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-11-20 09:05:53
+ * @LastEditTime: 2019-11-29 12:41:41
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \egg-restapi-module-tool\app\controller\banner.js
+ */
 // 1 获取内容列表，分页，每页几个
 exports.index = function*() {
   const response = { success: false, message: "操作失败" };

@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-11-20 09:05:53
+ * @LastEditTime: 2019-11-28 14:28:15
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \egg-restapi-module-tool\static\src\routes\gamesManager\GamesForm.js
+ */
 import React, { Component, PropTypes } from "react";
 import { connect } from "dva";
 import GamesView from "./GamesView";
@@ -36,7 +44,7 @@ class GamesForm extends Component {
 	}
 
 	goBack() {
-		this.props.dispatch(routerRedux.push({ pathname: "/gamesManager" }));
+		this.props.dispatch(routerRedux.push({ pathname: "/games/gamesManager" }));
 	}
 
 	onSubmit(values) {

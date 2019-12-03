@@ -3,7 +3,7 @@ import menu from "./menu";
 import request from "./request";
 import classnames from "classnames";
 import { color } from "./theme";
-
+import moment from "moment"
 // 连字符转驼峰
 String.prototype.hyphenToHump = function() {
   return this.replace(/-(\w)/g, (...args) => {
@@ -346,6 +346,7 @@ const decode64 = input => {
 };
 
 module.exports = {
+  moment,
   config,
   menu,
   request,

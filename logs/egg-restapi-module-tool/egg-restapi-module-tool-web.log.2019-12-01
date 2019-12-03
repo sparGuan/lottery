@@ -1,0 +1,1101 @@
+2019-12-01 09:49:47,873 INFO 528020 [-/192.168.1.178/-/30ms POST /api/v1/publishGames?t=1575164987768] [service.gamesPoint] 没有获胜玩家=============>
+2019-12-01 10:08:09,952 INFO 529528 [-/192.168.1.178/-/43ms POST /api/v1/do_destroy_games_point?t=1575166089857] [service.gamesUserOrderRecord] 取消比赛成功：id=================>32
+2019-12-01 10:13:43,237 INFO 531840 [-/192.168.1.178/-/28ms POST /api/v1/do_destroy_games_point?t=1575166423156] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>32
+2019-12-01 10:14:48,804 INFO 531480 [-/192.168.1.178/-/49ms POST /api/v1/do_destroy_games_point?t=1575166488696] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>32
+2019-12-01 10:16:17,495 INFO 531928 [-/192.168.1.178/-/9ms POST /api/v1/do_destroy_games_point?t=1575166577457] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>32
+2019-12-01 10:16:48,639 INFO 533016 [-/192.168.1.178/-/12ms POST /api/v1/do_destroy_games_point?t=1575166608617] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>32
+2019-12-01 10:19:07,934 INFO 533016 [-/192.168.1.178/-/8ms POST /api/v1/do_destroy_games_point?t=1575166747872] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>30
+2019-12-01 10:27:36,388 INFO 526300 [-/192.168.1.178/-/10ms POST /api/v1/do_destroy_games_point?t=1575167256369] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>31
+2019-12-01 10:44:31,158 INFO 534856 [-/192.168.1.178/-/9ms POST /api/v1/do_destroy_games_point?t=1575168271139] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>29
+2019-12-01 10:45:04,123 INFO 535036 [-/192.168.1.178/-/25ms POST /api/v1/do_destroy_games_point?t=1575168304042] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>29
+2019-12-01 10:45:47,822 INFO 535036 [-/192.168.1.178/-/6ms POST /api/v1/do_destroy_games_point?t=1575168347762] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>29
+2019-12-01 10:46:13,724 INFO 536328 [-/192.168.1.178/-/9ms POST /api/v1/do_destroy_games_point?t=1575168373706] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>29
+2019-12-01 10:47:54,228 INFO 526784 [-/192.168.1.178/-/8ms POST /api/v1/do_destroy_games_point?t=1575168474209] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>29
+2019-12-01 10:48:45,990 INFO 526784 [-/192.168.1.178/-/8ms POST /api/v1/do_destroy_games_point?t=1575168525971] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>28
+2019-12-01 10:49:24,764 INFO 535728 [-/192.168.1.178/-/8ms POST /api/v1/do_destroy_games_point?t=1575168564747] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>29
+2019-12-01 10:49:27,187 INFO 535728 [-/192.168.1.178/-/9ms POST /api/v1/do_destroy_games_point?t=1575168567138] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>28
+2019-12-01 11:18:02,512 WARN 538720 [-/192.168.1.178/-/15ms POST /api/upload] Saving icon-jingangqv-xianxiazhuanqv@3x.png to D:\project\egg-restapi-module-tool\app\public\uploads\1575170282511icon-jingangqv-xianxiazhuanqv@3x.png
+2019-12-01 11:18:21,307 WARN 538720 [-/192.168.1.178/-/4ms POST /api/upload] Saving icon-jingangqv-mianfeichanpin@3x.png to D:\project\egg-restapi-module-tool\app\public\uploads\1575170301307icon-jingangqv-mianfeichanpin@3x.png
+2019-12-01 11:28:58,617 INFO 541400 [-/127.0.0.1/-/48ms POST /api/room/create_order] before create===================> authorization:  Bearer b70b5689673032b4e7dab88a94207a837bd7c7981575170938
+2019-12-01 11:29:12,479 INFO 541400 [-/127.0.0.1/-/2ms POST /api/room/create_order] before create===================> authorization:  Bearer b70b5689673032b4e7dab88a94207a837bd7c7981575170952
+2019-12-01 11:29:22,759 INFO 541400 [-/127.0.0.1/-/0ms POST /api/create_room?id=32&tx=452345324523523534] before update===================>1575170962
+2019-12-01 11:29:22,802 INFO 541400 [-/127.0.0.1/-/43ms POST /api/create_room?id=32&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":158,"serverStatus":3,"warningCount":0,"message":"","protocol41":true,"changedRows":0}==============>1575170962
+2019-12-01 11:29:22,913 INFO 541400 [-/127.0.0.1/-/154ms POST /api/create_room?id=32&tx=452345324523523534] end update===================>1575170962
+2019-12-01 11:40:28,040 INFO 544744 [-/127.0.0.1/-/17ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575171628
+2019-12-01 11:54:07,015 INFO 541900 [-/127.0.0.1/-/24ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575172447
+2019-12-01 11:54:23,181 INFO 546400 [-/127.0.0.1/-/26ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575172463
+2019-12-01 11:54:36,216 INFO 547720 [-/127.0.0.1/-/28ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575172476
+2019-12-01 11:55:08,849 INFO 547224 [-/127.0.0.1/-/28ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575172508
+2019-12-01 11:55:26,523 INFO 547288 [-/127.0.0.1/-/31ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575172526
+2019-12-01 11:55:48,852 INFO 547564 [-/127.0.0.1/-/17ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575172548
+2019-12-01 11:55:59,058 INFO 538948 [-/127.0.0.1/-/30ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575172559
+2019-12-01 11:56:09,415 INFO 546856 [-/127.0.0.1/-/18ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575172569
+2019-12-01 12:22:32,469 INFO 551300 [-/127.0.0.1/-/23ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575174152
+2019-12-01 12:42:51,793 INFO 553200 [-/192.168.1.178/-/50ms POST /api/v1/publishGames?t=1575175371666] [service.gamesPoint] 没有获胜玩家=============>
+2019-12-01 12:51:56,210 INFO 554392 [-/127.0.0.1/-/73ms POST /api/v1/banker_order_record] =================>可领取金额:200504.15 当前奖金池金额：211057time: 1575175916
+2019-12-01 12:52:36,872 INFO 554108 [-/127.0.0.1/-/84ms POST /api/v1/banker_order_record] =================>可领取金额:200504.15 当前奖金池金额：211057time: 1575175956
+2019-12-01 12:55:11,573 INFO 548596 [-/127.0.0.1/-/87ms POST /api/v1/banker_order_record] =================>可领取金额:200504.15 当前奖金池金额：211057time: 1575176111
+2019-12-01 13:07:42,024 INFO 553476 [-/127.0.0.1/-/9ms POST /api/v1/banker_order_record] =================>banker_order_record_id:116time: 1575176862
+2019-12-01 14:02:51,789 INFO 557516 [-/127.0.0.1/-/15ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575180171
+2019-12-01 14:02:54,314 INFO 557516 [-/127.0.0.1/-/2ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:73time: 1575180174
+2019-12-01 14:03:08,858 INFO 557516 [-/127.0.0.1/-/176ms POST /api/v1/player_order_record] =================>该奖金池不存在！player_order_record_id:48time: 1575180188
+2019-12-01 14:03:10,754 INFO 557516 [-/127.0.0.1/-/132ms POST /api/v1/player_order_record] =================>该奖金池不存在！player_order_record_id:48time: 1575180190
+2019-12-01 15:39:01,045 WARN 568736 [-/192.168.1.28/-/18ms POST /api/disc/banker_disc] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 15:41:40,827 INFO 568736 [-/192.168.1.28/-/123ms POST /api/room/create_order] before create===================> authorization:  Bearer 8bd14a383f67a1fe3923f00774bcda05163f9a371575186100
+2019-12-01 15:42:05,710 WARN 568736 [-/192.168.1.28/-/19ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 15:42:25,591 INFO 568736 [-/192.168.1.28/-/117ms POST /api/room/create_order] before create===================> authorization:  Bearer 531019e33886083c70fc3b25d37ea55e97bd6c0a1575186145
+2019-12-01 15:43:17,715 INFO 568736 [-/192.168.1.28/-/90ms POST /api/room/create_order] before create===================> authorization:  Bearer 531019e33886083c70fc3b25d37ea55e97bd6c0a1575186197
+2019-12-01 15:44:22,780 WARN 568736 [-/192.168.1.28/-/50ms GET /api/room/games_room?page=1&pageSize=20&games_point_id=33] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 15:44:23,688 WARN 568736 [-/192.168.1.28/-/957ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 15:44:27,401 WARN 568736 [-/192.168.1.28/-/251ms GET /api/room/games_room?page=1&pageSize=20&games_point_id=33] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 15:45:22,335 INFO 568736 [-/192.168.1.28/-/111ms POST /api/room/create_order] before create===================> authorization:  Bearer e87582a725be744b1ba93f167fe8b0d0fbf5598f1575186322
+2019-12-01 15:46:24,625 WARN 568736 [-/192.168.1.28/-/72ms POST /api/upload] Saving assets.png to D:\project\egg-restapi-module-tool\app\public\uploads\1575186384625assets.png
+2019-12-01 15:46:38,560 INFO 568736 [-/192.168.1.178/-/47ms POST /api/v1/publishGames?t=1575186398480] [service.gamesPoint] 没有获胜玩家=============>
+2019-12-01 15:46:41,052 WARN 568736 [-/192.168.1.28/-/25ms POST /api/upload] Saving cf_icon.png to D:\project\egg-restapi-module-tool\app\public\uploads\1575186401052cf_icon.png
+2019-12-01 15:48:20,021 INFO 568736 [-/192.168.1.28/-/64ms POST /api/room/create_order] before create===================> authorization:  Bearer ad4625de19526b7db7a378708ae80c4d6ca955e71575186500
+2019-12-01 15:48:32,139 INFO 568736 [-/192.168.1.28/-/2ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:117time: 1575186512
+2019-12-01 15:48:45,943 INFO 568736 [-/192.168.1.28/-/2ms POST /api/v1/create_bets] [service.bets] =================>查询玩家入金记录失败！订单id:117time: 1575186525
+2019-12-01 15:49:41,078 WARN 568736 [-/192.168.1.28/-/13ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 15:49:46,106 WARN 568736 [-/192.168.1.28/-/13ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 15:50:05,438 INFO 568736 [-/192.168.1.28/-/100ms POST /api/room/create_order] before create===================> authorization:  Bearer 6c238164c50984daee957283435fba10416608981575186605
+2019-12-01 15:50:16,743 INFO 568736 [-/192.168.1.28/-/1ms POST /api/create_room?id=32&tx=452345324523523534] before update===================>1575186616
+2019-12-01 15:50:16,779 INFO 568736 [-/192.168.1.28/-/37ms POST /api/create_room?id=32&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":159,"serverStatus":3,"warningCount":0,"message":"","protocol41":true,"changedRows":0}==============>1575186616
+2019-12-01 15:50:16,927 INFO 568736 [-/192.168.1.28/-/185ms POST /api/create_room?id=32&tx=452345324523523534] end update===================>1575186616
+2019-12-01 16:03:31,920 WARN 568736 [-/192.168.1.28/-/50ms GET /api/room/games_room?page=1&pageSize=20&games_point_id=34] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 16:03:32,712 WARN 568736 [-/192.168.1.28/-/809ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 16:04:49,199 WARN 568736 [-/192.168.1.28/-/13ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 16:04:49,883 WARN 568736 [-/192.168.1.28/-/687ms GET /api/room/games_room?page=1&pageSize=20&games_point_id=34] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 568736
+hostname: SC-201809281454
+
+2019-12-01 16:20:40,499 INFO 571552 [-/192.168.1.28/-/123ms POST /api/room/create_order] before create===================> authorization:  Bearer 854b5c70071f962436b79b6420bd0375d88df7441575188440
+2019-12-01 16:21:17,066 INFO 571552 [-/192.168.1.28/-/2ms POST /api/create_room?id=32&tx=452345324523523534] before update===================>1575188477
+2019-12-01 16:21:17,156 INFO 571552 [-/192.168.1.28/-/92ms POST /api/create_room?id=32&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":160,"serverStatus":3,"warningCount":0,"message":"","protocol41":true,"changedRows":0}==============>1575188477
+2019-12-01 16:21:17,298 INFO 571552 [-/192.168.1.28/-/234ms POST /api/create_room?id=32&tx=452345324523523534] end update===================>1575188477
+2019-12-01 16:28:38,158 WARN 571552 [-/192.168.1.28/-/24ms POST /api/playerOrderRecord/player_order_record] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 571552
+hostname: SC-201809281454
+
+2019-12-01 16:28:38,879 WARN 571552 [-/192.168.1.28/-/744ms POST /api/playerOrderRecord/player_order_record] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 571552
+hostname: SC-201809281454
+
+2019-12-01 16:33:31,747 WARN 571552 [-/192.168.1.28/-/13ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 571552
+hostname: SC-201809281454
+
+2019-12-01 16:33:32,510 WARN 571552 [-/192.168.1.28/-/766ms GET /api/room/games_room?page=1&pageSize=20&games_point_id=34] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 571552
+hostname: SC-201809281454
+
+2019-12-01 16:59:50,339 WARN 575700 [-/192.168.1.28/-/16ms POST /api/room/create_order] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 575700
+hostname: SC-201809281454
+
+2019-12-01 17:00:17,960 INFO 575700 [-/192.168.1.28/-/52ms POST /api/room/create_order] before create===================> authorization:  Bearer 1bc902a5dbfe9465ee12ba9c3847da8117061ef41575190817
+2019-12-01 17:00:30,771 INFO 575700 [-/192.168.1.28/-/1ms POST /api/create_room?id=32&tx=452345324523523534] before update===================>1575190830
+2019-12-01 17:00:30,815 INFO 575700 [-/192.168.1.28/-/45ms POST /api/create_room?id=32&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":161,"serverStatus":3,"warningCount":0,"message":"","protocol41":true,"changedRows":0}==============>1575190830
+2019-12-01 17:00:30,901 INFO 575700 [-/192.168.1.28/-/131ms POST /api/create_room?id=32&tx=452345324523523534] end update===================>1575190830
+2019-12-01 21:43:32,238 WARN 575700 [-/192.168.1.28/-/63ms POST /api/upload] Saving maintenance.png to D:\project\egg-restapi-module-tool\app\public\uploads\1575207812237maintenance.png
+2019-12-01 21:45:18,845 WARN 575700 [-/192.168.1.28/-/63ms POST /api/upload] Saving success.png to D:\project\egg-restapi-module-tool\app\public\uploads\1575207918844success.png
+2019-12-01 21:58:45,288 INFO 575700 [-/192.168.1.28/-/180ms POST /api/room/create_order] before create===================> authorization:  Bearer 74c9847773d5191afbd9142ef0f3d84352c6b6d11575208725
+2019-12-01 22:00:17,319 INFO 575700 [-/192.168.1.28/-/162ms POST /api/v1/publishGames?t=1575208817991] [service.gamesPoint] 没有获胜玩家=============>
+2019-12-01 22:04:55,474 WARN 575700 [-/192.168.1.28/-/20ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 575700
+hostname: SC-201809281454
+
+2019-12-01 22:04:56,144 WARN 575700 [-/192.168.1.28/-/15ms GET /api/room/games_room?page=1&pageSize=20&games_point_id=36] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 575700
+hostname: SC-201809281454
+
+2019-12-01 22:06:08,109 INFO 575700 [-/192.168.1.28/-/99ms POST /api/room/create_order] before create===================> authorization:  Bearer 15643ea19a2c6ca56fdc24d0dfc23bae81fa070c1575209168
+2019-12-01 22:07:44,069 INFO 575700 [-/192.168.1.28/-/144ms POST /api/room/create_order] before create===================> authorization:  Bearer bea0d9ec8aa625ca6a4439a88568e805e8cfbab91575209264
+2019-12-01 22:08:12,695 INFO 575700 [-/192.168.1.28/-/29ms POST /api/v1/do_destroy_games_point?t=1575209293526] [service.gamesUserOrderRecord] 取消比赛成功：比赛id=================>36
+2019-12-01 22:09:50,582 INFO 575700 [-/192.168.1.28/-/149ms POST /api/room/create_order] before create===================> authorization:  Bearer 8ce72e2e563b901b621abfa5e3ee0ffa14b1d4b71575209390
+2019-12-01 22:29:22,268 WARN 575700 [-/192.168.1.28/-/109ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 575700
+hostname: SC-201809281454
+
+2019-12-01 22:29:22,918 WARN 575700 [-/192.168.1.28/-/723ms GET /api/room/games_room?page=1&pageSize=20&games_point_id=31] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 575700
+hostname: SC-201809281454
+
+2019-12-01 22:34:28,898 WARN 575700 [-/192.168.1.28/-/23ms POST /api/disc/banker_disc] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\errors\invalid-token-error.js:25:14)
+    at D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:71:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at AuthenticateHandler.handle (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\handlers\authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (D:\project\egg-restapi-module-tool\node_modules\oauth2-server\lib\server.js:43:6)
+    at OAuth2.execute (D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:90:41)
+    at D:\project\egg-restapi-module-tool\node_modules\egg-oauth2-server\lib\server.js:116:32
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\project\egg-restapi-module-tool\node_modules\co\index.js:118:63)
+    at next (D:\project\egg-restapi-module-tool\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:69:7)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+    at converted (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\project\egg-restapi-module-tool\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\project\egg-restapi-module-tool\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (D:\project\egg-restapi-module-tool\node_modules\co\index.js:65:19)
+    at D:\project\egg-restapi-module-tool\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\project\egg-restapi-module-tool\node_modules\co\index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 575700
+hostname: SC-201809281454
+

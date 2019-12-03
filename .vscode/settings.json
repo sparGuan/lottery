@@ -1,0 +1,24 @@
+ {
+"editor.multiCursorModifier":"ctrlCmd", 
+"editor.snippetSuggestions":"top", 
+// "editor.formatOnSave": true,
+"eslint.autoFixOnSave":false, 
+"editor.formatOnSave":false, 
+"[javascript]": {
+"editor.formatOnSave":false
+  }, 
+// 控制字体系列。
+"editor.fontFamily":"Monaco, Menlo, 'Courier New', monospace", 
+"editor.tabSize":2, 
+"editor.fontSize":16, 
+"eslint.options": {
+"plugins":[
+          // "html",
+          // "vue"
+      ]
+  }, 
+"eslint.validate":[
+      "javascript", 
+"javascriptreact", 
+], 
+}

@@ -1,3 +1,11 @@
+/*
+ * @Author: spar
+ * @Date: 2019-11-20 09:05:53
+ * @LastEditTime: 2019-12-01 14:59:37
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \egg-restapi-module-tool\app\controller\gamesPoint.js
+ */
 // 1 获取内容列表，分页，每页几个
 exports.index = function*() {
   const response = { success: false, message: "操作失败" };
@@ -77,4 +85,74 @@ exports.destroy = function*() {
   }
   this.body = response;
   this.status = 200;
+};
+/**
+ * 取消比赛
+ */
+exports.doDestroyGamesPoint = function*() {
+  const response = { success: false, message: "操作失败", code: 1 };
+  const user = yield this.getContextUser(response, true)
+  
+  if (user.code && user.code === 1) {
+    response.message = '获取授权用户失败'
+    return  this.returnJson(user)
+  }
+  
+  const { id } = this.request.body
+  if (this._.isEmpty(String(id))) {
+    response.message = '缺少赛事id'
+    return  this.returnJson(response)
+  }
+  
+  const result = yield this.service.gamesUserOrderRecord.destroyGamesPointAndBack(this.request.body, response); // 取消所有比赛并且退回所有资金
+  return  this.returnJson(result)
+};
+// 运营人员公布比赛结果
+/**
+ * @param score
+ * @param result 
+ * @param id
+ */
+exports.publishGames = function*() {
+  const response = { success: false, message: "操作失败", code: 1 };
+  const { result, id, score  } = this.request.body
+  const res = yield this.app.mysql.get('games_point', {
+    id,
+    status: 2
+  })
+  if (!res) {
+    response.message = "该场次不存在！"
+    return this.returnJson(response)
+  }
+
+
+  const conn = yield this.app.mysql.beginTransaction()
+  const ret1 = yield conn.update(
+    'games_point',
+    {
+      result,
+      score,
+      status: 3, // 已经开
+      remarks: '已开赛'
+    },
+    {
+      where: {
+        id
+      }
+    }
+  )
+  if (ret1.changedRows !== 1) {
+    yield conn.rollback();
+    return this.returnJson(response)
+  }
+  yield conn.commit(); // 提交事务
+  // 查找出所有赢的玩家
+  const connn = yield this.app.mysql.beginTransaction()
+  const ret = yield this.service.gamesPoint.findWinerAndUpdate({ result, id  }, response, connn);
+  if (ret.code && ret.code !== 0) {
+    yield connn.rollback(); 
+    return this.returnJson(ret)
+  }
+  yield connn.commit(); // 提交事务
+  return this.returnJson({data: ret, message: `本场赛事共有${ret.changedRows}名玩家赢取了比赛`})
 };

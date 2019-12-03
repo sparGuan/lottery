@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-11-20 09:05:53
+ * @LastEditTime: 2019-11-29 09:20:36
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \egg-restapi-module-tool\static\src\routes\gamesPoint\GamesPointForm.js
+ */
 import React, { Component, PropTypes } from "react";
 import { connect } from "dva";
 import GamesPointView from "./GamesPointView";
@@ -35,11 +43,17 @@ class GamesPointForm extends Component {
 	}
 
 	goBack() {
-		this.props.dispatch(routerRedux.push({ pathname: "/gamesPoint" }));
+		this.props.dispatch(routerRedux.push({ pathname: "/games/gamesPoint" }));
 	}
 
 	onSubmit(values) {
 		const hide = message.loading("正在保存...", 0);
+		const { gamesPlay } = this.props
+		if (_.map(JSON.parse(decodeURI(gamesPlay)), {type: '0'}).length > 1) {
+			message.info('只能添加一个胜平负！');
+			hide();
+			return false
+		}
 		this.props.dispatch({
 			type: "gamesPointForm/saveGamesPoint",
 			payload: {
@@ -73,7 +87,8 @@ class GamesPointForm extends Component {
         slave_img_url={props.slave_img_url}
         master_img_url={props.master_img_url}
         master_start_time={props.master_start_time}
-        flat_consult={props.flat_consult}
+				flat_consult={props.flat_consult}
+				gamesPlay={props.gamesPlay}
         // slave_start_time={props.slave_start_time}
         games_id={props.games_id}
         master_info={props.master_info}

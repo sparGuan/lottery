@@ -34,7 +34,7 @@ class BannerView extends Component {
 	}
 
 	goBack() {
-		this.props.dispatch(routerRedux.push({ pathname: "/banner" }));
+		this.props.dispatch(routerRedux.push({ pathname: "/games/banner" }));
 	}
   
   returnRespone = ({img_url}) => {

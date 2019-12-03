@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-11-20 09:05:53
+ * @LastEditTime: 2019-11-28 15:11:32
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \egg-restapi-module-tool\static\src\routes\gamesLevel\GamesLevelForm.js
+ */
 import React, { Component, PropTypes } from "react";
 import { connect } from "dva";
 import GamesLevelView from "./GamesLevelView";
@@ -34,7 +42,7 @@ class GamesLevelForm extends Component {
 	}
 
 	goBack() {
-		this.props.dispatch(routerRedux.push({ pathname: "/gamesLevel" }));
+		this.props.dispatch(routerRedux.push({ pathname: "/games/gamesLevel" }));
 	}
 
 	onSubmit(values) {

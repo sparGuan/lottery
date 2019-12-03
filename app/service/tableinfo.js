@@ -12,6 +12,7 @@ module.exports = app => {
       }
       return result;
     }
+
     *show(params) {
       const tableName = params.res;
       const queryStr = `desc ${tableName};`;
@@ -73,6 +74,40 @@ module.exports = app => {
       }
       return record;
     }
+    toCondition(condition = {}, isLike) {
+      let conditionstr = "";
+      if (!isLike) {
+        if (JSON.stringify(condition) !== "{}") {
+          conditionstr = " WHERE ";
+          for (const key in condition) {
+            conditionstr = conditionstr + key + " = " + condition[key] + " and ";
+          }
+          conditionstr = conditionstr.substring(
+            0,
+            conditionstr.lastIndexOf(" and ")
+          );
+          conditionstr += ' and a.status = 0'
+        } else {
+          conditionstr += 'WHERE a.status = 0'
+        }
+    } else {
+      if (JSON.stringify(condition) != "{}") {
+        conditionstr = " WHERE ";
+        for (const key in condition) {
+          conditionstr = conditionstr + key + " like " + '"%' + condition[key] + '%"' + " and ";
+        }
+        conditionstr = conditionstr.substring(
+          0,
+          conditionstr.lastIndexOf(" and ")
+        );
+        conditionstr += ' and a.status = 0'
+      } else {
+        conditionstr += ' WHERE a.status = 0'
+      }
+    }
+    return conditionstr
+  }
+
     toTimestamp(req) {
       if (req && !req.create_time) {
         req.create_time = moment().unix()
@@ -80,7 +115,7 @@ module.exports = app => {
       }
       return req
     }  
-    toUpdateTimestamp() {
+    toUpdateTimestamp(req) {
       if (req && !req.update_time) {
         req.update_time = moment().unix()
       }

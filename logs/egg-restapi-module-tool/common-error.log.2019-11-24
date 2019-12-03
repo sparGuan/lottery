@@ -1,0 +1,171 @@
+2019-11-24 10:33:52,080 ERROR 16244 [-/127.0.0.1/-/6ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16244
+hostname: SC-201809281454
+
+2019-11-24 10:33:57,090 ERROR 16244 [-/127.0.0.1/-/5ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16244
+hostname: SC-201809281454
+
+2019-11-24 10:34:21,231 ERROR 14832 [-/127.0.0.1/-/20ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14832
+hostname: SC-201809281454
+
+2019-11-24 10:35:35,639 ERROR 16672 [-/127.0.0.1/-/19ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16672
+hostname: SC-201809281454
+
+2019-11-24 10:36:53,647 ERROR 17136 [-/127.0.0.1/-/21ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 17136
+hostname: SC-201809281454
+
+2019-11-24 10:37:20,104 ERROR 15980 [-/127.0.0.1/-/19ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 15980
+hostname: SC-201809281454
+
+2019-11-24 10:38:16,621 ERROR 14232 [-/127.0.0.1/-/26ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14232
+hostname: SC-201809281454
+
+2019-11-24 10:38:47,792 ERROR 16820 [-/127.0.0.1/-/21ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16820
+hostname: SC-201809281454
+
+2019-11-24 10:39:03,361 ERROR 4192 [-/127.0.0.1/-/23ms POST /api/v1/create_bets_order] nodejs.TypeError [ERR_INVALID_CHAR]: Invalid character in statusMessage
+    at ServerResponse.writeHead (_http_server.js:246:11)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.end (_http_outgoing.js:702:5)
+    at respond (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:258:7)
+    at handleResponse (D:\project\egg-restapi-module-tool\node_modules\koa\lib\application.js:160:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4192
+hostname: SC-201809281454
+
+2019-11-24 16:09:15,961 ERROR 54740 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 54740
+hostname: SC-201809281454
+
+2019-11-24 16:28:53,038 ERROR 54740 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 54740
+hostname: SC-201809281454
+
+2019-11-24 18:43:22,361 ERROR 54740 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 54740
+hostname: SC-201809281454
+
+2019-11-24 21:04:08,079 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+
+2019-11-24 21:05:21,658 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+
+2019-11-24 21:12:01,510 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+
+2019-11-24 21:14:48,594 ERROR 20804 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20804
+hostname: SC-201809281454
+

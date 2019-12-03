@@ -4,6 +4,8 @@ import {
   save,
   loadGamesPoint
 } from "../services/gamesPointForm";
+const _ = require('lodash')
+import { message } from 'antd'
 
 const initState = {
 	id: "",
@@ -76,7 +78,7 @@ export default {
         // slave_start_time: payload.slave_start_time,
         commission: payload.commission,
         master_start_time: payload.master_start_time
-			};
+      };
 			if (payload.id) {
 				params.id = payload.id;
 				data = yield call(update, params);

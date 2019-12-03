@@ -1,4 +1,4 @@
-import { query, remove, update, removeTable } from "../services/gamesPoint";
+import { query, remove, update, removeTablem, toOpenLottery, todestoryGames  } from "../services/gamesPoint";
 
 export default {
   namespace: "gamesPoint",
@@ -11,10 +11,23 @@ export default {
       current: 1,
       pageSize: 10,
       total: 0
-    }
+    },
+
   },
 
   effects: {
+    *toOpenLottery({ payload }, { call, put }) {
+      const {result, score, id} = payload
+      const data = yield call(toOpenLottery, {result, score, id});
+      payload.callback(data)
+    },
+
+    *todestoryGames({ payload }, { call, put }) {
+      const { id } = payload
+      const data = yield call(todestoryGames, { id });
+      payload.callback(data)
+    },
+
     *loadGamesPoint({ payload }, { call, put }) {
       yield put({ type: "showLoading" });
       payload.sortField = "create_time";

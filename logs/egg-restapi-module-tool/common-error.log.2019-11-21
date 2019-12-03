@@ -1,0 +1,9 @@
+2019-11-21 10:13:37,664 ERROR 136764 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 136764
+hostname: SC-201809281454
+
