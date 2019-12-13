@@ -1,381 +1,381 @@
 {
-  "keys": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
-  "private_key": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
+  "keys": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
+  "private_key": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
   "view": {
-    "defaultViewEngine": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
+    "defaultViewEngine": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
     "mapping": {
-      ".tpl": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js"
+      ".tpl": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js"
     },
-    "root": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-view/config/config.default.js"
   },
-  "middleware": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
+  "middleware": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
   "errorHandler": {
-    "games": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js"
+    "games": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js"
   },
   "robot": {
-    "ua": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js"
+    "ua": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js"
   },
   "security": {
-    "ignore": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
-    "domainWhiteList": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
+    "ignore": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
+    "domainWhiteList": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
     "methodnoallow": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js"
     },
     "csrf": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
-      "ignoreJSON": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
-      "type": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
+      "ignoreJSON": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
+      "type": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     },
-    "protocolWhiteList": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
     "xframe": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
     }
   },
   "cors": {
-    "allowMethods": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js"
+    "allowMethods": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js"
   },
   "multipart": {
-    "fileExtensions": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
-    "autoFields": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-multipart\\config\\config.default.js"
+    "fileExtensions": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
+    "autoFields": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-multipart/config/config.default.js"
   },
   "oAuth2Server": {
-    "grants": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
-    "expires": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
-    "accessTokenLifetime": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js",
-    "debug": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-oauth2-server\\config\\config.default.js"
+    "grants": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
+    "expires": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
+    "accessTokenLifetime": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js",
+    "debug": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-oauth2-server/config/config.default.js"
   },
   "logger": {
     "coreLogger": {
-      "consoleLevel": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.local.js"
     }
   },
   "customLogger": {
-    "scheduleLogger": "D:\\project\\egg-restapi-module-tool\\config\\config.default.js"
+    "scheduleLogger": "/Users/mac/demo1/egg-restapi-module-tool/config/config.default.js"
   },
   "mysql": {
     "client": {
-      "host": "D:\\project\\egg-restapi-module-tool\\config\\config.local.js",
-      "port": "D:\\project\\egg-restapi-module-tool\\config\\config.local.js",
-      "user": "D:\\project\\egg-restapi-module-tool\\config\\config.local.js",
-      "password": "D:\\project\\egg-restapi-module-tool\\config\\config.local.js",
-      "database": "D:\\project\\egg-restapi-module-tool\\config\\config.local.js"
+      "host": "/Users/mac/demo1/egg-restapi-module-tool/config/config.local.js",
+      "port": "/Users/mac/demo1/egg-restapi-module-tool/config/config.local.js",
+      "user": "/Users/mac/demo1/egg-restapi-module-tool/config/config.local.js",
+      "password": "/Users/mac/demo1/egg-restapi-module-tool/config/config.local.js",
+      "database": "/Users/mac/demo1/egg-restapi-module-tool/config/config.local.js"
     },
-    "app": "D:\\project\\egg-restapi-module-tool\\config\\config.local.js",
-    "agent": "D:\\project\\egg-restapi-module-tool\\config\\config.local.js",
+    "app": "/Users/mac/demo1/egg-restapi-module-tool/config/config.local.js",
+    "agent": "/Users/mac/demo1/egg-restapi-module-tool/config/config.local.js",
     "default": {
-      "database": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-mysql\\config\\config.default.js"
+      "database": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-mysql/config/config.default.js"
     }
   },
   "session": {
-    "maxAge": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "development": {
-    "watchDirs": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-development/config/config.default.js"
   },
   "schedule": {
-    "directory": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-schedule/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-static/config/config.default.js"
   },
   "nunjucks": {
-    "autoescape": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-view-nunjucks/config/config.local.js"
   },
-  "env": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
+  "env": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "name": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "main": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
+    "name": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "version": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "description": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "main": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
     "scripts": {
-      "pro": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "dev": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "dev_static": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "build": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "server": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "debug": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "test": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "pro": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "dev": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "dev_static": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "build": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "server": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "debug": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "test": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     },
-    "author": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
+    "author": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
     "devDependencies": {
-      "autoprefixer": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "axios": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-core": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-plugin-add-module-exports": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-plugin-import": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-plugin-transform-runtime": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-polyfill": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-preset-es2015": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-preset-react": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-preset-stage-2": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-runtime": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "chalk": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "commander": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "css-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-oauth2-server": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "eslint-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "extract-text-webpack-plugin": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "file-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "json-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "less": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "less-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "less-plugin-npm-import": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "node-sass": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "postcss": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "postcss-cssnext": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "postcss-import": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "postcss-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "postcss-modules": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "postcss-nested": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "postcss-nesting": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "sass-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "style-loader": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "supertest": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "webpack": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "webpack-dev-server": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "webpack-merge": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "xss": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "autoprefixer": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "axios": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-plugin-add-module-exports": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-runtime": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-polyfill": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-preset-es2015": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-preset-react": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-preset-stage-2": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-runtime": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "chalk": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "commander": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-oauth2-server": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "extract-text-webpack-plugin": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "json-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "less": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "less-plugin-npm-import": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "postcss": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "postcss-cssnext": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "postcss-import": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "postcss-modules": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "postcss-nested": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "postcss-nesting": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "supertest": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "xss": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
-      "antd": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "async-lock": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "babel-register": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "co-fs": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "csrf": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "draft-js-export-html": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "draftjs-to-html": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "dva": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "dva-loading": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-cors": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-multipart": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-security": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-sequelize": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-validate": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-react": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "g2-mobile": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "lodash": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "moment": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "mysql": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "node-rsa": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "node-uuid": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "pg": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "pg-hstore": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "query-string": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "rc-tween-one": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "react": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "react-countup": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "react-dom": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "react-draft-wysiwyg": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "react-helmet": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "react-router": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "rndm": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "rucksack-css": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "stream-wormhole": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "antd": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "async-lock": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "babel-register": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "co-fs": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "csrf": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "draft-js-export-html": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "draftjs-to-html": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "dva": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "dva-loading": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-multipart": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-security": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "egg-view-react": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "g2-mobile": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "moment": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "mysql": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "node-rsa": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "node-uuid": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "pg": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "pg-hstore": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "query-string": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "rc-tween-one": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "react": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "react-countup": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "react-draft-wysiwyg": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "react-helmet": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "rndm": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "rucksack-css": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     },
     "eslintConfig": {
-      "parser": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
+      "parser": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
       "rules": {
-        "indent": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "quotes": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "linebreak-style": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "semi": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "no-trailing-spaces": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "space-before-function-paren": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "eqeqeq": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "no-console": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "no-cond-assign": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "no-extra-boolean-cast": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "no-unused-vars": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+        "indent": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "quotes": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "linebreak-style": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "semi": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "no-trailing-spaces": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "space-before-function-paren": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "eqeqeq": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "no-console": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "no-cond-assign": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "no-extra-boolean-cast": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "no-unused-vars": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
       },
       "env": {
-        "browser": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "node": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-        "es6": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+        "browser": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "node": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+        "es6": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
       },
-      "extends": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "extends": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     },
-    "maintainers": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+    "maintainers": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
+    "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "strict": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "depth": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     },
-    "onerror": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+    "onerror": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "logging": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+    "enable": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "logging": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+      "path": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "port": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "D:\\project\\egg-restapi-module-tool\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg/config/config.default.js"
 }

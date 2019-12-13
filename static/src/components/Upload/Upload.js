@@ -71,11 +71,11 @@ class UploadFile extends PureComponent {
         className="upload-uploader"
         showUploadList={false}
         headers={{Authorization: Cookie.get("SESSION_TOKEN") }}
-        action="http://192.168.1.178:7001/api/upload"
+        action="http://127.0.0.1:7001/api/upload"
         beforeUpload={beforeUpload}
         onChange={this.handleChange}
       >
-        {imageUrl || img_url ? <img src={imageUrl || `http://192.168.1.178:7001/public/uploads/${img_url}`} alt="Upload" style={{ width: '100%' }} /> : uploadButton}
+        {imageUrl || img_url ? <img src={imageUrl || `http://127.0.0.1:7001/public/uploads/${img_url}`} alt="Upload" style={{ width: '100%' }} /> : uploadButton}
       </Upload>
     );
   }

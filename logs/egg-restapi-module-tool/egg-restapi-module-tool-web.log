@@ -49200,3 +49200,152 @@ name: "invalid_token"
 pid: 633020
 hostname: SC-201809281454
 
+2019-12-13 12:15:19,876 WARN 7357 [-/127.0.0.1/-/25ms POST /api/upload] Saving 51fa7ce9-ddba-4953-90fd-a15262e24443.jpeg to /Users/mac/demo1/egg-restapi-module-tool/app/public/uploads/157621051987551fa7ce9-ddba-4953-90fd-a15262e24443.jpeg
+2019-12-13 12:15:30,909 WARN 7357 [-/127.0.0.1/-/10ms POST /api/upload] Saving -s-icon-add-home.png to /Users/mac/demo1/egg-restapi-module-tool/app/public/uploads/1576210530909-s-icon-add-home.png
+2019-12-13 12:44:24,579 WARN 7696 [-/127.0.0.1/-/24ms POST /api/upload] Saving 51fa7ce9-ddba-4953-90fd-a15262e24443.jpeg to /Users/mac/demo1/egg-restapi-module-tool/app/public/uploads/157621226457851fa7ce9-ddba-4953-90fd-a15262e24443.jpeg
+2019-12-13 12:44:47,895 WARN 7696 [-/127.0.0.1/-/13ms POST /api/upload] Saving 3a8d16a209e8bdbb04f145cebac9230b.jpg to /Users/mac/demo1/egg-restapi-module-tool/app/public/uploads/15762122878943a8d16a209e8bdbb04f145cebac9230b.jpg
+2019-12-13 12:46:38,157 INFO 7696 [-/127.0.0.1/-/4ms POST /api/room/create_order] before create===================> authorization:  Bearer 832e70c03151cff9cc118027f9235ae6d2b0f12e1576212398
+2019-12-13 12:52:53,048 INFO 7696 [-/127.0.0.1/-/1ms POST /api/create_room?id=32&tx=452345324523523534] before update===================>1576212773
+2019-12-13 12:52:53,055 INFO 7696 [-/127.0.0.1/-/8ms POST /api/create_room?id=32&tx=452345324523523534] [service.gamesRoom] success create ROOM AND DISC ===================> {"fieldCount":0,"affectedRows":1,"insertId":185,"serverStatus":3,"warningCount":0,"message":"","protocol41":true,"changedRows":0}==============>1576212773
+2019-12-13 12:52:53,059 INFO 7696 [-/127.0.0.1/-/12ms POST /api/create_room?id=32&tx=452345324523523534] end update===================>1576212773
+2019-12-13 12:52:57,969 WARN 7696 [-/127.0.0.1/-/11ms POST /api/room/games_room/search] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 7696
+hostname: macdeMacBook-Pro.local
+
+2019-12-13 12:52:57,978 WARN 7696 [-/127.0.0.1/-/7ms GET /api/room/games_room?page=1&pageSize=20&games_point_id=56] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 7696
+hostname: macdeMacBook-Pro.local
+
+2019-12-13 12:53:57,932 WARN 7696 [-/127.0.0.1/-/10ms POST /api/playerOrderRecord/player_order_record] nodejs.invalid_token: Invalid token: access token is invalid
+    at new InvalidTokenError (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/errors/invalid-token-error.js:25:14)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:203:15
+From previous event:
+    at AuthenticateHandler.getAccessToken (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:201:6)
+    at AuthenticateHandler.<anonymous> (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:71:19)
+    at processImmediate (timers.js:638:19)
+From previous event:
+    at AuthenticateHandler.handle (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/handlers/authenticate-handler.js:70:6)
+    at OAuth2Server.authenticate (/Users/mac/demo1/egg-restapi-module-tool/node_modules/oauth2-server/lib/server.js:43:6)
+    at OAuth2.execute (/Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:90:41)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/egg-oauth2-server/lib/server.js:116:32
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:118:63)
+    at next (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:69:7)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+    at converted (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/mac/demo1/egg-restapi-module-tool/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:65:19)
+    at /Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/mac/demo1/egg-restapi-module-tool/node_modules/co/index.js:50:10)
+statusCode: 401
+status: 401
+code: 401
+message: "Invalid token: access token is invalid"
+name: "invalid_token"
+pid: 7696
+hostname: macdeMacBook-Pro.local
+

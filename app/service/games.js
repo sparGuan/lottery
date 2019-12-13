@@ -2,7 +2,7 @@ const moment = require('moment');
 
 module.exports = app => {
   class RestqlService extends app.Service {
-    *index(query, condition = {}) {
+    *index(modal, query, condition = {}) {
       let skip = parseInt((query.page) - 1); // 2-1
       const pageSize = parseInt(query.pageSize); // 10
       skip *= pageSize
@@ -54,17 +54,29 @@ module.exports = app => {
       // }
       // 统计有多少房间
       const record = yield this.app.mysql.query(`
-      SELECT a.name as games_name,a.img_url as games_img_url, a.id as games_id ,d.create_time as point_create_time, b.name as type_name, d.*, count(e.id) as real_room_nums FROM games as a
+      SELECT a.name as games_name,a.img_url as games_img_url, a.id as games_id ,d.create_time as point_create_time, b.name as type_name, d.*, 
+      e.real_room_nums FROM games as a
           LEFT JOIN games_types as b ON a.games_types_id = b.id
           LEFT JOIN games_point as d ON d.games_id = a.id
-          left join games_room as e on e.games_point_id = d.id 
+          left join (select count(id) as real_room_nums, games_point_id from games_room GROUP BY games_point_id) as e on e.games_point_id = d.id 
           WHERE b.name = '足球' ${type_cond}
           AND d.status = 0
           AND a.status = 0
           AND unix_timestamp(d.master_start_time) < ${end_time} AND  unix_timestamp(d.master_start_time) >= ${start_time}
           ORDER BY d.create_time DESC;
       `)
-     
+     console.log(`
+     SELECT a.name as games_name,a.img_url as games_img_url, a.id as games_id ,d.create_time as point_create_time, b.name as type_name, d.*, 
+     e.real_room_nums FROM games as a
+         LEFT JOIN games_types as b ON a.games_types_id = b.id
+         LEFT JOIN games_point as d ON d.games_id = a.id
+         left join (select count(id) as real_room_nums, games_point_id from games_room GROUP BY games_point_id) as e on e.games_point_id = d.id 
+         WHERE b.name = '足球' ${type_cond}
+         AND d.status = 0
+         AND a.status = 0
+         AND unix_timestamp(d.master_start_time) < ${end_time} AND  unix_timestamp(d.master_start_time) >= ${start_time}
+         ORDER BY d.create_time DESC;
+     `)
       return { record }
     }
 

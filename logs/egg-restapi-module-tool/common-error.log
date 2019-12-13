@@ -1,0 +1,8 @@
+2019-12-13 12:02:56,166 ERROR 4210 nodejs.ClusterClientNoResponseError: client no response in 1788534ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/demo1/egg-restapi-module-tool/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 4210
+hostname: macdeMacBook-Pro.local
+

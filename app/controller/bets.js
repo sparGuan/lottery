@@ -1,7 +1,7 @@
 /*
  * @Author: spar
  * @Date: 2019-11-22 14:47:25
- * @LastEditTime: 2019-12-03 09:31:42
+ * @LastEditTime: 2019-12-03 16:47:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \egg-restapi-module-tool\app\controller\bets.js
@@ -62,7 +62,6 @@ exports.createBetsOrder = function*() {
 
   this.request.body.games_point_id = res_1.games_point_id
   this.request.body.amount = parseFloat(amount) 
-  console.log(bet_to)
   const conn = yield this.app.mysql.beginTransaction()
   const _this = this
   const result = yield lock.acquire('doBetsOrder',() => {

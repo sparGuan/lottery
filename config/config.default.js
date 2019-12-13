@@ -31,7 +31,7 @@ exports.security = {
     'http://192.168.0.139:7001',
     'http://127.0.0.1:7001',
     'http://localhost:7001',
-    'http://192.168.1.178:8081',
+    'http://localhost:8081',
     'http://localhost:8080',
     'http://192.168.1.21:8080',
     'http://localhost:8099',

@@ -8,7 +8,7 @@ exports.mysql = {
     // 用户名
     user: "root",
     // 密码
-    password: "",
+    password: "123",
     // 数据库名
     database: "guess_sport"
   },

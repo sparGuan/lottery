@@ -1,4 +1,4 @@
-import { query, remove, update, removeTablem, toOpenLottery, todestoryGames  } from "../services/gamesPoint";
+import { query, remove, update, removeTable, toOpenLottery, todestoryGames  } from "../services/gamesPoint";
 
 export default {
   namespace: "gamesPoint",
@@ -48,7 +48,7 @@ export default {
     *removeGamesPoint({ payload }, { call, put }) {
       yield put({ type: "showLoading" });
       const data = yield call(remove, payload);
-      const tableData = yield call(removeTable, payload);
+      // const tableData = yield call(removeTable, payload);
       if (data && data.success) {
         yield put({
           type: "loadGamesPoint",
