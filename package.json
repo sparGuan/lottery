@@ -15,7 +15,7 @@
   "author": "spar",
   "devDependencies": {
     "autoprefixer": "6.4.0",
-    "axios": "^0.16.1",
+    "axios": "^0.21.1",
     "babel-core": "^6.21.0",
     "babel-loader": "^7.0.0",
     "babel-plugin-add-module-exports": "^0.2.1",
